@@ -19,35 +19,37 @@
         app:layout_constraintWidth_percent="0.5">
 
         <!-- 책갈피처럼 사용할 버튼 추가 -->
-        <Button
+        <ImageView
             android:id="@+id/statisticsSocial"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:layout_marginEnd="0dp"
+            android:background="@drawable/bookmark"/>
 
-            android:backgroundTint="@color/btncolor"
-            />
-
-        <Button
+        <ImageView
             android:id="@+id/statisticsRisk"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTint="@color/btncolor" />
+            android:layout_marginEnd="0dp"
+            android:background="@drawable/bookmark"/>
 
-        <Button
+        <ImageView
             android:id="@+id/statisticsNatural"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTint="@color/btncolor" />
+            android:layout_marginEnd="0dp"
+            android:background="@drawable/bookmark"/>
 
-        <Button
+        <ImageView
             android:id="@+id/statisticsSafety"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTint="@color/btncolor" />
+            android:layout_marginEnd="0dp"
+            android:background="@drawable/bookmark"/>
 
     </LinearLayout>
 

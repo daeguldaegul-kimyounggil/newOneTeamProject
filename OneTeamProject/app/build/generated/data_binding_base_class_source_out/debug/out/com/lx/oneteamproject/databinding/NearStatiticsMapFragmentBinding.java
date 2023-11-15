@@ -43,16 +43,16 @@ public final class NearStatiticsMapFragmentBinding implements ViewBinding {
   public final TextView mylocation;
 
   @NonNull
-  public final Button statisticsNatural;
+  public final ImageView statisticsNatural;
 
   @NonNull
-  public final Button statisticsRisk;
+  public final ImageView statisticsRisk;
 
   @NonNull
-  public final Button statisticsSafety;
+  public final ImageView statisticsSafety;
 
   @NonNull
-  public final Button statisticsSocial;
+  public final ImageView statisticsSocial;
 
   @NonNull
   public final Button statiticsBackButton;
@@ -64,8 +64,8 @@ public final class NearStatiticsMapFragmentBinding implements ViewBinding {
       @NonNull FragmentContainerView NearStatiticsFragmentMap, @NonNull LinearLayout bookmarkLayout,
       @NonNull ImageView imgWeather, @NonNull LinearLayout linearLayout,
       @NonNull CardView mapCardView, @NonNull TextView mylocation,
-      @NonNull Button statisticsNatural, @NonNull Button statisticsRisk,
-      @NonNull Button statisticsSafety, @NonNull Button statisticsSocial,
+      @NonNull ImageView statisticsNatural, @NonNull ImageView statisticsRisk,
+      @NonNull ImageView statisticsSafety, @NonNull ImageView statisticsSocial,
       @NonNull Button statiticsBackButton, @NonNull TextView tvTemp) {
     this.rootView = rootView;
     this.NearStatiticsFragmentMap = NearStatiticsFragmentMap;
@@ -146,25 +146,25 @@ public final class NearStatiticsMapFragmentBinding implements ViewBinding {
       }
 
       id = R.id.statisticsNatural;
-      Button statisticsNatural = ViewBindings.findChildViewById(rootView, id);
+      ImageView statisticsNatural = ViewBindings.findChildViewById(rootView, id);
       if (statisticsNatural == null) {
         break missingId;
       }
 
       id = R.id.statisticsRisk;
-      Button statisticsRisk = ViewBindings.findChildViewById(rootView, id);
+      ImageView statisticsRisk = ViewBindings.findChildViewById(rootView, id);
       if (statisticsRisk == null) {
         break missingId;
       }
 
       id = R.id.statisticsSafety;
-      Button statisticsSafety = ViewBindings.findChildViewById(rootView, id);
+      ImageView statisticsSafety = ViewBindings.findChildViewById(rootView, id);
       if (statisticsSafety == null) {
         break missingId;
       }
 
       id = R.id.statisticsSocial;
-      Button statisticsSocial = ViewBindings.findChildViewById(rootView, id);
+      ImageView statisticsSocial = ViewBindings.findChildViewById(rootView, id);
       if (statisticsSocial == null) {
         break missingId;
       }

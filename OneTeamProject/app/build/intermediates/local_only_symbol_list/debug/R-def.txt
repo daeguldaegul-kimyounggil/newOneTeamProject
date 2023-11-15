@@ -11,6 +11,7 @@ drawable article1_3
 drawable article2_1
 drawable article2_2
 drawable article2_3
+drawable bookmark
 drawable chattingicon
 drawable emergencyicon
 drawable ic_launcher_background

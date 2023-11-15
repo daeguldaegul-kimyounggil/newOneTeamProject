@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res"><file name="all" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\drawable\all.png" qualifiers="" type="drawable"/><file name="article1_1" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\drawable\article1_1.jpg" qualifiers="" type="drawable"/><file name="article1_2" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\drawable\article1_2.jpg" qualifiers="" type="drawable"/><file name="article1_3" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\drawable\article1_3.jpg" qualifiers="" type="drawable"/><file name="article2_1" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\drawable\article2_1.jpg" qualifiers="" type="drawable"/><file name="article2_2" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\drawable\article2_2.png" qualifiers="" type="drawable"/><file name="article2_3" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\drawable\article2_3.jpg" qualifiers="" type="drawable"/><file name="chattingicon" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\drawable\chattingicon.png" qualifiers="" type="drawable"/><file name="emergencyicon" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\drawable\emergencyicon.png" qualifiers="" type="drawable"/><file name="ic_launcher_background" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\drawable\ic_launcher_background.xml" qualifiers="" type="drawable"/><file name="ic_launcher_foreground" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\drawable\ic_launcher_foreground.xml" qualifiers="" type="drawable"/><file name="lefticon" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\drawable\lefticon.png" qualifiers="" type="drawable"/><file name="letterboxicon" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\drawable\letterboxicon.png" qualifiers="" type="drawable"/><file name="login_rounded_background" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\drawable\login_rounded_background.xml" qualifiers="" type="drawable"/><file name="login_shadow" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\drawable\login_shadow.xml" qualifiers="" type="drawable"/><file name="main_button_rounded_background" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\drawable\main_button_rounded_background.xml" qualifiers="" type="drawable"/><file name="main_rounded_background" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\drawable\main_rounded_background.xml" qualifiers="" type="drawable"/><file name="main_statistics_button_rounded_background" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\drawable\main_statistics_button_rounded_background.xml" qualifiers="" type="drawable"/><file name="mapicon" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\drawable\mapicon.png" qualifiers="" type="drawable"/><file name="mypage_rounded" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\drawable\mypage_rounded.xml" qualifiers="" type="drawable"/><file name="natural" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\drawable\natural.png" qualifiers="" type="drawable"/><file name="near_situation_map_fragment_cardview_background" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\drawable\near_situation_map_fragment_cardview_background.xml" qualifiers="" type="drawable"/><file name="near_situation_map_weather" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\drawable\near_situation_map_weather.xml" qualifiers="" type="drawable"/><file name="near_statitics_map_fragment_button_background" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\drawable\near_statitics_map_fragment_button_background.xml" qualifiers="" type="drawable"/><file name="noticeicon" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\drawable\noticeicon.png" qualifiers="" type="drawable"/><file name="righticon" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\drawable\righticon.png" qualifiers="" type="drawable"/><file name="risk" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\drawable\risk.png" qualifiers="" type="drawable"/><file name="safety" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\drawable\safety.png" qualifiers="" type="drawable"/><file name="settingsicon" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\drawable\settingsicon.png" qualifiers="" type="drawable"/><file name="signup_border" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\drawable\signup_border.xml" qualifiers="" type="drawable"/><file name="social" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\drawable\social.png" qualifiers="" type="drawable"/><file name="weather_raining_sun_icon" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\drawable\weather_raining_sun_icon.png" qualifiers="" type="drawable"/><file name="gothica1_bold" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\font\gothica1_bold.ttf" qualifiers="" type="font"/><file name="gothica1_light" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\font\gothica1_light.ttf" qualifiers="" type="font"/><file name="gothica1_medium" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\font\gothica1_medium.ttf" qualifiers="" type="font"/><file name="activity_emergency_place_number" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\layout\activity_emergency_place_number.xml" qualifiers="" type="layout"/><file name="activity_login" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\layout\activity_login.xml" qualifiers="" type="layout"/><file name="activity_main" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="activity_my_page" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\layout\activity_my_page.xml" qualifiers="" type="layout"/><file name="activity_signup" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\layout\activity_signup.xml" qualifiers="" type="layout"/><file name="activity_start" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\layout\activity_start.xml" qualifiers="" type="layout"/><file name="fragment_main" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\layout\fragment_main.xml" qualifiers="" type="layout"/><file name="fragment_main_action_article_pager_item" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\layout\fragment_main_action_article_pager_item.xml" qualifiers="" type="layout"/><file name="fragment_main_details" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\layout\fragment_main_details.xml" qualifiers="" type="layout"/><file name="near_natural_disater_fragment" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\layout\near_natural_disater_fragment.xml" qualifiers="" type="layout"/><file name="near_risk_information_fragment" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\layout\near_risk_information_fragment.xml" qualifiers="" type="layout"/><file name="near_safety_facility_information_fragment" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\layout\near_safety_facility_information_fragment.xml" qualifiers="" type="layout"/><file name="near_situation_map_fragment" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\layout\near_situation_map_fragment.xml" qualifiers="" type="layout"/><file name="near_social_disater_fragment" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\layout\near_social_disater_fragment.xml" qualifiers="" type="layout"/><file name="near_statitics_map_fragment" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\layout\near_statitics_map_fragment.xml" qualifiers="" type="layout"/><file name="ic_launcher" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\mipmap-anydpi-v26\ic_launcher.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\mipmap-hdpi\ic_launcher.webp" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\mipmap-hdpi\ic_launcher_round.webp" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\mipmap-mdpi\ic_launcher.webp" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\mipmap-mdpi\ic_launcher_round.webp" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\mipmap-xhdpi\ic_launcher.webp" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\mipmap-xhdpi\ic_launcher_round.webp" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\mipmap-xxhdpi\ic_launcher.webp" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\mipmap-xxhdpi\ic_launcher_round.webp" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\mipmap-xxxhdpi\ic_launcher.webp" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\mipmap-xxxhdpi\ic_launcher_round.webp" qualifiers="xxxhdpi-v4" type="mipmap"/><file path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\values\colors.xml" qualifiers=""><color name="maincolor">#3F4759</color><color name="backgroundcolor">#EBEBEB</color><color name="btncolor">#9BA2AA</color><color name="white">#FFFFFF</color></file><file path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">
-        시민의 소리
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res"><file name="all" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\drawable\all.png" qualifiers="" type="drawable"/><file name="article1_1" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\drawable\article1_1.jpg" qualifiers="" type="drawable"/><file name="article1_2" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\drawable\article1_2.jpg" qualifiers="" type="drawable"/><file name="article1_3" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\drawable\article1_3.jpg" qualifiers="" type="drawable"/><file name="article2_1" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\drawable\article2_1.jpg" qualifiers="" type="drawable"/><file name="article2_2" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\drawable\article2_2.png" qualifiers="" type="drawable"/><file name="article2_3" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\drawable\article2_3.jpg" qualifiers="" type="drawable"/><file name="chattingicon" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\drawable\chattingicon.png" qualifiers="" type="drawable"/><file name="emergencyicon" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\drawable\emergencyicon.png" qualifiers="" type="drawable"/><file name="ic_launcher_background" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\drawable\ic_launcher_background.xml" qualifiers="" type="drawable"/><file name="ic_launcher_foreground" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\drawable\ic_launcher_foreground.xml" qualifiers="" type="drawable"/><file name="lefticon" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\drawable\lefticon.png" qualifiers="" type="drawable"/><file name="letterboxicon" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\drawable\letterboxicon.png" qualifiers="" type="drawable"/><file name="login_rounded_background" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\drawable\login_rounded_background.xml" qualifiers="" type="drawable"/><file name="login_shadow" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\drawable\login_shadow.xml" qualifiers="" type="drawable"/><file name="main_button_rounded_background" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\drawable\main_button_rounded_background.xml" qualifiers="" type="drawable"/><file name="main_rounded_background" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\drawable\main_rounded_background.xml" qualifiers="" type="drawable"/><file name="main_statistics_button_rounded_background" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\drawable\main_statistics_button_rounded_background.xml" qualifiers="" type="drawable"/><file name="mapicon" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\drawable\mapicon.png" qualifiers="" type="drawable"/><file name="mypage_rounded" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\drawable\mypage_rounded.xml" qualifiers="" type="drawable"/><file name="natural" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\drawable\natural.png" qualifiers="" type="drawable"/><file name="near_situation_map_fragment_cardview_background" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\drawable\near_situation_map_fragment_cardview_background.xml" qualifiers="" type="drawable"/><file name="near_situation_map_weather" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\drawable\near_situation_map_weather.xml" qualifiers="" type="drawable"/><file name="near_statitics_map_fragment_button_background" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\drawable\near_statitics_map_fragment_button_background.xml" qualifiers="" type="drawable"/><file name="noticeicon" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\drawable\noticeicon.png" qualifiers="" type="drawable"/><file name="righticon" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\drawable\righticon.png" qualifiers="" type="drawable"/><file name="risk" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\drawable\risk.png" qualifiers="" type="drawable"/><file name="safety" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\drawable\safety.png" qualifiers="" type="drawable"/><file name="settingsicon" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\drawable\settingsicon.png" qualifiers="" type="drawable"/><file name="signup_border" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\drawable\signup_border.xml" qualifiers="" type="drawable"/><file name="social" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\drawable\social.png" qualifiers="" type="drawable"/><file name="weather_raining_sun_icon" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\drawable\weather_raining_sun_icon.png" qualifiers="" type="drawable"/><file name="gothica1_bold" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\font\gothica1_bold.ttf" qualifiers="" type="font"/><file name="gothica1_light" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\font\gothica1_light.ttf" qualifiers="" type="font"/><file name="gothica1_medium" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\font\gothica1_medium.ttf" qualifiers="" type="font"/><file name="activity_emergency_place_number" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\layout\activity_emergency_place_number.xml" qualifiers="" type="layout"/><file name="activity_login" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\layout\activity_login.xml" qualifiers="" type="layout"/><file name="activity_main" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="activity_my_page" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\layout\activity_my_page.xml" qualifiers="" type="layout"/><file name="activity_signup" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\layout\activity_signup.xml" qualifiers="" type="layout"/><file name="activity_start" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\layout\activity_start.xml" qualifiers="" type="layout"/><file name="fragment_main" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\layout\fragment_main.xml" qualifiers="" type="layout"/><file name="fragment_main_action_article_pager_item" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\layout\fragment_main_action_article_pager_item.xml" qualifiers="" type="layout"/><file name="fragment_main_details" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\layout\fragment_main_details.xml" qualifiers="" type="layout"/><file name="near_natural_disater_fragment" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\layout\near_natural_disater_fragment.xml" qualifiers="" type="layout"/><file name="near_risk_information_fragment" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\layout\near_risk_information_fragment.xml" qualifiers="" type="layout"/><file name="near_safety_facility_information_fragment" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\layout\near_safety_facility_information_fragment.xml" qualifiers="" type="layout"/><file name="near_situation_map_fragment" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\layout\near_situation_map_fragment.xml" qualifiers="" type="layout"/><file name="near_social_disater_fragment" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\layout\near_social_disater_fragment.xml" qualifiers="" type="layout"/><file name="near_statitics_map_fragment" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\layout\near_statitics_map_fragment.xml" qualifiers="" type="layout"/><file name="ic_launcher" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\mipmap-anydpi-v26\ic_launcher.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher_round" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\mipmap-hdpi\ic_launcher.webp" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\mipmap-hdpi\ic_launcher_round.webp" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\mipmap-mdpi\ic_launcher.webp" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\mipmap-mdpi\ic_launcher_round.webp" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\mipmap-xhdpi\ic_launcher.webp" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\mipmap-xhdpi\ic_launcher_round.webp" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\mipmap-xxhdpi\ic_launcher.webp" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\mipmap-xxhdpi\ic_launcher_round.webp" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\mipmap-xxxhdpi\ic_launcher.webp" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\mipmap-xxxhdpi\ic_launcher_round.webp" qualifiers="xxxhdpi-v4" type="mipmap"/><file path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\values\colors.xml" qualifiers=""><color name="maincolor">#3F4759</color><color name="backgroundcolor">#EBEBEB</color><color name="btncolor">#9BA2AA</color><color name="white">#FFFFFF</color></file><file path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\values\strings.xml" qualifiers=""><string name="terms_and_conditions">
+        <![CDATA[
+               본 이용약관(이하 "약관")은 시민의소리 사이트
+            (이하 "시소")가 제공하는모든 서비스(이하
+            "서비스")의 이용조건 및 절차, 이용자와 안전신문
+           고의 권리, 의무 및 책임사항과 기타 필요한 사항을
+            규정함을 목적으로 합니다.
+        ]]>
     </string><string name="hello">
         <![CDATA[
         시민의소리 사이트는 귀하가 본 약관 내용에 동의
@@ -25,65 +31,6 @@
         를 표시하지 아니하고 서비스를 계속 사용할 경우
         변경된 약관에 동의한 것으로 간주합니다.
         ]]>
-    </string><string name="hello5">
-        <![CDATA[
-이용자가 게시한 게시물의 저작권은 게시한 이용
-자에게 귀속됩니다.\n
-또한 시민의소리는 게시자의동의 없이 게시물을
-상업적으로 이용할 수 없습니다.\n
-다만 비영리 목적인 경우는 그러하지 아니하며,
-또한 서비스내의 게재권을 갖습니다.\n
-이용자는서비스를 이용하여 취득한 정보를 임의
-가공, 판매하는 행위등 서비스에 게재된 자료를
-상업적으로 사용할수 없습니다. 시민의소리는
-회원이 게시하거나 등록하는 서비스 내의 내용
-물,게시 내용에 대해 제13조 각 호에 해당된다
-고 판단되는 경우 사전통지 없이 삭제하거나 이
-동 또는 등록 거부할 수 있습니다.
-        ]]>
-
-    </string><string name="hello4">
-        <![CDATA[
-이용자가 게시한 게시물의 저작권은 이용자가 소
-유하며, 시민의소리는 서비스 내에 이를 게시할
-수 있는 권리를 갖습니다.\n
-시민의소리는 다음 각 호에 해당하는 게시물이나
-자료를 사전통지 없이 삭제하거나 이동 또는 등록
-거부를 할 수 있습니다.\n
-본서비스 약관에 위배되거나 상용 또는 불법, 음란
-, 저속하다고 판단되는 게시물을 게시한 경우 다른
-회원 또는 제 3자에게 심한 모욕을 주거나 명예를
-손상시키는 내용인 경우 공공질서 및 미풍양속에
-위반되는 내용을 유포하거나 링크시키는 경우 불법
-복제 또는 해킹을 조장하는 내용인 경우 영리를 목
-적으로 하는 광고일 경우 범죄와 결부된다고 객관
-적으로 인정되는 내용일 경우 다른 이용자 또는 제
-3자의 저작권 등 기타 권리를 침해하는 내용인 경
-우 안전신문고에서 규정한 게시물 원칙에 어긋나거
-나, 게시판 성격에 부합하지 않는 경우 기타 관계
-법령에 위배된다고 판단되는 경우 이용자의 게시물
-이 타인의 저작권을 침해함으로써 발생하는 민,
-상의 책임은전적으로 이용자가 부담하여야 합니다.
-        ]]>
-
-    </string><string name="terms_and_conditions">
-        <![CDATA[
-               본 이용약관(이하 "약관")은 시민의소리 사이트
-            (이하 "시소")가 제공하는모든 서비스(이하
-            "서비스")의 이용조건 및 절차, 이용자와 안전신문
-           고의 권리, 의무 및 책임사항과 기타 필요한 사항을
-            규정함을 목적으로 합니다.
-        ]]>
-    </string><string name="hello6">
-        <![CDATA[
-본 이용약관(이하 "약관")은 시민의소리 사이트
-시민의소리는 서비스를 운영함에 있어서 각종 정
-보를 홈페이지에 게재하는 방법, 전자우편이나 서
-신우편 발송 등으로 회원에게 제공할 수 있습니다.\n
-시민의소리는 서비스에 적절하다고 판단되거나 공\
-익성이 있는 홍보물을 게재할 수 있습니다.
-        ]]>
-
     </string><string name="hello1">
 
   <![CDATA[
@@ -93,7 +40,31 @@
      그램보호법 및 기타 관련 법령의 규정에 의하며,
      관계법령을 위배하지 않는 범위에서 이 약관을 개
      정할 수 있습니다. ]]>
-</string><string name="hello3">
+</string><string name="hello2">
+   <![CDATA[
+      본 약관에서 사용하는 용어의 정의는 다음과 같습
+      니다. \n
+      이용자 : 본 약관에 따라 시민의소리가 제공하는
+      서비스를 받는 자를 말합니다.\n
+      가입 : 시민의소리가 제공하는 신청서 양식에 해당
+      정보를 기입하고, 본 약관에 동의하여 서비스 이용
+      계약을 완료시키는 행위를 말합니다.\n
+      회원 : 시민의소리에 개인정보를 제공하여 회원 등
+      록을 한 자로서 시민의소리가 제공하는 서비스를
+      이용할 수 있는 자를 말합니다.\n
+      이용자번호(ID) : 이용자의 식별과 이용자의 서비
+      스 이용을 위하여 이용자가 선정하고 시민의소리가
+      부여하는 문자와 숫자의 조합을 말합니다.\n
+      비밀번호 : 이용자와 회원ID가 일치하는지를 확인
+      하고통신상의 자신의 개인정보보호를 위하여 이용
+      자 자신이 선정한 문자와 숫자의 조합을 말합니다.\n
+      회원탈퇴 : 시민의소리 또는 회원이 이용계약을 종
+      료시키는 행위를 말합니다.본 약관에서 사용하는
+      용어의정의는 제1항에서 정하는 것을 제외하고는
+      관계법령,개별서비스에 대한 별도약관 및 이용규정
+      에서 정의합니다.
+        ]]>
+    </string><string name="hello3">
         <![CDATA[
 
 이용자가 제공하는 정보의 내용이 허위인 것으로
@@ -129,34 +100,63 @@
 함 하여야 합니다.
         ]]>
 
-    </string><string name="hello2">
-   <![CDATA[
-      본 약관에서 사용하는 용어의 정의는 다음과 같습
-      니다. \n
-      이용자 : 본 약관에 따라 시민의소리가 제공하는
-      서비스를 받는 자를 말합니다.\n
-      가입 : 시민의소리가 제공하는 신청서 양식에 해당
-      정보를 기입하고, 본 약관에 동의하여 서비스 이용
-      계약을 완료시키는 행위를 말합니다.\n
-      회원 : 시민의소리에 개인정보를 제공하여 회원 등
-      록을 한 자로서 시민의소리가 제공하는 서비스를
-      이용할 수 있는 자를 말합니다.\n
-      이용자번호(ID) : 이용자의 식별과 이용자의 서비
-      스 이용을 위하여 이용자가 선정하고 시민의소리가
-      부여하는 문자와 숫자의 조합을 말합니다.\n
-      비밀번호 : 이용자와 회원ID가 일치하는지를 확인
-      하고통신상의 자신의 개인정보보호를 위하여 이용
-      자 자신이 선정한 문자와 숫자의 조합을 말합니다.\n
-      회원탈퇴 : 시민의소리 또는 회원이 이용계약을 종
-      료시키는 행위를 말합니다.본 약관에서 사용하는
-      용어의정의는 제1항에서 정하는 것을 제외하고는
-      관계법령,개별서비스에 대한 별도약관 및 이용규정
-      에서 정의합니다.
+    </string><string name="hello4">
+        <![CDATA[
+이용자가 게시한 게시물의 저작권은 이용자가 소
+유하며, 시민의소리는 서비스 내에 이를 게시할
+수 있는 권리를 갖습니다.\n
+시민의소리는 다음 각 호에 해당하는 게시물이나
+자료를 사전통지 없이 삭제하거나 이동 또는 등록
+거부를 할 수 있습니다.\n
+본서비스 약관에 위배되거나 상용 또는 불법, 음란
+, 저속하다고 판단되는 게시물을 게시한 경우 다른
+회원 또는 제 3자에게 심한 모욕을 주거나 명예를
+손상시키는 내용인 경우 공공질서 및 미풍양속에
+위반되는 내용을 유포하거나 링크시키는 경우 불법
+복제 또는 해킹을 조장하는 내용인 경우 영리를 목
+적으로 하는 광고일 경우 범죄와 결부된다고 객관
+적으로 인정되는 내용일 경우 다른 이용자 또는 제
+3자의 저작권 등 기타 권리를 침해하는 내용인 경
+우 안전신문고에서 규정한 게시물 원칙에 어긋나거
+나, 게시판 성격에 부합하지 않는 경우 기타 관계
+법령에 위배된다고 판단되는 경우 이용자의 게시물
+이 타인의 저작권을 침해함으로써 발생하는 민,
+상의 책임은전적으로 이용자가 부담하여야 합니다.
         ]]>
-    </string></file><file path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\values\themes.xml" qualifiers=""><style name="Base.Theme.OneTeamProject" parent="Theme.Material3.DayNight.NoActionBar">
+
+    </string><string name="hello5">
+        <![CDATA[
+이용자가 게시한 게시물의 저작권은 게시한 이용
+자에게 귀속됩니다.\n
+또한 시민의소리는 게시자의동의 없이 게시물을
+상업적으로 이용할 수 없습니다.\n
+다만 비영리 목적인 경우는 그러하지 아니하며,
+또한 서비스내의 게재권을 갖습니다.\n
+이용자는서비스를 이용하여 취득한 정보를 임의
+가공, 판매하는 행위등 서비스에 게재된 자료를
+상업적으로 사용할수 없습니다. 시민의소리는
+회원이 게시하거나 등록하는 서비스 내의 내용
+물,게시 내용에 대해 제13조 각 호에 해당된다
+고 판단되는 경우 사전통지 없이 삭제하거나 이
+동 또는 등록 거부할 수 있습니다.
+        ]]>
+
+    </string><string name="hello6">
+        <![CDATA[
+본 이용약관(이하 "약관")은 시민의소리 사이트
+시민의소리는 서비스를 운영함에 있어서 각종 정
+보를 홈페이지에 게재하는 방법, 전자우편이나 서
+신우편 발송 등으로 회원에게 제공할 수 있습니다.\n
+시민의소리는 서비스에 적절하다고 판단되거나 공\
+익성이 있는 홍보물을 게재할 수 있습니다.
+        ]]>
+
+    </string><string name="app_name">
+        시민의 소리
+    </string></file><file path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\values\themes.xml" qualifiers=""><style name="Base.Theme.OneTeamProject" parent="Theme.Material3.DayNight.NoActionBar">
         
         
-    </style><style name="Theme.OneTeamProject" parent="Base.Theme.OneTeamProject"/></file><file path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\values-night\themes.xml" qualifiers="night-v8"><style name="Base.Theme.OneTeamProject" parent="Theme.Material3.DayNight.NoActionBar">
+    </style><style name="Theme.OneTeamProject" parent="Base.Theme.OneTeamProject"/></file><file path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\values-night\themes.xml" qualifiers="night-v8"><style name="Base.Theme.OneTeamProject" parent="Theme.Material3.DayNight.NoActionBar">
         
         
-    </style></file><file name="backup_rules" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\xml\backup_rules.xml" qualifiers="" type="xml"/><file name="data_extraction_rules" path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\main\res\xml\data_extraction_rules.xml" qualifiers="" type="xml"/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\LX\AndroidStudioProjects\AndroidStudioProjects (2)\tonghop\app\build\generated\res\resValues\debug"/></dataSet><mergedItems/></merger>
+    </style></file><file name="backup_rules" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\xml\backup_rules.xml" qualifiers="" type="xml"/><file name="data_extraction_rules" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\xml\data_extraction_rules.xml" qualifiers="" type="xml"/><file name="bookmark" path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\res\drawable\bookmark.png" qualifiers="" type="drawable"/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\lx-engineer\newOneTeamProject\OneTeamProject\app\build\generated\res\resValues\debug"/></dataSet><mergedItems/></merger>
