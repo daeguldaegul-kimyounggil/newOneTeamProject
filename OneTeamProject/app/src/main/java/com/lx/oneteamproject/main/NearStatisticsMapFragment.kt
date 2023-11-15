@@ -6,14 +6,14 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
 import android.widget.ImageView
+import android.widget.LinearLayout
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentTransaction
-import com.lx.oneteamproject.R
 import com.lx.oneteamproject.databinding.NearStatiticsMapFragmentBinding
 import com.lx.oneteamproject.fragment.FragmentType
 import com.lx.oneteamproject.fragment.OnFragmentListener
+
 
 class NearStatisticsMapFragment : Fragment() {
 
@@ -23,7 +23,7 @@ class NearStatisticsMapFragment : Fragment() {
     var listener: OnFragmentListener? = null
 
     private fun replaceFragment(fragment: Fragment, transaction: FragmentTransaction) {
-        transaction.replace(R.id.NearStatiticsFragmentMap, fragment)
+        transaction.replace(com.lx.oneteamproject.R.id.NearStatiticsFragmentMap, fragment)
             .addToBackStack(null)
             .commit()
     }
@@ -58,30 +58,16 @@ class NearStatisticsMapFragment : Fragment() {
             listener?.onFragmentChanged(FragmentType.MAIN)
         }
 
-        binding.statisticsSocial.setOnClickListener {
-            val parent = it.parent as ViewGroup
-            val index = parent.indexOfChild(it)
-            for (i in 0 until index) {
-                parent.bringChildToFront(parent.getChildAt(0))
-            }
-        }
-        binding.statisticsRisk.setOnClickListener {
-            val parent = it.parent as ViewGroup
-            val index = parent.indexOfChild(it)
-            for (i in 0 until index) {
-                parent.bringChildToFront(parent.getChildAt(0))
-            }
-        }
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val btnSocial = binding.root.findViewById<ImageView>(R.id.statisticsSocial)
-        val btnRisk = binding.root.findViewById<ImageView>(R.id.statisticsRisk)
-        val btnNatural = binding.root.findViewById<ImageView>(R.id.statisticsNatural)
-        val btnSafety = binding.root.findViewById<ImageView>(R.id.statisticsSafety)
+        val btnSocial = binding.root.findViewById<ImageView>(com.lx.oneteamproject.R.id.statisticsSocial)
+        val btnRisk = binding.root.findViewById<ImageView>(com.lx.oneteamproject.R.id.statisticsRisk)
+        val btnNatural = binding.root.findViewById<ImageView>(com.lx.oneteamproject.R.id.statisticsNatural)
+        val btnSafety = binding.root.findViewById<ImageView>(com.lx.oneteamproject.R.id.statisticsSafety)
 
         btnSocial.setOnClickListener {
             replaceFragment(NearSocialdisterFragment(), childFragmentManager.beginTransaction())
@@ -103,10 +89,10 @@ class NearStatisticsMapFragment : Fragment() {
     override fun onResume() {
         super.onResume()
 
-        val btnSocial = binding.root.findViewById<ImageView>(R.id.statisticsSocial)
-        val btnRisk = binding.root.findViewById<ImageView>(R.id.statisticsRisk)
-        val btnNatural = binding.root.findViewById<ImageView>(R.id.statisticsNatural)
-        val btnSafety = binding.root.findViewById<ImageView>(R.id.statisticsSafety)
+        val btnSocial = binding.root.findViewById<ImageView>(com.lx.oneteamproject.R.id.statisticsSocial)
+        val btnRisk = binding.root.findViewById<ImageView>(com.lx.oneteamproject.R.id.statisticsRisk)
+        val btnNatural = binding.root.findViewById<ImageView>(com.lx.oneteamproject.R.id.statisticsNatural)
+        val btnSafety = binding.root.findViewById<ImageView>(com.lx.oneteamproject.R.id.statisticsSafety)
 
         val selectedButton = arguments?.getString("selectedButton")
         Log.d("SelectedButton", "Button: $selectedButton")
