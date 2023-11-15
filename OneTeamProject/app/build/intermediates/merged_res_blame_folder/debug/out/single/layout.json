@@ -48,12 +48,12 @@
         "source": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\layout\\near_situation_map_fragment.xml"
     },
     {
-        "merged": "com.lx.oneteamproject.app-mergeDebugResources-35:/layout/near_statitics_map_fragment.xml",
-        "source": "com.lx.oneteamproject.app-main-38:/layout/near_statitics_map_fragment.xml"
-    },
-    {
         "merged": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-mergeDebugResources-35:\\layout\\activity_login.xml",
         "source": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-mergeDebugResources-35:/layout/near_situation_map_fragment.xml",
+        "source": "com.lx.oneteamproject.app-main-38:/layout/near_situation_map_fragment.xml"
     },
     {
         "merged": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-mergeDebugResources-35:\\layout\\activity_main.xml",

@@ -1,5 +1,4 @@
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -63,12 +62,13 @@
 
     </LinearLayout>
 
+
     <androidx.cardview.widget.CardView
         android:id="@+id/mapCardView"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="8dp"
-        android:background="@drawable/near_situation_map_fragment_cardview_background"
+        android:backgroundTint="@color/btncolor"
         android:elevation="10dp"
         app:cardCornerRadius="16dp"
         app:cardUseCompatPadding="true"
@@ -79,11 +79,18 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
         app:layout_constraintWidth_percent="0.9">
 
-        <androidx.fragment.app.FragmentContainerView
-            android:id="@+id/NearSiuationFragmentMap"
-            android:name="com.google.android.gms.maps.SupportMapFragment"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-    </androidx.cardview.widget.CardView>
+            android:layout_height="match_parent"
+            android:layout_margin="7dp"
+            android:background="@drawable/near_statitics_map_fragment_background">
 
+            <androidx.fragment.app.FragmentContainerView
+                android:layout_margin="3dp"
+                android:id="@+id/NearSiuationFragmentMap"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

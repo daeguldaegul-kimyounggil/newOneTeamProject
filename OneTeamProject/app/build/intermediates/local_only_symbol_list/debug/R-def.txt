@@ -28,6 +28,7 @@ drawable mypage_rounded
 drawable natural
 drawable near_situation_map_fragment_cardview_background
 drawable near_situation_map_weather
+drawable near_statitics_map_fragment_background
 drawable near_statitics_map_fragment_button_background
 drawable noticeicon
 drawable righticon

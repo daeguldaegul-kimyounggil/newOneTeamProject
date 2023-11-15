@@ -20,16 +20,20 @@
         "source": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\drawable\\article2_1.jpg"
     },
     {
-        "merged": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-merged_res-36:\\drawable_bookmark.png.flat",
-        "source": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\drawable\\bookmark.png"
-    },
-    {
         "merged": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-merged_res-36:\\drawable_lefticon.png.flat",
         "source": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\drawable\\lefticon.png"
     },
     {
+        "merged": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-merged_res-36:\\drawable_bookmark.png.flat",
+        "source": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\drawable\\bookmark.png"
+    },
+    {
         "merged": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-merged_res-36:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/layout_near_situation_map_fragment.xml.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/layout/near_situation_map_fragment.xml"
     },
     {
         "merged": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-merged_res-36:\\drawable_mypage_rounded.xml.flat",
@@ -90,10 +94,6 @@
     {
         "merged": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-merged_res-36:\\layout_fragment_main_action_article_pager_item.xml.flat",
         "source": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\layout\\fragment_main_action_article_pager_item.xml"
-    },
-    {
-        "merged": "com.lx.oneteamproject.app-merged_res-36:/drawable_bookmark.png.flat",
-        "source": "com.lx.oneteamproject.app-main-38:/drawable/bookmark.png"
     },
     {
         "merged": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-merged_res-36:\\drawable_login_rounded_background.xml.flat",
@@ -262,6 +262,10 @@
     {
         "merged": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-merged_res-36:\\layout_fragment_main.xml.flat",
         "source": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\layout\\fragment_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-merged_res-36:\\drawable_near_statitics_map_fragment_background.xml.flat",
+        "source": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\drawable\\near_statitics_map_fragment_background.xml"
     },
     {
         "merged": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-merged_res-36:\\drawable_safety.png.flat",

@@ -3116,6 +3116,7 @@ int drawable natural 0x7f0700f7
 int drawable navigation_empty_icon 0x7f0700f8
 int drawable near_situation_map_fragment_cardview_background 0x7f0700f9
 int drawable near_situation_map_weather 0x7f0700fa
+int drawable near_statitics_map_fragment_background 0x7f07011d
 int drawable near_statitics_map_fragment_button_background 0x7f0700fb
 int drawable noticeicon 0x7f0700fc
 int drawable notification_action_background 0x7f0700fd

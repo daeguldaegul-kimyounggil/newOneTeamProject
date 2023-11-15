@@ -58,7 +58,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="8dp"
-        android:background="@drawable/near_situation_map_fragment_cardview_background"
+        android:backgroundTint="@color/btncolor"
         android:elevation="10dp"
         app:cardCornerRadius="16dp"
         app:cardUseCompatPadding="true"
@@ -69,10 +69,19 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
         app:layout_constraintWidth_percent="0.9">
 
-        <androidx.fragment.app.FragmentContainerView
-            android:id="@+id/NearStatiticsFragmentMap"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:layout_margin="7dp"
+            android:background="@drawable/near_statitics_map_fragment_background">
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/NearStatiticsFragmentMap"
+                android:layout_margin="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </RelativeLayout>
+
     </androidx.cardview.widget.CardView>
 
     <LinearLayout
