@@ -1,0 +1,258 @@
+[
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/drawable_article2_1.jpg.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/drawable/article2_1.jpg"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/drawable_main_button_rounded_background.xml.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/drawable/main_button_rounded_background.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/drawable_emergencyicon.png.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/drawable/emergencyicon.png"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/drawable_article1_1.jpg.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/drawable/article1_1.jpg"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/drawable_main_rounded_background.xml.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/drawable/main_rounded_background.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/layout_near_statitics_map_fragment.xml.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/layout/near_statitics_map_fragment.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/layout_near_safety_facility_information_fragment.xml.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/layout/near_safety_facility_information_fragment.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/xml_data_extraction_rules.xml.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/drawable_main_statistics_button_rounded_background.xml.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/drawable/main_statistics_button_rounded_background.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/layout_near_situation_map_fragment.xml.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/layout/near_situation_map_fragment.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/layout_activity_signup.xml.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/drawable_mypage_rounded.xml.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/drawable/mypage_rounded.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/xml_backup_rules.xml.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/drawable_safety.png.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/drawable/safety.png"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/drawable_login_shadow.xml.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/drawable/login_shadow.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/drawable_article1_2.jpg.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/drawable/article1_2.jpg"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/font_gothica1_medium.ttf.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/font/gothica1_medium.ttf"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/layout_activity_login.xml.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/drawable_natural.png.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/drawable/natural.png"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/layout_fragment_main.xml.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/layout/fragment_main.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/drawable_mapicon.png.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/drawable/mapicon.png"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/drawable_lefticon.png.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/drawable/lefticon.png"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/layout_activity_emergency_place_number.xml.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/layout/activity_emergency_place_number.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/drawable_chattingicon.png.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/drawable/chattingicon.png"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/layout_activity_start.xml.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/layout/activity_start.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/font_gothica1_light.ttf.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/font/gothica1_light.ttf"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/layout_activity_my_page.xml.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/layout/activity_my_page.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/drawable_article2_3.jpg.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/drawable/article2_3.jpg"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/drawable_settingsicon.png.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/drawable/settingsicon.png"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/drawable_near_situation_map_weather.xml.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/drawable/near_situation_map_weather.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/drawable_login_rounded_background.xml.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/drawable/login_rounded_background.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/drawable_righticon.png.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/drawable/righticon.png"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/drawable_article2_2.png.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/drawable/article2_2.png"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/layout_near_social_disater_fragment.xml.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/layout/near_social_disater_fragment.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/drawable_article1_3.jpg.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/drawable/article1_3.jpg"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/drawable_weather_raining_sun_icon.png.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/drawable/weather_raining_sun_icon.png"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/drawable_risk.png.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/drawable/risk.png"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/layout_activity_main.xml.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/drawable_near_statitics_map_fragment_button_background.xml.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/drawable/near_statitics_map_fragment_button_background.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/layout_near_natural_disater_fragment.xml.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/layout/near_natural_disater_fragment.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/drawable_all.png.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/drawable/all.png"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/drawable_social.png.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/drawable/social.png"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/font_gothica1_bold.ttf.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/font/gothica1_bold.ttf"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/drawable_signup_border.xml.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/drawable/signup_border.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/drawable_letterboxicon.png.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/drawable/letterboxicon.png"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/layout_near_risk_information_fragment.xml.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/layout/near_risk_information_fragment.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/layout_fragment_main_action_article_pager_item.xml.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/layout/fragment_main_action_article_pager_item.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/layout_fragment_main_details.xml.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/layout/fragment_main_details.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/drawable_near_situation_map_fragment_cardview_background.xml.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/drawable/near_situation_map_fragment_cardview_background.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/drawable_noticeicon.png.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/drawable/noticeicon.png"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-36:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.lx.oneteamproject.app-main-38:/mipmap-xxhdpi/ic_launcher.webp"
+    }
+]
