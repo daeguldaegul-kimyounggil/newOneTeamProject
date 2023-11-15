@@ -37,6 +37,7 @@ drawable safety
 drawable settingsicon
 drawable signup_border
 drawable social
+drawable socialcase
 drawable weather_raining_sun_icon
 font gothica1_bold
 font gothica1_light
@@ -54,6 +55,7 @@ id imageView3
 id imageView4
 id imageView5
 id imageView6
+id imageView9
 id imgWeather
 id linearLayout
 id linearLayout10
@@ -65,6 +67,7 @@ id linearLayout5
 id linearLayout7
 id linearLayout8
 id linearLayout9
+id linear_layout_id
 id loginButton
 id mainActionArticlePager
 id mainArticleImage
@@ -87,6 +90,9 @@ id naturalDisaterFragment
 id pwText
 id pwTextInputLayout
 id rememLoginCheck
+id reportPlace
+id reportTime
+id reportTitle
 id riskButton
 id riskInformationFragment
 id safetyButton
@@ -96,6 +102,7 @@ id signUpPageButton
 id situationBackButton
 id situationButton
 id socialButton
+id socialDetailButton
 id socialDisterFragment
 id statisticsNatural
 id statisticsRisk
@@ -133,6 +140,7 @@ layout near_safety_facility_information_fragment
 layout near_situation_map_fragment
 layout near_social_disater_fragment
 layout near_statitics_map_fragment
+layout report_details_fragment
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

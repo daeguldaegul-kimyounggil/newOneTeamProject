@@ -21,16 +21,16 @@ public final class NearSocialDisaterFragmentBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final FragmentContainerView socialDisterFragment;
+  public final TextView socialDetailButton;
 
   @NonNull
-  public final TextView textView;
+  public final FragmentContainerView socialDisterFragment;
 
   private NearSocialDisaterFragmentBinding(@NonNull ConstraintLayout rootView,
-      @NonNull FragmentContainerView socialDisterFragment, @NonNull TextView textView) {
+      @NonNull TextView socialDetailButton, @NonNull FragmentContainerView socialDisterFragment) {
     this.rootView = rootView;
+    this.socialDetailButton = socialDetailButton;
     this.socialDisterFragment = socialDisterFragment;
-    this.textView = textView;
   }
 
   @Override
@@ -60,20 +60,20 @@ public final class NearSocialDisaterFragmentBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.socialDetailButton;
+      TextView socialDetailButton = ViewBindings.findChildViewById(rootView, id);
+      if (socialDetailButton == null) {
+        break missingId;
+      }
+
       id = R.id.socialDisterFragment;
       FragmentContainerView socialDisterFragment = ViewBindings.findChildViewById(rootView, id);
       if (socialDisterFragment == null) {
         break missingId;
       }
 
-      id = R.id.textView;
-      TextView textView = ViewBindings.findChildViewById(rootView, id);
-      if (textView == null) {
-        break missingId;
-      }
-
-      return new NearSocialDisaterFragmentBinding((ConstraintLayout) rootView, socialDisterFragment,
-          textView);
+      return new NearSocialDisaterFragmentBinding((ConstraintLayout) rootView, socialDetailButton,
+          socialDisterFragment);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

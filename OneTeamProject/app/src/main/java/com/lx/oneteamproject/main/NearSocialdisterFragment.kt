@@ -1,6 +1,7 @@
 package com.lx.oneteamproject.main
 
 import android.Manifest
+import android.app.Activity
 import android.content.pm.PackageManager
 import android.location.Location
 import android.os.Bundle
@@ -18,6 +19,8 @@ import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.lx.oneteamproject.R
 import com.lx.oneteamproject.databinding.NearSocialDisaterFragmentBinding
+import com.lx.oneteamproject.fragment.FragmentType
+import com.lx.oneteamproject.fragment.OnFragmentListener
 
 class NearSocialdisterFragment : Fragment() {
 
@@ -30,6 +33,22 @@ class NearSocialdisterFragment : Fragment() {
     companion object {
         private const val LOCATION_PERMISSION_REQUEST_CODE = 1001
         private const val DEFAULT_ZOOM = 15f
+
+        var listener: OnFragmentListener? = null
+
+    }
+
+    override fun onAttach(activity: Activity) {
+        super.onAttach(activity)
+
+        if (activity is OnFragmentListener) {
+            listener = activity as OnFragmentListener
+        }
+    }
+    override fun onDetach() {
+        super.onDetach()
+
+        listener = null
     }
 
     override fun onCreateView(
@@ -41,6 +60,14 @@ class NearSocialdisterFragment : Fragment() {
         val rootView = binding.root
 
         initMap()
+
+
+
+        binding.socialDetailButton.setOnClickListener {
+            // REPORTDETAILS 프래그먼트로 전환
+            listener?.onFragmentChanged(FragmentType.REPORTDETAILS)
+
+        }
 
         return rootView
     }

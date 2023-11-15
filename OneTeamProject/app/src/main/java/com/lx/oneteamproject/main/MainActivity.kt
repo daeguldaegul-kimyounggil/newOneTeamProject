@@ -62,6 +62,12 @@ class MainActivity : AppCompatActivity(), OnFragmentListener {
                 bundle.putString("selectedButton", "safety")
             }
 
+            FragmentType.REPORTDETAILS -> {
+                fragment = ReportDetailsFragment()
+            }
+
+
+
             // 여기에 각자가 만든 fragment를 연결시켜주면 돼 !!
             // fragmentType 클래스에 정의 해놓은 이름은 fragment 이름과 동일하게 했어
 

@@ -24,13 +24,14 @@ public final class NearRiskInformationFragmentBinding implements ViewBinding {
   public final FragmentContainerView riskInformationFragment;
 
   @NonNull
-  public final TextView textView;
+  public final TextView socialDetailButton;
 
   private NearRiskInformationFragmentBinding(@NonNull ConstraintLayout rootView,
-      @NonNull FragmentContainerView riskInformationFragment, @NonNull TextView textView) {
+      @NonNull FragmentContainerView riskInformationFragment,
+      @NonNull TextView socialDetailButton) {
     this.rootView = rootView;
     this.riskInformationFragment = riskInformationFragment;
-    this.textView = textView;
+    this.socialDetailButton = socialDetailButton;
   }
 
   @Override
@@ -66,14 +67,14 @@ public final class NearRiskInformationFragmentBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView;
-      TextView textView = ViewBindings.findChildViewById(rootView, id);
-      if (textView == null) {
+      id = R.id.socialDetailButton;
+      TextView socialDetailButton = ViewBindings.findChildViewById(rootView, id);
+      if (socialDetailButton == null) {
         break missingId;
       }
 
       return new NearRiskInformationFragmentBinding((ConstraintLayout) rootView,
-          riskInformationFragment, textView);
+          riskInformationFragment, socialDetailButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

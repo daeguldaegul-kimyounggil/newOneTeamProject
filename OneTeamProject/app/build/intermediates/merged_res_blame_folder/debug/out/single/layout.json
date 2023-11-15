@@ -1,66 +1,70 @@
 [
     {
-        "merged": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-mergeDebugResources-35:\\layout\\fragment_main_action_article_pager_item.xml",
-        "source": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\layout\\fragment_main_action_article_pager_item.xml"
+        "merged": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-mergeDebugResources-35:\\layout\\activity_emergency_place_number.xml",
+        "source": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\layout\\activity_emergency_place_number.xml"
     },
     {
-        "merged": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-mergeDebugResources-35:\\layout\\near_natural_disater_fragment.xml",
-        "source": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\layout\\near_natural_disater_fragment.xml"
+        "merged": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-mergeDebugResources-35:\\layout\\fragment_main_details.xml",
+        "source": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\layout\\fragment_main_details.xml"
     },
     {
-        "merged": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-mergeDebugResources-35:\\layout\\fragment_main.xml",
-        "source": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\layout\\fragment_main.xml"
+        "merged": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-mergeDebugResources-35:\\layout\\activity_my_page.xml",
+        "source": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\layout\\activity_my_page.xml"
     },
     {
-        "merged": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-mergeDebugResources-35:\\layout\\fragment_main_details.xml",
-        "source": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\layout\\fragment_main_details.xml"
+        "merged": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-mergeDebugResources-35:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-mergeDebugResources-35:\\layout\\activity_start.xml",
-        "source": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\layout\\activity_start.xml"
+        "merged": "com.lx.oneteamproject.app-mergeDebugResources-35:/layout/report_details_fragment.xml",
+        "source": "com.lx.oneteamproject.app-main-38:/layout/report_details_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-mergeDebugResources-35:\\layout\\activity_emergency_place_number.xml",
-        "source": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\layout\\activity_emergency_place_number.xml"
+        "merged": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-mergeDebugResources-35:\\layout\\near_situation_map_fragment.xml",
+        "source": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\layout\\near_situation_map_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-mergeDebugResources-35:\\layout\\near_social_disater_fragment.xml",
-        "source": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\layout\\near_social_disater_fragment.xml"
+        "merged": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-mergeDebugResources-35:\\layout\\near_statitics_map_fragment.xml",
+        "source": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\layout\\near_statitics_map_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-mergeDebugResources-35:\\layout\\activity_signup.xml",
-        "source": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\layout\\activity_signup.xml"
+        "merged": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-mergeDebugResources-35:\\layout\\near_social_disater_fragment.xml",
+        "source": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\layout\\near_social_disater_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-mergeDebugResources-35:\\layout\\activity_my_page.xml",
-        "source": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\layout\\activity_my_page.xml"
+        "merged": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-mergeDebugResources-35:\\layout\\report_details_fragment.xml",
+        "source": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\layout\\report_details_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-mergeDebugResources-35:\\layout\\near_statitics_map_fragment.xml",
-        "source": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\layout\\near_statitics_map_fragment.xml"
+        "merged": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-mergeDebugResources-35:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-mergeDebugResources-35:\\layout\\near_risk_information_fragment.xml",
-        "source": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\layout\\near_risk_information_fragment.xml"
+        "merged": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-mergeDebugResources-35:\\layout\\near_risk_information_fragment.xml",
+        "source": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\layout\\near_risk_information_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-mergeDebugResources-35:\\layout\\near_situation_map_fragment.xml",
-        "source": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\layout\\near_situation_map_fragment.xml"
+        "merged": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-mergeDebugResources-35:\\layout\\near_natural_disater_fragment.xml",
+        "source": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\layout\\near_natural_disater_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-mergeDebugResources-35:\\layout\\activity_login.xml",
-        "source": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-mergeDebugResources-35:\\layout\\near_safety_facility_information_fragment.xml",
+        "source": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\layout\\near_safety_facility_information_fragment.xml"
     },
     {
-        "merged": "com.lx.oneteamproject.app-mergeDebugResources-35:/layout/near_situation_map_fragment.xml",
-        "source": "com.lx.oneteamproject.app-main-38:/layout/near_situation_map_fragment.xml"
+        "merged": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-mergeDebugResources-35:\\layout\\activity_signup.xml",
+        "source": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\layout\\activity_signup.xml"
     },
     {
-        "merged": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-mergeDebugResources-35:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-mergeDebugResources-35:\\layout\\activity_start.xml",
+        "source": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\layout\\activity_start.xml"
     },
     {
-        "merged": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-mergeDebugResources-35:\\layout\\near_safety_facility_information_fragment.xml",
-        "source": "C:\\Users\\LX\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\layout\\near_safety_facility_information_fragment.xml"
+        "merged": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-mergeDebugResources-35:\\layout\\fragment_main.xml",
+        "source": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\layout\\fragment_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-mergeDebugResources-35:\\layout\\fragment_main_action_article_pager_item.xml",
+        "source": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-38:\\layout\\fragment_main_action_article_pager_item.xml"
     }
 ]

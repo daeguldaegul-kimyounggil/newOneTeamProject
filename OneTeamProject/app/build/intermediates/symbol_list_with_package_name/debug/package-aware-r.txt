@@ -3143,6 +3143,7 @@ drawable safety
 drawable settingsicon
 drawable signup_border
 drawable social
+drawable socialcase
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -3387,6 +3388,7 @@ id imageView3
 id imageView4
 id imageView5
 id imageView6
+id imageView9
 id imgWeather
 id immediateStop
 id included
@@ -3417,6 +3419,7 @@ id linearLayout5
 id linearLayout7
 id linearLayout8
 id linearLayout9
+id linear_layout_id
 id listMode
 id list_item
 id loginButton
@@ -3567,6 +3570,9 @@ id radio
 id ratio
 id rectangles
 id rememLoginCheck
+id reportPlace
+id reportTime
+id reportTitle
 id report_drawn
 id reverseSawtooth
 id right
@@ -3622,6 +3628,7 @@ id snackbar_text
 id snap
 id snapMargins
 id socialButton
+id socialDetailButton
 id socialDisterFragment
 id south
 id spacer
@@ -3944,6 +3951,7 @@ layout notification_template_part_chronometer
 layout notification_template_part_time
 layout permissionx_default_dialog_layout
 layout permissionx_permission_item
+layout report_details_fragment
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
