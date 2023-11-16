@@ -18,7 +18,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="30dp"
+
         >
 
         <TextView
@@ -91,9 +91,9 @@
                         android:gravity="bottom|left">
 
                         <TextView
-                            android:layout_marginLeft="4dp"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dp"
                             android:maxLines="1"
                             android:text="*필수 입력 칸입니다."
                             android:textColor="#FF0000"
@@ -112,17 +112,16 @@
 
 
             <LinearLayout
-                android:layout_marginTop="3dp"
-                android:elevation="5dp"
                 android:id="@+id/linearLayout21"
                 android:layout_width="309dp"
                 android:layout_height="400dp"
+                android:layout_gravity="center"
                 android:layout_marginLeft="50dp"
+                android:layout_marginTop="3dp"
                 android:layout_marginRight="50dp"
                 android:background="@drawable/login_rounded_background"
-                android:orientation="vertical"
-                android:layout_gravity="center"
-                >
+                android:elevation="5dp"
+                android:orientation="vertical">
 
                 <LinearLayout
 
@@ -134,17 +133,16 @@
                     >
 
                     <LinearLayout
-                        android:gravity="bottom"
                         android:layout_width="wrap_content"
-                        android:layout_height="40dp">
+                        android:layout_height="40dp"
+                        android:gravity="bottom">
 
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="이름"
-                            android:textSize="18dp"
-                            ></TextView>
+                            android:textSize="18dp"></TextView>
 
                     </LinearLayout>
 
@@ -154,17 +152,14 @@
 
                     <LinearLayout
 
-                        android:layout_marginTop="7dp"
                         android:layout_width="160dp"
                         android:layout_height="wrap_content"
-                        android:gravity="bottom|right"
-                        >
-
+                        android:layout_marginTop="7dp"
+                        android:gravity="bottom|right">
 
 
                     </LinearLayout>
                 </LinearLayout>
-
 
 
                 <LinearLayout
@@ -172,22 +167,19 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:orientation="horizontal"
-                    >
-
+                    android:orientation="horizontal">
 
 
                     <EditText
+
                         android:id="@+id/inputName"
                         android:layout_width="240dp"
                         android:layout_height="35dp"
-                        android:paddingLeft="12dp"
                         android:background="@drawable/signup_border"
-                        >
+                        android:paddingLeft="12dp">
 
 
                     </EditText>
-
 
 
                 </LinearLayout>
@@ -199,25 +191,24 @@
 
                     <LinearLayout
 
-                        android:gravity="bottom"
                         android:layout_width="match_parent"
-                        android:layout_height="30dp">
+                        android:layout_height="30dp"
+                        android:gravity="bottom">
+
                         <View
                             android:layout_width="30dp"
-                            android:layout_height="wrap_content"/>
+                            android:layout_height="wrap_content" />
 
                         <TextView
 
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="아이디"
-                            android:textSize="18dp"
-                            ></TextView>
+                            android:textSize="18dp"></TextView>
 
 
                     </LinearLayout>
                 </LinearLayout>
-
 
 
                 <LinearLayout
@@ -225,21 +216,19 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:orientation="horizontal"
-                    >
+                    android:orientation="horizontal">
 
                     <EditText
-                        android:paddingLeft="12dp"
                         android:id="@+id/inputEmail"
+
                         android:layout_width="240dp"
                         android:layout_height="35dp"
 
                         android:background="@drawable/signup_border"
-                        >
+                        android:paddingLeft="12dp">
 
 
                     </EditText>
-
 
 
                 </LinearLayout>
@@ -251,13 +240,13 @@
 
                     <LinearLayout
 
-                        android:gravity="bottom"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        >
+                        android:gravity="bottom">
+
                         <View
                             android:layout_width="30dp"
-                            android:layout_height="wrap_content"/>
+                            android:layout_height="wrap_content" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -277,12 +266,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:orientation="horizontal"
-                    >
+                    android:orientation="horizontal">
 
                     <EditText
-                        android:layout_width="240dp"
                         android:id="@+id/inputPw"
+
+                        android:layout_width="240dp"
                         android:layout_height="35dp"
                         android:background="@drawable/signup_border"
                         android:inputType="textPassword"
@@ -295,24 +284,23 @@
                     android:gravity="center">
 
                     <LinearLayout
-                        android:layout_marginTop="7dp"
                         android:layout_width="match_parent"
-                        android:layout_height="40dp">
+                        android:layout_height="40dp"
+                        android:layout_marginTop="7dp">
+
                         <View
                             android:layout_width="30dp"
-                            android:layout_height="wrap_content"/>
+                            android:layout_height="wrap_content" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="비밀번호확인"
-                            android:textSize="18dp"
-                            ></TextView>
+                            android:textSize="18dp"></TextView>
 
 
                     </LinearLayout>
                 </LinearLayout>
-
 
 
                 <LinearLayout
@@ -325,8 +313,9 @@
                     >
 
                     <EditText
-                        android:layout_width="240dp"
                         android:id="@+id/inputPwCh"
+
+                        android:layout_width="240dp"
                         android:layout_height="35dp"
                         android:background="@drawable/signup_border"
                         android:inputType="textPassword"
@@ -339,24 +328,23 @@
                     android:gravity="center">
 
                     <LinearLayout
-                        android:layout_marginTop="12dp"
                         android:layout_width="match_parent"
-                        android:layout_height="40dp">
+                        android:layout_height="40dp"
+                        android:layout_marginTop="12dp">
+
                         <View
                             android:layout_width="30dp"
-                            android:layout_height="wrap_content"/>
+                            android:layout_height="wrap_content" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="전화번호"
-                            android:textSize="18dp"
-                            ></TextView>
+                            android:textSize="18dp"></TextView>
 
 
                     </LinearLayout>
                 </LinearLayout>
-
 
 
                 <LinearLayout
@@ -370,17 +358,17 @@
 
                     <View
                         android:layout_width="30dp"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content" />
 
                     <EditText
-                        android:layout_marginRight="3dp"
-                        android:paddingLeft="12dp"
                         android:id="@+id/inputMobile"
                         android:layout_width="180dp"
+
                         android:layout_height="35dp"
+                        android:layout_marginRight="3dp"
 
                         android:background="@drawable/signup_border"
-                        >
+                        android:paddingLeft="12dp">
 
 
                     </EditText>
@@ -389,18 +377,17 @@
 
                         android:layout_width="60dp"
                         android:layout_height="match_parent"
-                        android:orientation="horizontal"
                         android:gravity="center"
-                        >
+                        android:orientation="horizontal">
 
                         <androidx.appcompat.widget.AppCompatButton
 
-                            android:gravity="center"
-                            android:layout_marginBottom="2dp"
                             android:layout_width="wrap_content"
                             android:layout_height="30dp"
+                            android:layout_marginBottom="2dp"
                             android:background="@drawable/login_rounded_background"
                             android:backgroundTint="@color/maincolor"
+                            android:gravity="center"
                             android:maxLines="1"
                             android:text="인증"
                             android:textColor="#ffffff"
@@ -411,7 +398,6 @@
                     </LinearLayout>
 
 
-
                 </LinearLayout>
 
             </LinearLayout>
@@ -420,9 +406,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:orientation="horizontal"
                 android:layout_marginTop="15dp"
-                >
+                android:orientation="horizontal">
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -432,17 +417,15 @@
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="5.5"
-                    >
+                    android:layout_weight="5.5">
+
                     <LinearLayout
 
-                        android:layout_marginTop="30dp"
                         android:layout_width="120dp"
                         android:layout_height="40dp"
                         android:layout_gravity="left"
-                        android:gravity="bottom|left"
-                        >
-
+                        android:layout_marginTop="30dp"
+                        android:gravity="bottom|left">
 
 
                         <TextView
@@ -450,26 +433,23 @@
                             android:layout_height="wrap_content"
                             android:text="비상연락망"
                             android:textSize="25dp"
-                            android:textStyle="bold"
-                            />
+                            android:textStyle="bold" />
                     </LinearLayout>
 
 
                     <LinearLayout
-                        android:layout_marginBottom="3dp"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:gravity="bottom|left"
-                        >
+                        android:layout_marginBottom="3dp"
+                        android:gravity="bottom|left">
 
                         <TextView
-                            android:maxLines="1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:maxLines="1"
                             android:text="*선택적 입력 칸입니다."
                             android:textColor="#FF0000"
-                            android:textSize="11dp"
-                            />
+                            android:textSize="11dp" />
 
                     </LinearLayout>
 
@@ -487,60 +467,57 @@
 
                 android:layout_width="309dp"
                 android:layout_height="140dp"
+                android:layout_gravity="center"
                 android:layout_marginLeft="50dp"
                 android:layout_marginRight="50dp"
                 android:background="@drawable/login_rounded_background"
                 android:elevation="5dp"
-                android:orientation="vertical"
-                android:layout_gravity="center">
+                android:orientation="vertical">
 
                 <LinearLayout
-                    android:layout_marginTop="17dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="17dp"
                     android:orientation="horizontal"
 
                     >
 
                     <LinearLayout
-                        android:layout_marginLeft="10dp"
                         android:layout_width="140dp"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal"
                         android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="horizontal"
 
                         >
 
                         <LinearLayout
                             android:layout_width="30dp"
                             android:layout_height="40dp"
-                            android:layout_gravity="center"
-                            >
+                            android:layout_gravity="center">
+
                             <TextView
-                                android:maxLines="1"
-                                android:gravity="center"
                                 android:layout_width="30dp"
                                 android:layout_height="40dp"
+                                android:gravity="center"
+                                android:maxLines="1"
                                 android:text="이름"
-                                android:textSize="16dp"
-                                >
+                                android:textSize="16dp">
 
                             </TextView>
                         </LinearLayout>
 
                         <EditText
-                            android:layout_marginLeft="3dp"
-                            android:layout_gravity="center"
-                            android:paddingLeft="12dp"
                             android:layout_width="90dp"
                             android:layout_height="35dp"
-
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="3dp"
                             android:background="@drawable/signup_border"
-                            >
+
+                            android:paddingLeft="12dp">
 
 
                         </EditText>
-
 
 
                     </LinearLayout>
@@ -549,8 +526,8 @@
                     <LinearLayout
                         android:layout_width="160dp"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal"
                         android:layout_gravity="center"
+                        android:orientation="horizontal"
 
                         >
 
@@ -558,32 +535,30 @@
 
                             android:layout_width="30dp"
                             android:layout_height="40dp"
-                            android:layout_gravity="center"
-                            >
+                            android:layout_gravity="center">
+
                             <TextView
-                                android:maxLines="1"
-                                android:gravity="center"
                                 android:layout_width="30dp"
                                 android:layout_height="40dp"
+                                android:gravity="center"
+                                android:maxLines="1"
                                 android:text="관계"
-                                android:textSize="16dp"
-                                >
+                                android:textSize="16dp">
 
                             </TextView>
                         </LinearLayout>
+
                         <EditText
-                            android:layout_gravity="center"
-                            android:layout_marginLeft="3dp"
-                            android:paddingLeft="12dp"
                             android:layout_width="90dp"
                             android:layout_height="35dp"
-
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="3dp"
                             android:background="@drawable/signup_border"
-                            >
+
+                            android:paddingLeft="12dp">
 
 
                         </EditText>
-
 
 
                     </LinearLayout>
@@ -591,16 +566,15 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_marginTop="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    >
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
 
                     <LinearLayout
-                        android:layout_marginLeft="10dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
                         android:orientation="horizontal"
 
                         >
@@ -608,35 +582,32 @@
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="40dp"
-                            android:layout_gravity="center"
-                            >
+                            android:layout_gravity="center">
 
 
                             <TextView
 
-                                android:maxLines="1"
-                                android:gravity="center"
                                 android:layout_width="60dp"
                                 android:layout_height="40dp"
+                                android:gravity="center"
+                                android:maxLines="1"
                                 android:text="전화번호"
-                                android:textSize="16dp"
-                                >
+                                android:textSize="16dp">
 
                             </TextView>
                         </LinearLayout>
+
                         <EditText
-                            android:layout_marginLeft="3dp"
-                            android:layout_gravity="center"
-                            android:paddingLeft="12dp"
                             android:layout_width="200dp"
                             android:layout_height="35dp"
-
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="3dp"
                             android:background="@drawable/signup_border"
-                            >
+
+                            android:paddingLeft="12dp">
 
 
                         </EditText>
-
 
 
                     </LinearLayout>
@@ -645,18 +616,15 @@
                 </LinearLayout>
 
 
-
             </LinearLayout>
-
 
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:orientation="horizontal"
                 android:layout_marginTop="15dp"
                 android:gravity="left"
-                >
+                android:orientation="horizontal">
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -665,18 +633,19 @@
 
                 <LinearLayout
 
-                    android:layout_marginTop="4dp"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
+                    android:layout_marginTop="4dp"
                     android:layout_weight="5">
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="개인 이용 약관"
                         android:textSize="25dp"
-                        android:textStyle="bold"
-                        />
-                    ></LinearLayout>
+                        android:textStyle="bold" />
+                    >
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -684,25 +653,22 @@
                     android:layout_weight="3"></LinearLayout>
 
 
-
-
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="309dp"
                 android:layout_height="300dp"
 
+                android:layout_gravity="center"
                 android:background="@drawable/login_rounded_background"
                 android:elevation="5dp"
                 android:gravity="top"
-                android:orientation="vertical"
-                android:layout_gravity="center"
-                >
+                android:orientation="vertical">
 
                 <ScrollView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:nestedScrollingEnabled="true"
-                    >
+                    android:nestedScrollingEnabled="true">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -726,10 +692,10 @@
                         </LinearLayout>
 
                         <LinearLayout
-                            android:layout_marginBottom="5dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="left">
+                            android:layout_gravity="left"
+                            android:layout_marginBottom="5dp">
 
                             <TextView
 
@@ -750,9 +716,9 @@
 
                             <TextView
 
-                                android:layout_marginTop="5dp"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
                                 android:gravity="center"
                                 android:maxLines="1"
                                 android:text="제 2조(약관의 효력 및 변경)"
@@ -774,7 +740,6 @@
 
                             </TextView>
                         </LinearLayout>
-
 
 
                         <LinearLayout
@@ -804,8 +769,7 @@
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="left"
-                            >
+                            android:layout_gravity="left">
 
 
                         </LinearLayout>
@@ -820,10 +784,10 @@
                         </TextView>
 
                         <LinearLayout
-                            android:layout_marginTop="10dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="left">
+                            android:layout_gravity="left"
+                            android:layout_marginTop="10dp">
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -860,21 +824,17 @@
                 android:layout_width="309dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:gravity="right"
-                >
+                android:gravity="right">
 
                 <CheckBox
                     android:id="@+id/checkbok1"
-                    android:maxLines="1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:maxLines="1"
                     android:text="동의"
-                    android:textSize="17dp"
-                    >
+                    android:textSize="17dp">
 
                 </CheckBox>
-
-
 
 
             </LinearLayout>
@@ -882,10 +842,9 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:orientation="horizontal"
                 android:layout_marginTop="15dp"
                 android:gravity="left"
-                >
+                android:orientation="horizontal">
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -893,18 +852,19 @@
                     android:layout_weight="0.9"></LinearLayout>
 
                 <LinearLayout
-                    android:layout_marginTop="4dp"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
+                    android:layout_marginTop="4dp"
                     android:layout_weight="5">
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="신고 이용 약관"
                         android:textSize="25dp"
-                        android:textStyle="bold"
-                        />
-                    ></LinearLayout>
+                        android:textStyle="bold" />
+                    >
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -912,25 +872,22 @@
                     android:layout_weight="1.5"></LinearLayout>
 
 
-
-
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="309dp"
                 android:layout_height="300dp"
 
+                android:layout_gravity="center"
                 android:background="@drawable/login_rounded_background"
                 android:elevation="5dp"
                 android:gravity="top"
-                android:orientation="vertical"
-                android:layout_gravity="center"
-                >
+                android:orientation="vertical">
 
                 <ScrollView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:nestedScrollingEnabled="true"
-                    >
+                    android:nestedScrollingEnabled="true">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -954,10 +911,10 @@
                         </LinearLayout>
 
                         <LinearLayout
-                            android:layout_marginBottom="5dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="left">
+                            android:layout_gravity="left"
+                            android:layout_marginBottom="5dp">
 
                             <TextView
 
@@ -978,9 +935,9 @@
 
                             <TextView
 
-                                android:layout_marginTop="5dp"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
                                 android:gravity="center"
                                 android:maxLines="1"
                                 android:text="제 13조(게시물의 관리 및 삭제)"
@@ -1004,7 +961,6 @@
                         </LinearLayout>
 
 
-
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1019,9 +975,9 @@
                             android:layout_gravity="left">
 
                             <TextView
-                                android:layout_marginTop="8dp"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
                                 android:gravity="center"
                                 android:maxLines="1"
                                 android:text="제 14조(손해배상)"
@@ -1033,8 +989,7 @@
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="left"
-                            >
+                            android:layout_gravity="left">
 
 
                         </LinearLayout>
@@ -1049,10 +1004,10 @@
                         </TextView>
 
                         <LinearLayout
-                            android:layout_marginTop="10dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="left">
+                            android:layout_gravity="left"
+                            android:layout_marginTop="10dp">
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -1088,57 +1043,64 @@
                 android:layout_width="309dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:gravity="right"
-                >
+                android:gravity="right">
 
                 <CheckBox
                     android:id="@+id/checkbok2"
-                    android:maxLines="1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:maxLines="1"
                     android:text="동의"
-                    android:textSize="17dp"
-                    >
+                    android:textSize="17dp">
 
                 </CheckBox>
-
-
 
 
             </LinearLayout>
 
             <LinearLayout
 
-                android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
                 android:layout_gravity="center"
-                >
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
 
-                <Button
+                <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/signUpButton"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="@drawable/login_rounded_background"
                     android:backgroundTint="@color/maincolor"
-                    android:text="회원가입 완료"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:padding="0dp"
+                    android:text="회원가입"
+                    android:textColor="#ffffff"
+                    android:textSize="11dp">
 
-
-                    />
+                </androidx.appcompat.widget.AppCompatButton>
 
                 <View
                     android:layout_width="10dp"
                     android:layout_height="wrap_content" />
 
-                <Button
+                <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/signUpBackButton"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="@drawable/login_rounded_background"
+                    android:backgroundTint="@color/maincolor"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:padding="0dp"
                     android:text="뒤로가기"
-                    app:backgroundTint="@color/maincolor"
+                    android:textColor="#ffffff"
+                    android:textSize="11dp">
 
-
-                    />
+                </androidx.appcompat.widget.AppCompatButton>
             </LinearLayout>
 
 
@@ -1147,6 +1109,4 @@
     </androidx.core.widget.NestedScrollView>
 
 
-
 </LinearLayout>
-

@@ -4,10 +4,10 @@ package com.lx.oneteamproject.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.lx.oneteamproject.R;
@@ -20,12 +20,12 @@ public final class FragmentReportCheckImagePagerItemBinding implements ViewBindi
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final RecyclerView imageList;
+  public final ImageView reportImageOutput;
 
   private FragmentReportCheckImagePagerItemBinding(@NonNull ConstraintLayout rootView,
-      @NonNull RecyclerView imageList) {
+      @NonNull ImageView reportImageOutput) {
     this.rootView = rootView;
-    this.imageList = imageList;
+    this.reportImageOutput = reportImageOutput;
   }
 
   @Override
@@ -55,13 +55,14 @@ public final class FragmentReportCheckImagePagerItemBinding implements ViewBindi
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.imageList;
-      RecyclerView imageList = ViewBindings.findChildViewById(rootView, id);
-      if (imageList == null) {
+      id = R.id.reportImageOutput;
+      ImageView reportImageOutput = ViewBindings.findChildViewById(rootView, id);
+      if (reportImageOutput == null) {
         break missingId;
       }
 
-      return new FragmentReportCheckImagePagerItemBinding((ConstraintLayout) rootView, imageList);
+      return new FragmentReportCheckImagePagerItemBinding((ConstraintLayout) rootView,
+          reportImageOutput);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

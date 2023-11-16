@@ -4,20 +4,55 @@ package com.lx.oneteamproject.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.lx.oneteamproject.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class ActivityMyPageBinding implements ViewBinding {
   @NonNull
   private final LinearLayout rootView;
 
-  private ActivityMyPageBinding(@NonNull LinearLayout rootView) {
+  @NonNull
+  public final Button settingsNameEditButton;
+
+  @NonNull
+  public final Button settingsNameEditButton1;
+
+  @NonNull
+  public final Button settingsNameEditButton2;
+
+  @NonNull
+  public final Button settingsNameEditButton3;
+
+  @NonNull
+  public final Button settingsNameEditButton6;
+
+  @NonNull
+  public final Button settingsNameEditButton7;
+
+  @NonNull
+  public final Button settingsNameEditButton9;
+
+  private ActivityMyPageBinding(@NonNull LinearLayout rootView,
+      @NonNull Button settingsNameEditButton, @NonNull Button settingsNameEditButton1,
+      @NonNull Button settingsNameEditButton2, @NonNull Button settingsNameEditButton3,
+      @NonNull Button settingsNameEditButton6, @NonNull Button settingsNameEditButton7,
+      @NonNull Button settingsNameEditButton9) {
     this.rootView = rootView;
+    this.settingsNameEditButton = settingsNameEditButton;
+    this.settingsNameEditButton1 = settingsNameEditButton1;
+    this.settingsNameEditButton2 = settingsNameEditButton2;
+    this.settingsNameEditButton3 = settingsNameEditButton3;
+    this.settingsNameEditButton6 = settingsNameEditButton6;
+    this.settingsNameEditButton7 = settingsNameEditButton7;
+    this.settingsNameEditButton9 = settingsNameEditButton9;
   }
 
   @Override
@@ -43,10 +78,57 @@ public final class ActivityMyPageBinding implements ViewBinding {
 
   @NonNull
   public static ActivityMyPageBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.settingsNameEditButton;
+      Button settingsNameEditButton = ViewBindings.findChildViewById(rootView, id);
+      if (settingsNameEditButton == null) {
+        break missingId;
+      }
 
-    return new ActivityMyPageBinding((LinearLayout) rootView);
+      id = R.id.settingsNameEditButton1;
+      Button settingsNameEditButton1 = ViewBindings.findChildViewById(rootView, id);
+      if (settingsNameEditButton1 == null) {
+        break missingId;
+      }
+
+      id = R.id.settingsNameEditButton2;
+      Button settingsNameEditButton2 = ViewBindings.findChildViewById(rootView, id);
+      if (settingsNameEditButton2 == null) {
+        break missingId;
+      }
+
+      id = R.id.settingsNameEditButton3;
+      Button settingsNameEditButton3 = ViewBindings.findChildViewById(rootView, id);
+      if (settingsNameEditButton3 == null) {
+        break missingId;
+      }
+
+      id = R.id.settingsNameEditButton6;
+      Button settingsNameEditButton6 = ViewBindings.findChildViewById(rootView, id);
+      if (settingsNameEditButton6 == null) {
+        break missingId;
+      }
+
+      id = R.id.settingsNameEditButton7;
+      Button settingsNameEditButton7 = ViewBindings.findChildViewById(rootView, id);
+      if (settingsNameEditButton7 == null) {
+        break missingId;
+      }
+
+      id = R.id.settingsNameEditButton9;
+      Button settingsNameEditButton9 = ViewBindings.findChildViewById(rootView, id);
+      if (settingsNameEditButton9 == null) {
+        break missingId;
+      }
+
+      return new ActivityMyPageBinding((LinearLayout) rootView, settingsNameEditButton,
+          settingsNameEditButton1, settingsNameEditButton2, settingsNameEditButton3,
+          settingsNameEditButton6, settingsNameEditButton7, settingsNameEditButton9);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

@@ -31,6 +31,8 @@ class ReportCheckPopUpFragment : Fragment(){
     ): View? {
         _binding = FragmentReportCheckPopupBinding.inflate(inflater, container, false)
 
+        binding.reportImageOutput.adapter = ReportFreeImagePagerAdapter(requireActivity().supportFragmentManager, lifecycle)
+
         return binding.root
     }
 

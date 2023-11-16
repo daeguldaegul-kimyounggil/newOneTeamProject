@@ -4,13 +4,13 @@ package com.lx.oneteamproject.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatButton;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.lx.oneteamproject.R;
@@ -50,10 +50,10 @@ public final class ActivitySignupBinding implements ViewBinding {
   public final LinearLayout linearLayout21;
 
   @NonNull
-  public final Button signUpBackButton;
+  public final AppCompatButton signUpBackButton;
 
   @NonNull
-  public final Button signUpButton;
+  public final AppCompatButton signUpButton;
 
   @NonNull
   public final TextView textView34;
@@ -62,7 +62,7 @@ public final class ActivitySignupBinding implements ViewBinding {
       @NonNull CheckBox checkbok2, @NonNull EditText inputEmail, @NonNull EditText inputMobile,
       @NonNull EditText inputName, @NonNull EditText inputPw, @NonNull EditText inputPwCh,
       @NonNull LinearLayout linearLayout, @NonNull LinearLayout linearLayout21,
-      @NonNull Button signUpBackButton, @NonNull Button signUpButton,
+      @NonNull AppCompatButton signUpBackButton, @NonNull AppCompatButton signUpButton,
       @NonNull TextView textView34) {
     this.rootView = rootView;
     this.checkbok1 = checkbok1;
@@ -161,13 +161,13 @@ public final class ActivitySignupBinding implements ViewBinding {
       }
 
       id = R.id.signUpBackButton;
-      Button signUpBackButton = ViewBindings.findChildViewById(rootView, id);
+      AppCompatButton signUpBackButton = ViewBindings.findChildViewById(rootView, id);
       if (signUpBackButton == null) {
         break missingId;
       }
 
       id = R.id.signUpButton;
-      Button signUpButton = ViewBindings.findChildViewById(rootView, id);
+      AppCompatButton signUpButton = ViewBindings.findChildViewById(rootView, id);
       if (signUpButton == null) {
         break missingId;
       }

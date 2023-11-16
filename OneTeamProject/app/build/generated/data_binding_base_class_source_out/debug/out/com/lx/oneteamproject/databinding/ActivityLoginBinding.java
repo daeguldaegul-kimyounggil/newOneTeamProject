@@ -4,12 +4,12 @@ package com.lx.oneteamproject.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatButton;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -37,7 +37,7 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final LinearLayout linearLayout21;
 
   @NonNull
-  public final Button loginButton;
+  public final AppCompatButton loginButton;
 
   @NonNull
   public final TextInputEditText pwText;
@@ -49,7 +49,7 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final CheckBox rememLoginCheck;
 
   @NonNull
-  public final Button signUpPageButton;
+  public final AppCompatButton signUpPageButton;
 
   @NonNull
   public final TextView textView34;
@@ -57,9 +57,9 @@ public final class ActivityLoginBinding implements ViewBinding {
   private ActivityLoginBinding(@NonNull ConstraintLayout rootView,
       @NonNull TextInputEditText idText, @NonNull TextInputLayout idTextInputLayout,
       @NonNull LinearLayout linearLayout, @NonNull LinearLayout linearLayout21,
-      @NonNull Button loginButton, @NonNull TextInputEditText pwText,
+      @NonNull AppCompatButton loginButton, @NonNull TextInputEditText pwText,
       @NonNull TextInputLayout pwTextInputLayout, @NonNull CheckBox rememLoginCheck,
-      @NonNull Button signUpPageButton, @NonNull TextView textView34) {
+      @NonNull AppCompatButton signUpPageButton, @NonNull TextView textView34) {
     this.rootView = rootView;
     this.idText = idText;
     this.idTextInputLayout = idTextInputLayout;
@@ -125,7 +125,7 @@ public final class ActivityLoginBinding implements ViewBinding {
       }
 
       id = R.id.loginButton;
-      Button loginButton = ViewBindings.findChildViewById(rootView, id);
+      AppCompatButton loginButton = ViewBindings.findChildViewById(rootView, id);
       if (loginButton == null) {
         break missingId;
       }
@@ -149,7 +149,7 @@ public final class ActivityLoginBinding implements ViewBinding {
       }
 
       id = R.id.signUpPageButton;
-      Button signUpPageButton = ViewBindings.findChildViewById(rootView, id);
+      AppCompatButton signUpPageButton = ViewBindings.findChildViewById(rootView, id);
       if (signUpPageButton == null) {
         break missingId;
       }

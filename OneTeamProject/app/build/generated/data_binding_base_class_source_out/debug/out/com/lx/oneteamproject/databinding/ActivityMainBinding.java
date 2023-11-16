@@ -10,9 +10,10 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+import com.google.android.material.navigation.NavigationView;
 import com.lx.oneteamproject.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -20,7 +21,10 @@ import java.lang.String;
 
 public final class ActivityMainBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final DrawerLayout rootView;
+
+  @NonNull
+  public final DrawerLayout drawerLayout;
 
   @NonNull
   public final LinearLayout linearLayout;
@@ -35,23 +39,28 @@ public final class ActivityMainBinding implements ViewBinding {
   public final ImageButton mainSettingsButton;
 
   @NonNull
+  public final NavigationView navigationView;
+
+  @NonNull
   public final TextView textView5;
 
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView,
+  private ActivityMainBinding(@NonNull DrawerLayout rootView, @NonNull DrawerLayout drawerLayout,
       @NonNull LinearLayout linearLayout, @NonNull ImageButton mainChattingButton,
       @NonNull FrameLayout mainFragmentContainer, @NonNull ImageButton mainSettingsButton,
-      @NonNull TextView textView5) {
+      @NonNull NavigationView navigationView, @NonNull TextView textView5) {
     this.rootView = rootView;
+    this.drawerLayout = drawerLayout;
     this.linearLayout = linearLayout;
     this.mainChattingButton = mainChattingButton;
     this.mainFragmentContainer = mainFragmentContainer;
     this.mainSettingsButton = mainSettingsButton;
+    this.navigationView = navigationView;
     this.textView5 = textView5;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public DrawerLayout getRoot() {
     return rootView;
   }
 
@@ -76,6 +85,8 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      DrawerLayout drawerLayout = (DrawerLayout) rootView;
+
       id = R.id.linearLayout;
       LinearLayout linearLayout = ViewBindings.findChildViewById(rootView, id);
       if (linearLayout == null) {
@@ -100,14 +111,20 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.navigationView;
+      NavigationView navigationView = ViewBindings.findChildViewById(rootView, id);
+      if (navigationView == null) {
+        break missingId;
+      }
+
       id = R.id.textView5;
       TextView textView5 = ViewBindings.findChildViewById(rootView, id);
       if (textView5 == null) {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, linearLayout, mainChattingButton,
-          mainFragmentContainer, mainSettingsButton, textView5);
+      return new ActivityMainBinding((DrawerLayout) rootView, drawerLayout, linearLayout,
+          mainChattingButton, mainFragmentContainer, mainSettingsButton, navigationView, textView5);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

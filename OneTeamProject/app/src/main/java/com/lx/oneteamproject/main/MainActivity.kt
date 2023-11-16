@@ -6,18 +6,17 @@ import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.view.Gravity
 import android.view.LayoutInflater
-import android.view.ViewGroup
 import android.widget.Button
 import android.widget.CheckBox
-import android.widget.PopupWindow
 import androidx.appcompat.app.AlertDialog
+import androidx.core.view.GravityCompat
 import androidx.fragment.app.Fragment
 import com.lx.oneteamproject.R
 import com.lx.oneteamproject.databinding.ActivityMainBinding
 import com.lx.oneteamproject.fragment.FragmentType
 import com.lx.oneteamproject.fragment.OnFragmentListener
+import androidx.drawerlayout.widget.DrawerLayout
 import java.text.SimpleDateFormat
 import java.util.Locale
 
@@ -26,7 +25,6 @@ class MainActivity : AppCompatActivity(), OnFragmentListener {
 
     lateinit var binding: ActivityMainBinding
     lateinit var sharedPreferences: SharedPreferences
-
 
     companion object {
         private const val MAIN_POPUP_STATE_KEY = "main_popup_state"
@@ -78,6 +76,19 @@ class MainActivity : AppCompatActivity(), OnFragmentListener {
 
         // 화면 첫 시작 되는 fragment 호출
         onFragmentChanged(FragmentType.MAIN)
+
+        val drawerLayout = findViewById<DrawerLayout>(R.id.drawer_layout)
+
+        // 설정 아이콘 눌렀을 때 햄버거
+        binding.mainSettingsButton.setOnClickListener {
+            if (drawerLayout.isDrawerOpen(GravityCompat.END)) {
+                drawerLayout.closeDrawer(GravityCompat.END)
+            } else {
+                drawerLayout.openDrawer(GravityCompat.END)
+            }
+            true
+        }
+
     }
 
 
@@ -92,7 +103,6 @@ class MainActivity : AppCompatActivity(), OnFragmentListener {
         editor.putLong(LAST_POPUP_TIME_KEY, System.currentTimeMillis())
         editor.apply()
     }
-
 
 
     // 각 fragment 설정

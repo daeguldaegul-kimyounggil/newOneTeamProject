@@ -16,7 +16,7 @@ class ReportCheckImagePagerItemFragment : Fragment() {
     var _binding: FragmentReportCheckImagePagerItemBinding? = null
     val binding get() = _binding!!
 
-    lateinit var reportimagelistadapter: ReportImageListAdapter
+    lateinit var reportimagelistadapter: ReportCheckImagePagerAdapter
 
     var listener: OnFragmentListener? = null
 
@@ -31,21 +31,6 @@ class ReportCheckImagePagerItemFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater,container: ViewGroup?,savedInstanceState: Bundle?): View? {
         _binding = FragmentReportCheckImagePagerItemBinding.inflate(inflater, container, false)
 
-        reportimagelistadapter = ReportImageListAdapter()
-        binding.imageList.adapter = reportimagelistadapter
-
-        reportimagelistadapter.listener = object : OnReportImageListItemClickListener {
-            override fun onReportImageListItemClick(
-                holder: ReportImageListAdapter.ViewHolder,
-                view: View?,
-                position: Int
-            ) {
-                val item = reportimagelistadapter.reportimagelist[position]
-            }
-        }
-
-        reportimagelistadapter.reportimagelist.add(ReportImageListItem(R.drawable.sample_report))
-
         return binding.root
     }
 
@@ -56,15 +41,10 @@ class ReportCheckImagePagerItemFragment : Fragment() {
             val position = getInt("position", -1)
 
             val image = getInt("image")
-
-            val imageList = ArrayList<ReportImageListItem>()
-            imageList.add(ReportImageListItem(image))
-
-            val adapter = ReportImageListAdapter()
-            adapter.reportimagelist = imageList
-            binding.imageList.adapter = adapter
+            binding.reportImageOutput.setImageResource(image)
         }
     }
+
 
     override fun onDestroyView() {
         super.onDestroyView()
