@@ -1,6 +1,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -69,4 +70,16 @@ dependencies {
 
     //지도
     implementation("com.google.android.gms:play-services-maps:18.1.0")
+
+
+    //당연준 채팅 땜에 추가
+    //파이어베이스 storage , realtime database 용
+    annotationProcessor ("com.github.bumptech.glide:compiler:4.12.0")
+
+    implementation(platform("com.google.firebase:firebase-bom:32.3.1"))
+    implementation("com.google.firebase:firebase-database-ktx:20.2.2")
+    implementation("com.google.firebase:firebase-firestore-ktx:24.8.1")
+    implementation("com.google.firebase:firebase-storage-ktx:20.2.1")
+    implementation("com.google.firebase:firebase-auth-ktx")
+    implementation("com.google.firebase:firebase-analytics-ktx")
 }
