@@ -31,6 +31,7 @@ drawable login_shadow
 drawable main_button_rounded_background
 drawable main_rounded_background
 drawable main_statistics_button_rounded_background
+drawable manual
 drawable mapicon
 drawable mypage_rounded
 drawable natural
@@ -71,6 +72,7 @@ id button
 id button2
 id checkbok1
 id checkbok2
+id closeButton
 id editTextText4
 id idText
 id idTextInputLayout
@@ -119,6 +121,7 @@ id mainDetailsContainer
 id mainFragmentContainer
 id mainLocation
 id mainNoticeText
+id mainPopupCheckBox
 id mainReportButton
 id mainReportContainer
 id mainSettingsButton
@@ -229,6 +232,7 @@ layout fragment_report_check_image_pager_item
 layout fragment_report_check_popup
 layout fragment_report_form_image_pager_item
 layout fragment_report_free_image_pager_item
+layout manual_main
 layout my_report_list_item
 layout near_natural_disater_fragment
 layout near_risk_information_fragment
@@ -258,6 +262,8 @@ string hello_blank_fragment
 string project_id
 string terms_and_conditions
 style Base.Theme.OneTeamProject
+style FullScreenDialogAnimation
+style FullScreenDialogStyle
 style Theme.OneTeamProject
 xml backup_rules
 xml data_extraction_rules

@@ -3078,6 +3078,7 @@ drawable m3_tabs_transparent_background
 drawable main_button_rounded_background
 drawable main_rounded_background
 drawable main_statistics_button_rounded_background
+drawable manual
 drawable mapicon
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
@@ -3312,6 +3313,7 @@ id clear_text
 id clip_horizontal
 id clip_vertical
 id clockwise
+id closeButton
 id closest
 id collapseActionView
 id compress
@@ -3485,6 +3487,7 @@ id mainDetailsContainer
 id mainFragmentContainer
 id mainLocation
 id mainNoticeText
+id mainPopupCheckBox
 id mainReportButton
 id mainReportContainer
 id mainSettingsButton
@@ -3999,6 +4002,7 @@ layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
 layout m3_auto_complete_simple_item
 layout m3_side_sheet_dialog
+layout manual_main
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -4566,6 +4570,8 @@ style Base_Widget_MaterialComponents_TextView
 style CardView
 style CardView_Dark
 style CardView_Light
+style FullScreenDialogAnimation
+style FullScreenDialogStyle
 style MaterialAlertDialog_Material3
 style MaterialAlertDialog_Material3_Animation
 style MaterialAlertDialog_Material3_Body_Text

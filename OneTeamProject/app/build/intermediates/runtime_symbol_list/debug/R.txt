@@ -3077,6 +3077,7 @@ int drawable m3_tabs_transparent_background 0x7f0700c7
 int drawable main_button_rounded_background 0x7f0700c8
 int drawable main_rounded_background 0x7f0700c9
 int drawable main_statistics_button_rounded_background 0x7f0700ca
+int drawable manual 0x7f07012c
 int drawable mapicon 0x7f0700cb
 int drawable material_cursor_drawable 0x7f0700cc
 int drawable material_ic_calendar_black_24dp 0x7f0700cd
@@ -3311,6 +3312,7 @@ int id clear_text 0x7f090082
 int id clip_horizontal 0x7f090083
 int id clip_vertical 0x7f090084
 int id clockwise 0x7f090085
+int id closeButton 0x7f090297
 int id closest 0x7f090086
 int id collapseActionView 0x7f090087
 int id compress 0x7f090088
@@ -3484,6 +3486,7 @@ int id mainDetailsContainer 0x7f09012f
 int id mainFragmentContainer 0x7f090130
 int id mainLocation 0x7f090131
 int id mainNoticeText 0x7f090132
+int id mainPopupCheckBox 0x7f090298
 int id mainReportButton 0x7f090133
 int id mainReportContainer 0x7f090134
 int id mainSettingsButton 0x7f090135
@@ -3998,6 +4001,7 @@ int layout m3_alert_dialog_actions 0x7f0c0043
 int layout m3_alert_dialog_title 0x7f0c0044
 int layout m3_auto_complete_simple_item 0x7f0c0045
 int layout m3_side_sheet_dialog 0x7f0c0046
+int layout manual_main 0x7f0c008a
 int layout material_chip_input_combo 0x7f0c0047
 int layout material_clock_display 0x7f0c0048
 int layout material_clock_display_divider 0x7f0c0049
@@ -4565,6 +4569,8 @@ int style Base_Widget_MaterialComponents_TextView 0x7f12011f
 int style CardView 0x7f120120
 int style CardView_Dark 0x7f120121
 int style CardView_Light 0x7f120122
+int style FullScreenDialogAnimation 0x7f12045e
+int style FullScreenDialogStyle 0x7f12045f
 int style MaterialAlertDialog_Material3 0x7f120123
 int style MaterialAlertDialog_Material3_Animation 0x7f120124
 int style MaterialAlertDialog_Material3_Body_Text 0x7f120125
