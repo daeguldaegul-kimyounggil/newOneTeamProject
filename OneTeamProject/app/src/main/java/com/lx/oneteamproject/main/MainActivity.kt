@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity(), OnFragmentListener {
 
         if (!isFinishing && shouldShowPopup) {
             val popUpView = LayoutInflater.from(this).inflate(R.layout.manual_main, null)
-            val popUpBuilder = AlertDialog.Builder(this)
+            val popUpBuilder = AlertDialog.Builder(this,  R.style.FullScreenDialogStyle)
                 .setView(popUpView)
 
             val popUpDialog = popUpBuilder.show()
