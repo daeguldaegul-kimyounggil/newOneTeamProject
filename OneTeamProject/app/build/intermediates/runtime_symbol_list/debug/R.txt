@@ -10,6 +10,7 @@ int anim abc_slide_out_bottom 0x7f010008
 int anim abc_slide_out_top 0x7f010009
 int anim abc_tooltip_enter 0x7f01000a
 int anim abc_tooltip_exit 0x7f01000b
+int anim ball 0x7f01002d
 int anim btn_checkbox_to_checked_box_inner_merged_animation 0x7f01000c
 int anim btn_checkbox_to_checked_box_outer_merged_animation 0x7f01000d
 int anim btn_checkbox_to_checked_icon_null_animation 0x7f01000e
@@ -26,6 +27,7 @@ int anim design_bottom_sheet_slide_in 0x7f010018
 int anim design_bottom_sheet_slide_out 0x7f010019
 int anim design_snackbar_in 0x7f01001a
 int anim design_snackbar_out 0x7f01001b
+int anim fadein 0x7f01002e
 int anim fragment_fast_out_extra_slow_in 0x7f01001c
 int anim linear_indeterminate_line1_head_interpolator 0x7f01001d
 int anim linear_indeterminate_line1_tail_interpolator 0x7f01001e
@@ -3345,6 +3347,7 @@ int id checkbok2 0x7f09007d
 int id checkbox 0x7f09007e
 int id checked 0x7f09007f
 int id chronometer 0x7f090080
+int id ciSound 0x7f0902ae
 int id circle_center 0x7f090081
 int id clear_text 0x7f090082
 int id clip_horizontal 0x7f090083
@@ -3737,6 +3740,8 @@ int id search_mag_icon 0x7f090205
 int id search_plate 0x7f090206
 int id search_src_text 0x7f090207
 int id search_voice_btn 0x7f090208
+int id seeLine 0x7f0902af
+int id seesaw 0x7f0902b0
 int id select_dialog_listview 0x7f090209
 int id selected 0x7f09020a
 int id selection_type 0x7f09020b
@@ -3836,7 +3841,6 @@ int id textView16 0x7f090268
 int id textView17 0x7f090269
 int id textView18 0x7f09026a
 int id textView19 0x7f09026b
-int id textView2 0x7f09026c
 int id textView20 0x7f09026d
 int id textView21 0x7f09026e
 int id textView22 0x7f09026f
@@ -3882,7 +3886,6 @@ int id unlabeled 0x7f090296
 int id up 0x7f090297
 int id useLogo 0x7f090298
 int id vertical_only 0x7f090299
-int id viewGroup 0x7f0902ad
 int id view_offset_helper 0x7f09029a
 int id view_transition 0x7f09029b
 int id view_tree_lifecycle_owner 0x7f09029c

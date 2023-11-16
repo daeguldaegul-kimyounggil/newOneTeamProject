@@ -23,6 +23,9 @@ public final class FragmentMainDetailsBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final TextView ciSound;
+
+  @NonNull
   public final ImageView imageView2;
 
   @NonNull
@@ -119,9 +122,6 @@ public final class FragmentMainDetailsBinding implements ViewBinding {
   public final TextView textView14;
 
   @NonNull
-  public final TextView textView2;
-
-  @NonNull
   public final TextView textView3;
 
   @NonNull
@@ -136,7 +136,7 @@ public final class FragmentMainDetailsBinding implements ViewBinding {
   @NonNull
   public final TextView textView9;
 
-  private FragmentMainDetailsBinding(@NonNull ConstraintLayout rootView,
+  private FragmentMainDetailsBinding(@NonNull ConstraintLayout rootView, @NonNull TextView ciSound,
       @NonNull ImageView imageView2, @NonNull ImageView imageView3, @NonNull ImageView imageView4,
       @NonNull ImageView imageView5, @NonNull ImageView imageView6,
       @NonNull LinearLayout linearLayout10, @NonNull LinearLayout linearLayout3,
@@ -152,10 +152,11 @@ public final class FragmentMainDetailsBinding implements ViewBinding {
       @NonNull LinearLayout riskButton, @NonNull LinearLayout safetyButton,
       @NonNull LinearLayout situationButton, @NonNull LinearLayout socialButton,
       @NonNull TextView textView10, @NonNull TextView textView11, @NonNull TextView textView12,
-      @NonNull TextView textView13, @NonNull TextView textView14, @NonNull TextView textView2,
-      @NonNull TextView textView3, @NonNull TextView textView4, @NonNull TextView textView6,
-      @NonNull TextView textView7, @NonNull TextView textView9) {
+      @NonNull TextView textView13, @NonNull TextView textView14, @NonNull TextView textView3,
+      @NonNull TextView textView4, @NonNull TextView textView6, @NonNull TextView textView7,
+      @NonNull TextView textView9) {
     this.rootView = rootView;
+    this.ciSound = ciSound;
     this.imageView2 = imageView2;
     this.imageView3 = imageView3;
     this.imageView4 = imageView4;
@@ -188,7 +189,6 @@ public final class FragmentMainDetailsBinding implements ViewBinding {
     this.textView12 = textView12;
     this.textView13 = textView13;
     this.textView14 = textView14;
-    this.textView2 = textView2;
     this.textView3 = textView3;
     this.textView4 = textView4;
     this.textView6 = textView6;
@@ -223,6 +223,12 @@ public final class FragmentMainDetailsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.ciSound;
+      TextView ciSound = ViewBindings.findChildViewById(rootView, id);
+      if (ciSound == null) {
+        break missingId;
+      }
+
       id = R.id.imageView2;
       ImageView imageView2 = ViewBindings.findChildViewById(rootView, id);
       if (imageView2 == null) {
@@ -415,12 +421,6 @@ public final class FragmentMainDetailsBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView2;
-      TextView textView2 = ViewBindings.findChildViewById(rootView, id);
-      if (textView2 == null) {
-        break missingId;
-      }
-
       id = R.id.textView3;
       TextView textView3 = ViewBindings.findChildViewById(rootView, id);
       if (textView3 == null) {
@@ -451,14 +451,14 @@ public final class FragmentMainDetailsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentMainDetailsBinding((ConstraintLayout) rootView, imageView2, imageView3,
-          imageView4, imageView5, imageView6, linearLayout10, linearLayout3, linearLayout4,
-          linearLayout5, linearLayout7, linearLayout8, linearLayout9, mainActionArticlePager,
-          mainLocation, mainReportButton, mainStatisticsNaturalOutput,
+      return new FragmentMainDetailsBinding((ConstraintLayout) rootView, ciSound, imageView2,
+          imageView3, imageView4, imageView5, imageView6, linearLayout10, linearLayout3,
+          linearLayout4, linearLayout5, linearLayout7, linearLayout8, linearLayout9,
+          mainActionArticlePager, mainLocation, mainReportButton, mainStatisticsNaturalOutput,
           mainStatisticsRiskInformOutput, mainStatisticsSafetyOutput, mainStatisticsSocialOutput,
           mainTemperature, mainWeatherImg, myLetterBox, naturalButton, riskButton, safetyButton,
           situationButton, socialButton, textView10, textView11, textView12, textView13, textView14,
-          textView2, textView3, textView4, textView6, textView7, textView9);
+          textView3, textView4, textView6, textView7, textView9);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

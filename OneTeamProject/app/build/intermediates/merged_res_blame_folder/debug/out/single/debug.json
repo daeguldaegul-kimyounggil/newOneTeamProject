@@ -64,12 +64,12 @@
         "source": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-41:\\layout\\main_drawable_header.xml"
     },
     {
-        "merged": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-merged_res-39:\\drawable_rescue.png.flat",
-        "source": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-41:\\drawable\\rescue.png"
-    },
-    {
         "merged": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-merged_res-39:\\drawable_report_check_popup_background.xml.flat",
         "source": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-41:\\drawable\\report_check_popup_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-merged_res-39:\\drawable_rescue.png.flat",
+        "source": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-41:\\drawable\\rescue.png"
     },
     {
         "merged": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-merged_res-39:\\drawable_article2_3.jpg.flat",
@@ -90,10 +90,6 @@
     {
         "merged": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-merged_res-39:\\drawable_shield.png.flat",
         "source": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-41:\\drawable\\shield.png"
-    },
-    {
-        "merged": "com.lx.oneteamproject.app-merged_res-39:/anim_start.xml.flat",
-        "source": "com.lx.oneteamproject.app-main-41:/anim/start.xml"
     },
     {
         "merged": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-merged_res-39:\\drawable_rounded_background_my_report_list2.xml.flat",
@@ -186,6 +182,10 @@
     {
         "merged": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-merged_res-39:\\drawable_round_background_main.xml.flat",
         "source": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-41:\\drawable\\round_background_main.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-39:/anim_ball.xml.flat",
+        "source": "com.lx.oneteamproject.app-main-41:/anim/ball.xml"
     },
     {
         "merged": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-merged_res-39:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
@@ -380,6 +380,10 @@
         "source": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-41:\\drawable\\safety.png"
     },
     {
+        "merged": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-merged_res-39:\\anim_ball.xml.flat",
+        "source": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-41:\\anim\\ball.xml"
+    },
+    {
         "merged": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-merged_res-39:\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-41:\\mipmap-xhdpi\\ic_launcher.webp"
     },
@@ -558,5 +562,9 @@
     {
         "merged": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-merged_res-39:\\drawable_mainuser.png.flat",
         "source": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-41:\\drawable\\mainuser.png"
+    },
+    {
+        "merged": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-merged_res-39:\\anim_fadein.xml.flat",
+        "source": "C:\\Users\\yt0309\\.gradle\\daemon\\8.0\\com.lx.oneteamproject.app-main-41:\\anim\\fadein.xml"
     }
 ]

@@ -11,6 +11,7 @@ anim abc_slide_out_bottom
 anim abc_slide_out_top
 anim abc_tooltip_enter
 anim abc_tooltip_exit
+anim ball
 anim btn_checkbox_to_checked_box_inner_merged_animation
 anim btn_checkbox_to_checked_box_outer_merged_animation
 anim btn_checkbox_to_checked_icon_null_animation
@@ -27,6 +28,7 @@ anim design_bottom_sheet_slide_in
 anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
+anim fadein
 anim fragment_fast_out_extra_slow_in
 anim linear_indeterminate_line1_head_interpolator
 anim linear_indeterminate_line1_tail_interpolator
@@ -3346,6 +3348,7 @@ id checkbok2
 id checkbox
 id checked
 id chronometer
+id ciSound
 id circle_center
 id clear_text
 id clip_horizontal
@@ -3738,6 +3741,8 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id seeLine
+id seesaw
 id select_dialog_listview
 id selected
 id selection_type
@@ -3837,7 +3842,6 @@ id textView16
 id textView17
 id textView18
 id textView19
-id textView2
 id textView20
 id textView21
 id textView22
@@ -3883,7 +3887,6 @@ id unlabeled
 id up
 id useLogo
 id vertical_only
-id viewGroup
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner

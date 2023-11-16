@@ -1,5 +1,7 @@
 R_DEF: Internal format may change without notice
 local
+anim ball
+anim fadein
 anim start
 color backgroundcolor
 color border
@@ -110,6 +112,7 @@ id button
 id button2
 id checkbok1
 id checkbok2
+id ciSound
 id closeButton
 id customDialog
 id drawer_layout
@@ -218,6 +221,8 @@ id riskButton
 id riskInformationFragment
 id safetyButton
 id safetyFacilityInformationFragment
+id seeLine
+id seesaw
 id settingsNameEditButton
 id settingsNameEditButton1
 id settingsNameEditButton10
@@ -254,7 +259,6 @@ id textView16
 id textView17
 id textView18
 id textView19
-id textView2
 id textView20
 id textView21
 id textView22
@@ -269,7 +273,6 @@ id textView6
 id textView7
 id textView8
 id textView9
-id viewGroup
 layout activity_emergency_place_number
 layout activity_login
 layout activity_main
