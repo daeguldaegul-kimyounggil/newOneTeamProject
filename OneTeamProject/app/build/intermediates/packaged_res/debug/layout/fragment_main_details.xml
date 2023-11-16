@@ -2,14 +2,14 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor">
 
     <LinearLayout
         android:id="@+id/linearLayout9"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -23,10 +23,12 @@
             android:id="@+id/linearLayout5"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
             android:layout_weight="0.9"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:background="@drawable/main_button_rounded_background"
-            android:elevation="5dp"
+
             android:orientation="horizontal"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -73,9 +75,9 @@
         android:gravity="center"
         android:orientation="horizontal"
         android:padding="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout10"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout9">
 
         <LinearLayout
             android:layout_width="0dp"
@@ -83,11 +85,11 @@
             android:layout_weight="0.5" />
 
         <LinearLayout
+            android:id="@+id/mainReportButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="5.5"
             android:background="@drawable/main_button_rounded_background"
-            android:elevation="5dp"
             android:gravity="center"
             android:orientation="horizontal"
             android:padding="20dp">
@@ -116,11 +118,11 @@
             android:layout_height="match_parent" />
 
         <LinearLayout
+            android:id="@+id/myLetterBox"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="5.5"
             android:background="@drawable/main_button_rounded_background"
-            android:elevation="5dp"
             android:gravity="center"
             android:orientation="horizontal"
             android:padding="20dp">
@@ -155,9 +157,9 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
 
         <LinearLayout
             android:layout_width="0dp"
@@ -170,7 +172,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="8"
             android:background="@drawable/main_button_rounded_background"
-            android:elevation="5dp"
             android:gravity="center"
             android:orientation="horizontal"
             android:padding="20dp">
@@ -206,9 +207,9 @@
         android:gravity="center"
         android:orientation="horizontal"
         android:padding="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout8"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout10">
 
         <LinearLayout
             android:layout_width="0dp"
@@ -220,7 +221,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.9"
             android:background="@drawable/main_button_rounded_background"
-            android:elevation="5dp"
             android:orientation="horizontal"
             android:paddingLeft="10dp"
             android:paddingTop="20dp"
@@ -469,8 +469,8 @@
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:paddingBottom="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout7"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
 
         <LinearLayout
             android:layout_width="0dp"
@@ -482,7 +482,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.9"
             android:background="@drawable/main_button_rounded_background"
-            android:elevation="5dp"
             android:orientation="vertical"
             android:paddingLeft="5dp"
             android:paddingTop="10dp"
@@ -543,11 +542,10 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
-        android:layout_marginBottom="20dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout8">
 
         <TextView
             android:id="@+id/textView4"

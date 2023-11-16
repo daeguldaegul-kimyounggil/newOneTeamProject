@@ -4,7 +4,6 @@ package com.lx.oneteamproject.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -40,22 +39,18 @@ public final class NearSituationMapFragmentBinding implements ViewBinding {
   public final TextView mylocation;
 
   @NonNull
-  public final Button situationBackButton;
-
-  @NonNull
   public final TextView tvTemp;
 
   private NearSituationMapFragmentBinding(@NonNull ConstraintLayout rootView,
       @NonNull FragmentContainerView NearSiuationFragmentMap, @NonNull ImageView imgWeather,
       @NonNull LinearLayout linearLayout, @NonNull CardView mapCardView,
-      @NonNull TextView mylocation, @NonNull Button situationBackButton, @NonNull TextView tvTemp) {
+      @NonNull TextView mylocation, @NonNull TextView tvTemp) {
     this.rootView = rootView;
     this.NearSiuationFragmentMap = NearSiuationFragmentMap;
     this.imgWeather = imgWeather;
     this.linearLayout = linearLayout;
     this.mapCardView = mapCardView;
     this.mylocation = mylocation;
-    this.situationBackButton = situationBackButton;
     this.tvTemp = tvTemp;
   }
 
@@ -116,12 +111,6 @@ public final class NearSituationMapFragmentBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.situationBackButton;
-      Button situationBackButton = ViewBindings.findChildViewById(rootView, id);
-      if (situationBackButton == null) {
-        break missingId;
-      }
-
       id = R.id.tvTemp;
       TextView tvTemp = ViewBindings.findChildViewById(rootView, id);
       if (tvTemp == null) {
@@ -129,8 +118,7 @@ public final class NearSituationMapFragmentBinding implements ViewBinding {
       }
 
       return new NearSituationMapFragmentBinding((ConstraintLayout) rootView,
-          NearSiuationFragmentMap, imgWeather, linearLayout, mapCardView, mylocation,
-          situationBackButton, tvTemp);
+          NearSiuationFragmentMap, imgWeather, linearLayout, mapCardView, mylocation, tvTemp);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

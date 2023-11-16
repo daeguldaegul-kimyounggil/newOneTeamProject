@@ -29,18 +29,18 @@ public final class FragmentMainBinding implements ViewBinding {
   public final LinearLayout linearLayout2;
 
   @NonNull
-  public final FrameLayout mainDetailContainer;
+  public final FrameLayout mainDetailsContainer;
 
   @NonNull
   public final TextView mainNoticeText;
 
   private FragmentMainBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView imageView,
-      @NonNull LinearLayout linearLayout2, @NonNull FrameLayout mainDetailContainer,
+      @NonNull LinearLayout linearLayout2, @NonNull FrameLayout mainDetailsContainer,
       @NonNull TextView mainNoticeText) {
     this.rootView = rootView;
     this.imageView = imageView;
     this.linearLayout2 = linearLayout2;
-    this.mainDetailContainer = mainDetailContainer;
+    this.mainDetailsContainer = mainDetailsContainer;
     this.mainNoticeText = mainNoticeText;
   }
 
@@ -83,9 +83,9 @@ public final class FragmentMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.mainDetailContainer;
-      FrameLayout mainDetailContainer = ViewBindings.findChildViewById(rootView, id);
-      if (mainDetailContainer == null) {
+      id = R.id.mainDetailsContainer;
+      FrameLayout mainDetailsContainer = ViewBindings.findChildViewById(rootView, id);
+      if (mainDetailsContainer == null) {
         break missingId;
       }
 
@@ -96,7 +96,7 @@ public final class FragmentMainBinding implements ViewBinding {
       }
 
       return new FragmentMainBinding((ConstraintLayout) rootView, imageView, linearLayout2,
-          mainDetailContainer, mainNoticeText);
+          mainDetailsContainer, mainNoticeText);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

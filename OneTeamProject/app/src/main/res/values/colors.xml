@@ -4,4 +4,6 @@
     <color name="backgroundcolor">#EBEBEB</color>
     <color name="btncolor">#9BA2AA</color>
     <color name="white">#FFFFFF</color>
+    <color name="border">#9299A0</color>
+    <color name="pointcolor">#F08C58</color>
 </resources>

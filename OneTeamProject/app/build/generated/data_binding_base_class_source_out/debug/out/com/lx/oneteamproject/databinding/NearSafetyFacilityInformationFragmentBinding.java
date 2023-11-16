@@ -24,14 +24,14 @@ public final class NearSafetyFacilityInformationFragmentBinding implements ViewB
   public final FragmentContainerView safetyFacilityInformationFragment;
 
   @NonNull
-  public final TextView socialDetailButton;
+  public final TextView textView;
 
   private NearSafetyFacilityInformationFragmentBinding(@NonNull ConstraintLayout rootView,
       @NonNull FragmentContainerView safetyFacilityInformationFragment,
-      @NonNull TextView socialDetailButton) {
+      @NonNull TextView textView) {
     this.rootView = rootView;
     this.safetyFacilityInformationFragment = safetyFacilityInformationFragment;
-    this.socialDetailButton = socialDetailButton;
+    this.textView = textView;
   }
 
   @Override
@@ -68,14 +68,14 @@ public final class NearSafetyFacilityInformationFragmentBinding implements ViewB
         break missingId;
       }
 
-      id = R.id.socialDetailButton;
-      TextView socialDetailButton = ViewBindings.findChildViewById(rootView, id);
-      if (socialDetailButton == null) {
+      id = R.id.textView;
+      TextView textView = ViewBindings.findChildViewById(rootView, id);
+      if (textView == null) {
         break missingId;
       }
 
       return new NearSafetyFacilityInformationFragmentBinding((ConstraintLayout) rootView,
-          safetyFacilityInformationFragment, socialDetailButton);
+          safetyFacilityInformationFragment, textView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

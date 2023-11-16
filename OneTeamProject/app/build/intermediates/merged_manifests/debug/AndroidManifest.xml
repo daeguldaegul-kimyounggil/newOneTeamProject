@@ -55,6 +55,9 @@
             android:name="com.lx.oneteamproject.activity.MyPageActivity"
             android:exported="false" />
         <activity
+            android:name="com.lx.oneteamproject.sub.SubActivity"
+            android:exported="false" />
+        <activity
             android:name="com.lx.oneteamproject.main.MainActivity"
             android:exported="true" >
             <intent-filter>

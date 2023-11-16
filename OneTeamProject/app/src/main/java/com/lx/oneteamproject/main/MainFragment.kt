@@ -5,12 +5,10 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import com.lx.oneteamproject.databinding.FragmentMainBinding
 import com.lx.oneteamproject.fragment.OnFragmentListener
 import androidx.fragment.app.Fragment
 import com.lx.oneteamproject.R
-import com.lx.oneteamproject.fragment.FragmentType
 
 class MainFragment : Fragment() {
 
@@ -38,7 +36,7 @@ class MainFragment : Fragment() {
 
         val transaction = requireActivity().supportFragmentManager.beginTransaction()
         val maindetailsfragment = MainDetailsFragment()
-        val containerId = R.id.mainDetailContainer
+        val containerId = R.id.mainDetailsContainer
 
         transaction.replace(containerId, maindetailsfragment)
         transaction.addToBackStack(null)

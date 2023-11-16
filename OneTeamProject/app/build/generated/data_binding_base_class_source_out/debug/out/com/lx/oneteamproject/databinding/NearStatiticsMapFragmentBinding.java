@@ -4,7 +4,6 @@ package com.lx.oneteamproject.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -31,16 +30,19 @@ public final class NearStatiticsMapFragmentBinding implements ViewBinding {
   public final LinearLayout bookmarkLayout;
 
   @NonNull
-  public final ImageView imgWeather;
+  public final LinearLayout linearLayout5;
 
   @NonNull
-  public final LinearLayout linearLayout;
+  public final TextView mainLocation;
+
+  @NonNull
+  public final TextView mainTemperature;
+
+  @NonNull
+  public final ImageView mainWeatherImg;
 
   @NonNull
   public final CardView mapCardView;
-
-  @NonNull
-  public final TextView mylocation;
 
   @NonNull
   public final ImageView statisticsNatural;
@@ -54,32 +56,25 @@ public final class NearStatiticsMapFragmentBinding implements ViewBinding {
   @NonNull
   public final ImageView statisticsSocial;
 
-  @NonNull
-  public final Button statiticsBackButton;
-
-  @NonNull
-  public final TextView tvTemp;
-
   private NearStatiticsMapFragmentBinding(@NonNull ConstraintLayout rootView,
       @NonNull FragmentContainerView NearStatiticsFragmentMap, @NonNull LinearLayout bookmarkLayout,
-      @NonNull ImageView imgWeather, @NonNull LinearLayout linearLayout,
-      @NonNull CardView mapCardView, @NonNull TextView mylocation,
-      @NonNull ImageView statisticsNatural, @NonNull ImageView statisticsRisk,
-      @NonNull ImageView statisticsSafety, @NonNull ImageView statisticsSocial,
-      @NonNull Button statiticsBackButton, @NonNull TextView tvTemp) {
+      @NonNull LinearLayout linearLayout5, @NonNull TextView mainLocation,
+      @NonNull TextView mainTemperature, @NonNull ImageView mainWeatherImg,
+      @NonNull CardView mapCardView, @NonNull ImageView statisticsNatural,
+      @NonNull ImageView statisticsRisk, @NonNull ImageView statisticsSafety,
+      @NonNull ImageView statisticsSocial) {
     this.rootView = rootView;
     this.NearStatiticsFragmentMap = NearStatiticsFragmentMap;
     this.bookmarkLayout = bookmarkLayout;
-    this.imgWeather = imgWeather;
-    this.linearLayout = linearLayout;
+    this.linearLayout5 = linearLayout5;
+    this.mainLocation = mainLocation;
+    this.mainTemperature = mainTemperature;
+    this.mainWeatherImg = mainWeatherImg;
     this.mapCardView = mapCardView;
-    this.mylocation = mylocation;
     this.statisticsNatural = statisticsNatural;
     this.statisticsRisk = statisticsRisk;
     this.statisticsSafety = statisticsSafety;
     this.statisticsSocial = statisticsSocial;
-    this.statiticsBackButton = statiticsBackButton;
-    this.tvTemp = tvTemp;
   }
 
   @Override
@@ -121,27 +116,33 @@ public final class NearStatiticsMapFragmentBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imgWeather;
-      ImageView imgWeather = ViewBindings.findChildViewById(rootView, id);
-      if (imgWeather == null) {
+      id = R.id.linearLayout5;
+      LinearLayout linearLayout5 = ViewBindings.findChildViewById(rootView, id);
+      if (linearLayout5 == null) {
         break missingId;
       }
 
-      id = R.id.linearLayout;
-      LinearLayout linearLayout = ViewBindings.findChildViewById(rootView, id);
-      if (linearLayout == null) {
+      id = R.id.mainLocation;
+      TextView mainLocation = ViewBindings.findChildViewById(rootView, id);
+      if (mainLocation == null) {
+        break missingId;
+      }
+
+      id = R.id.mainTemperature;
+      TextView mainTemperature = ViewBindings.findChildViewById(rootView, id);
+      if (mainTemperature == null) {
+        break missingId;
+      }
+
+      id = R.id.mainWeatherImg;
+      ImageView mainWeatherImg = ViewBindings.findChildViewById(rootView, id);
+      if (mainWeatherImg == null) {
         break missingId;
       }
 
       id = R.id.mapCardView;
       CardView mapCardView = ViewBindings.findChildViewById(rootView, id);
       if (mapCardView == null) {
-        break missingId;
-      }
-
-      id = R.id.mylocation;
-      TextView mylocation = ViewBindings.findChildViewById(rootView, id);
-      if (mylocation == null) {
         break missingId;
       }
 
@@ -169,22 +170,10 @@ public final class NearStatiticsMapFragmentBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.statiticsBackButton;
-      Button statiticsBackButton = ViewBindings.findChildViewById(rootView, id);
-      if (statiticsBackButton == null) {
-        break missingId;
-      }
-
-      id = R.id.tvTemp;
-      TextView tvTemp = ViewBindings.findChildViewById(rootView, id);
-      if (tvTemp == null) {
-        break missingId;
-      }
-
       return new NearStatiticsMapFragmentBinding((ConstraintLayout) rootView,
-          NearStatiticsFragmentMap, bookmarkLayout, imgWeather, linearLayout, mapCardView,
-          mylocation, statisticsNatural, statisticsRisk, statisticsSafety, statisticsSocial,
-          statiticsBackButton, tvTemp);
+          NearStatiticsFragmentMap, bookmarkLayout, linearLayout5, mainLocation, mainTemperature,
+          mainWeatherImg, mapCardView, statisticsNatural, statisticsRisk, statisticsSafety,
+          statisticsSocial);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,7 +1,9 @@
 package com.lx.oneteamproject.main
 
 import android.content.Context
+import android.location.Geocoder
 import android.os.Bundle
+import android.os.Looper
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -10,9 +12,18 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentTransaction
+import com.google.android.gms.location.FusedLocationProviderClient
+import com.google.android.gms.location.LocationCallback
+import com.google.android.gms.location.LocationRequest
+import com.google.android.gms.location.LocationResult
+import com.google.android.gms.location.LocationServices
 import com.lx.oneteamproject.databinding.NearStatiticsMapFragmentBinding
 import com.lx.oneteamproject.fragment.FragmentType
 import com.lx.oneteamproject.fragment.OnFragmentListener
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.launch
+import java.util.Locale
 
 
 class NearStatisticsMapFragment : Fragment() {
@@ -21,6 +32,8 @@ class NearStatisticsMapFragment : Fragment() {
     private val binding get() = _binding!!
 
     var listener: OnFragmentListener? = null
+
+    var locationclient: FusedLocationProviderClient? = null
 
     private fun replaceFragment(fragment: Fragment, transaction: FragmentTransaction) {
         transaction.replace(com.lx.oneteamproject.R.id.NearStatiticsFragmentMap, fragment)
@@ -54,9 +67,7 @@ class NearStatisticsMapFragment : Fragment() {
     ): View? {
         _binding = NearStatiticsMapFragmentBinding.inflate(inflater, container, false)
 
-        binding.statiticsBackButton.setOnClickListener {
-            listener?.onFragmentChanged(FragmentType.MAIN)
-        }
+        requestLocation2()
 
         return binding.root
     }
@@ -116,7 +127,53 @@ class NearStatisticsMapFragment : Fragment() {
                 Log.d("SelectedButton", "Safety button is clicked.")
                 btnSafety.performClick()
             }
+
         }
 
     }
+
+    fun requestLocation2() {
+        // 위치 클라이언트 만들기
+        locationclient = LocationServices.getFusedLocationProviderClient(requireContext())
+
+        try {
+            // 내 현재 위치 요청하기
+            val locationRequest = LocationRequest.create()
+            locationRequest.priority = LocationRequest.PRIORITY_HIGH_ACCURACY
+            locationRequest.interval = 30 * 1000
+
+            val locationCallback = object : LocationCallback() {
+                // 제너레이트 오버라이드 메소드
+                override fun onLocationResult(result: LocationResult) {
+                    super.onLocationResult(result)
+
+                    GlobalScope.launch(Dispatchers.Main) {
+                        for ((index, location) in result.locations.withIndex()) {
+                            val address = getAddress(location.latitude, location.longitude)
+                            binding.mainLocation.text = address ?: "주소를 찾을 수 없습니다."
+                        }
+                    }
+
+                }
+            }
+            // 위치 업데이트를 요청 하는 것
+            locationclient?.requestLocationUpdates(
+                locationRequest,
+                locationCallback,
+                Looper.myLooper()
+            )
+
+        } catch (e: SecurityException) {
+            e.printStackTrace()
+        }
+    }
+
+
+    fun getAddress(latitude: Double, longitude: Double): String? {
+        val geocoder = Geocoder(requireContext(), Locale.KOREAN)
+        val addresses = geocoder.getFromLocation(latitude, longitude, 1)
+        val address = addresses?.getOrNull(0)?.getAddressLine(0)
+        return address?.replace("대한민국 ", "")?.replace("KR", "")?.replace("서울특별시", "")?.trim()
+    }
+
 }

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="backgroundcolor">#EBEBEB</color>
+    <color name="border">#9299A0</color>
     <color name="btncolor">#9BA2AA</color>
     <color name="maincolor">#3F4759</color>
+    <color name="pointcolor">#F08C58</color>
     <color name="white">#FFFFFF</color>
     <string name="app_name">
         시민의 소리
@@ -158,6 +160,7 @@
         ]]>
 
     </string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="terms_and_conditions">
         <![CDATA[
                본 이용약관(이하 "약관")은 시민의소리 사이트
@@ -167,9 +170,12 @@
             규정함을 목적으로 합니다.
         ]]>
     </string>
-    <style name="Base.Theme.OneTeamProject" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.OneTeamProject" parent="Theme.AppCompat.Light">
         
         
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
     <style name="Theme.OneTeamProject" parent="Base.Theme.OneTeamProject"/>
 </resources>

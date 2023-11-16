@@ -54,10 +54,6 @@ class NearSituationMapFragment : Fragment() {
         _binding = NearSituationMapFragmentBinding.inflate(inflater, container, false)
         val rootView = binding.root
 
-        binding.situationBackButton.setOnClickListener {
-            listener?.onFragmentChanged(FragmentType.MAIN)
-        }
-
         initMap()
 
         return rootView

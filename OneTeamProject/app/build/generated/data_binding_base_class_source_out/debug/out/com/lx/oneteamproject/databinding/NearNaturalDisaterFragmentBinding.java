@@ -24,13 +24,13 @@ public final class NearNaturalDisaterFragmentBinding implements ViewBinding {
   public final FragmentContainerView naturalDisaterFragment;
 
   @NonNull
-  public final TextView socialDetailButton;
+  public final TextView textView;
 
   private NearNaturalDisaterFragmentBinding(@NonNull ConstraintLayout rootView,
-      @NonNull FragmentContainerView naturalDisaterFragment, @NonNull TextView socialDetailButton) {
+      @NonNull FragmentContainerView naturalDisaterFragment, @NonNull TextView textView) {
     this.rootView = rootView;
     this.naturalDisaterFragment = naturalDisaterFragment;
-    this.socialDetailButton = socialDetailButton;
+    this.textView = textView;
   }
 
   @Override
@@ -66,14 +66,14 @@ public final class NearNaturalDisaterFragmentBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.socialDetailButton;
-      TextView socialDetailButton = ViewBindings.findChildViewById(rootView, id);
-      if (socialDetailButton == null) {
+      id = R.id.textView;
+      TextView textView = ViewBindings.findChildViewById(rootView, id);
+      if (textView == null) {
         break missingId;
       }
 
       return new NearNaturalDisaterFragmentBinding((ConstraintLayout) rootView,
-          naturalDisaterFragment, socialDetailButton);
+          naturalDisaterFragment, textView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
