@@ -13,7 +13,6 @@ import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
-import com.google.android.material.button.MaterialButton;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
 import com.lx.oneteamproject.R;
@@ -50,7 +49,7 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final CheckBox rememLoginCheck;
 
   @NonNull
-  public final MaterialButton signUpPageButton;
+  public final Button signUpPageButton;
 
   @NonNull
   public final TextView textView34;
@@ -60,7 +59,7 @@ public final class ActivityLoginBinding implements ViewBinding {
       @NonNull LinearLayout linearLayout, @NonNull LinearLayout linearLayout21,
       @NonNull Button loginButton, @NonNull TextInputEditText pwText,
       @NonNull TextInputLayout pwTextInputLayout, @NonNull CheckBox rememLoginCheck,
-      @NonNull MaterialButton signUpPageButton, @NonNull TextView textView34) {
+      @NonNull Button signUpPageButton, @NonNull TextView textView34) {
     this.rootView = rootView;
     this.idText = idText;
     this.idTextInputLayout = idTextInputLayout;
@@ -150,7 +149,7 @@ public final class ActivityLoginBinding implements ViewBinding {
       }
 
       id = R.id.signUpPageButton;
-      MaterialButton signUpPageButton = ViewBindings.findChildViewById(rootView, id);
+      Button signUpPageButton = ViewBindings.findChildViewById(rootView, id);
       if (signUpPageButton == null) {
         break missingId;
       }

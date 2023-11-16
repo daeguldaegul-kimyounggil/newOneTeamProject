@@ -6,50 +6,47 @@
     tools:context=".activity.StartActivity">
 
     <LinearLayout
-        android:id="@+id/linearLayout"
+        android:id="@+id/linearLayout5"
         android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="5dp"
-        android:background="@drawable/near_situation_map_weather"
-        android:elevation="10dp"
-        android:gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="0.9"
+        android:background="@drawable/main_button_rounded_background"
+
         android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/mapCardView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintWidth_percent="0.8">
+        app:layout_constraintVertical_bias="0.177">
 
         <ImageView
-            android:id="@+id/imgWeather"
-            android:layout_width="58dp"
-            android:layout_height="56dp"
+            android:id="@+id/mainWeatherImg"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:layout_marginLeft="10dp"
-            android:background="@drawable/weather_raining_sun_icon"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvTime" />
+            app:srcCompat="@drawable/weather_raining_sun_icon" />
 
         <TextView
-            android:id="@+id/tvTemp"
+            android:id="@+id/mainTemperature"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
             android:text="0ºC"
-            android:textSize="40sp"
-            app:layout_constraintTop_toBottomOf="@+id/imgWeather" />
+            android:textSize="30sp" />
 
         <TextView
-            android:id="@+id/mylocation"
-            android:layout_width="100dp"
+            android:id="@+id/mainLocation"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="15dp"
-            android:layout_marginEnd="15dp"
+            android:layout_gravity="center"
             android:layout_weight="1"
             android:gravity="center"
-            android:hint="현 위치" />
-
+            android:hint="현 위치"
+            android:textSize="20sp" />
     </LinearLayout>
 
 
@@ -66,7 +63,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_percent="0.6"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintWidth_percent="0.9">
 
         <RelativeLayout
@@ -76,11 +73,14 @@
             android:background="@drawable/near_statitics_map_fragment_background">
 
             <androidx.fragment.app.FragmentContainerView
-                android:layout_margin="3dp"
                 android:id="@+id/NearSiuationFragmentMap"
                 android:name="com.google.android.gms.maps.SupportMapFragment"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginBottom="3dp" />
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

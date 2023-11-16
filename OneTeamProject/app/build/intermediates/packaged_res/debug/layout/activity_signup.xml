@@ -178,7 +178,7 @@
 
 
                     <EditText
-
+                        android:id="@+id/inputName"
                         android:layout_width="240dp"
                         android:layout_height="35dp"
                         android:paddingLeft="12dp"
@@ -230,7 +230,7 @@
 
                     <EditText
                         android:paddingLeft="12dp"
-
+                        android:id="@+id/inputEmail"
                         android:layout_width="240dp"
                         android:layout_height="35dp"
 
@@ -282,7 +282,7 @@
 
                     <EditText
                         android:layout_width="240dp"
-
+                        android:id="@+id/inputPw"
                         android:layout_height="35dp"
                         android:background="@drawable/signup_border"
                         android:inputType="textPassword"
@@ -326,7 +326,7 @@
 
                     <EditText
                         android:layout_width="240dp"
-
+                        android:id="@+id/inputPwCh"
                         android:layout_height="35dp"
                         android:background="@drawable/signup_border"
                         android:inputType="textPassword"
@@ -375,7 +375,7 @@
                     <EditText
                         android:layout_marginRight="3dp"
                         android:paddingLeft="12dp"
-
+                        android:id="@+id/inputMobile"
                         android:layout_width="180dp"
                         android:layout_height="35dp"
 
@@ -1117,7 +1117,7 @@
                 >
 
                 <Button
-                    android:id="@+id/signUpPageButton"
+                    android:id="@+id/signUpButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:backgroundTint="@color/maincolor"
@@ -1130,7 +1130,7 @@
                     android:layout_width="10dp"
                     android:layout_height="wrap_content" />
 
-                <com.google.android.material.button.MaterialButton
+                <Button
                     android:id="@+id/signUpBackButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

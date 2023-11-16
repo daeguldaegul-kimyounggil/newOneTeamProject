@@ -6,13 +6,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
-import com.google.android.material.button.MaterialButton;
 import com.lx.oneteamproject.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -29,31 +29,53 @@ public final class ActivitySignupBinding implements ViewBinding {
   public final CheckBox checkbok2;
 
   @NonNull
+  public final EditText inputEmail;
+
+  @NonNull
+  public final EditText inputMobile;
+
+  @NonNull
+  public final EditText inputName;
+
+  @NonNull
+  public final EditText inputPw;
+
+  @NonNull
+  public final EditText inputPwCh;
+
+  @NonNull
   public final LinearLayout linearLayout;
 
   @NonNull
   public final LinearLayout linearLayout21;
 
   @NonNull
-  public final MaterialButton signUpBackButton;
+  public final Button signUpBackButton;
 
   @NonNull
-  public final Button signUpPageButton;
+  public final Button signUpButton;
 
   @NonNull
   public final TextView textView34;
 
   private ActivitySignupBinding(@NonNull LinearLayout rootView, @NonNull CheckBox checkbok1,
-      @NonNull CheckBox checkbok2, @NonNull LinearLayout linearLayout,
-      @NonNull LinearLayout linearLayout21, @NonNull MaterialButton signUpBackButton,
-      @NonNull Button signUpPageButton, @NonNull TextView textView34) {
+      @NonNull CheckBox checkbok2, @NonNull EditText inputEmail, @NonNull EditText inputMobile,
+      @NonNull EditText inputName, @NonNull EditText inputPw, @NonNull EditText inputPwCh,
+      @NonNull LinearLayout linearLayout, @NonNull LinearLayout linearLayout21,
+      @NonNull Button signUpBackButton, @NonNull Button signUpButton,
+      @NonNull TextView textView34) {
     this.rootView = rootView;
     this.checkbok1 = checkbok1;
     this.checkbok2 = checkbok2;
+    this.inputEmail = inputEmail;
+    this.inputMobile = inputMobile;
+    this.inputName = inputName;
+    this.inputPw = inputPw;
+    this.inputPwCh = inputPwCh;
     this.linearLayout = linearLayout;
     this.linearLayout21 = linearLayout21;
     this.signUpBackButton = signUpBackButton;
-    this.signUpPageButton = signUpPageButton;
+    this.signUpButton = signUpButton;
     this.textView34 = textView34;
   }
 
@@ -96,6 +118,36 @@ public final class ActivitySignupBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.inputEmail;
+      EditText inputEmail = ViewBindings.findChildViewById(rootView, id);
+      if (inputEmail == null) {
+        break missingId;
+      }
+
+      id = R.id.inputMobile;
+      EditText inputMobile = ViewBindings.findChildViewById(rootView, id);
+      if (inputMobile == null) {
+        break missingId;
+      }
+
+      id = R.id.inputName;
+      EditText inputName = ViewBindings.findChildViewById(rootView, id);
+      if (inputName == null) {
+        break missingId;
+      }
+
+      id = R.id.inputPw;
+      EditText inputPw = ViewBindings.findChildViewById(rootView, id);
+      if (inputPw == null) {
+        break missingId;
+      }
+
+      id = R.id.inputPwCh;
+      EditText inputPwCh = ViewBindings.findChildViewById(rootView, id);
+      if (inputPwCh == null) {
+        break missingId;
+      }
+
       id = R.id.linearLayout;
       LinearLayout linearLayout = ViewBindings.findChildViewById(rootView, id);
       if (linearLayout == null) {
@@ -109,14 +161,14 @@ public final class ActivitySignupBinding implements ViewBinding {
       }
 
       id = R.id.signUpBackButton;
-      MaterialButton signUpBackButton = ViewBindings.findChildViewById(rootView, id);
+      Button signUpBackButton = ViewBindings.findChildViewById(rootView, id);
       if (signUpBackButton == null) {
         break missingId;
       }
 
-      id = R.id.signUpPageButton;
-      Button signUpPageButton = ViewBindings.findChildViewById(rootView, id);
-      if (signUpPageButton == null) {
+      id = R.id.signUpButton;
+      Button signUpButton = ViewBindings.findChildViewById(rootView, id);
+      if (signUpButton == null) {
         break missingId;
       }
 
@@ -126,8 +178,9 @@ public final class ActivitySignupBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivitySignupBinding((LinearLayout) rootView, checkbok1, checkbok2, linearLayout,
-          linearLayout21, signUpBackButton, signUpPageButton, textView34);
+      return new ActivitySignupBinding((LinearLayout) rootView, checkbok1, checkbok2, inputEmail,
+          inputMobile, inputName, inputPw, inputPwCh, linearLayout, linearLayout21,
+          signUpBackButton, signUpButton, textView34);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

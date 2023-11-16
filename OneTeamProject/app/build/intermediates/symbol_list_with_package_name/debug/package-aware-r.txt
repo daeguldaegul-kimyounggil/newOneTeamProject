@@ -1392,6 +1392,10 @@ color bright_foreground_inverse_material_dark
 color bright_foreground_inverse_material_light
 color bright_foreground_material_dark
 color bright_foreground_material_light
+color browser_actions_bg_grey
+color browser_actions_divider_color
+color browser_actions_text_color
+color browser_actions_title_color
 color btncolor
 color button_material_dark
 color button_material_light
@@ -1456,6 +1460,8 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color green
+color green_dark
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color m3_appbar_overlay_color
@@ -2195,6 +2201,8 @@ dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
 dimen appcompat_dialog_background_inset
+dimen browser_actions_context_menu_max_width
+dimen browser_actions_context_menu_min_padding
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
 dimen cardview_default_radius
@@ -2997,6 +3005,7 @@ drawable article2_3
 drawable avd_hide_password
 drawable avd_show_password
 drawable bookmark
+drawable btn_background
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -3030,6 +3039,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable edit_background
 drawable editicon
 drawable emergencyicon
 drawable googleg_disabled_color_18
@@ -3272,6 +3282,11 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id browser_actions_header_text
+id browser_actions_menu_item_icon
+id browser_actions_menu_item_text
+id browser_actions_menu_items
+id browser_actions_menu_view
 id button
 id button2
 id buttonPanel
@@ -3420,11 +3435,15 @@ id imageView6
 id imageView7
 id imageView8
 id imageView9
-id imgWeather
 id immediateStop
 id included
 id indeterminate
 id info
+id inputEmail
+id inputMobile
+id inputName
+id inputPw
+id inputPwCh
 id invisible
 id inward
 id italic
@@ -3538,7 +3557,6 @@ id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
 id myLetterBox
-id mylocation
 id myreportdetailsimage
 id myreportlist
 id myreportlistfragmentcontainer
@@ -3684,6 +3702,7 @@ id showCustom
 id showHome
 id showTitle
 id signUpBackButton
+id signUpButton
 id signUpPageButton
 id sin
 id situationButton
@@ -3798,8 +3817,6 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-id tvTemp
-id tvTime
 id unchecked
 id uniform
 id unlabeled
@@ -3946,6 +3963,8 @@ layout activity_my_page
 layout activity_signup
 layout activity_start
 layout activity_sub
+layout browser_actions_context_menu_page
+layout browser_actions_context_menu_row
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -4050,6 +4069,7 @@ layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+raw firebase_common_keep
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -4108,11 +4128,21 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string copy_toast_msg
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string fallback_menu_item_copy_link
+string fallback_menu_item_open_in_browser
+string fallback_menu_item_share_link
+string firebase_database_url
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string hello
 string hello1
 string hello2
@@ -4236,6 +4266,7 @@ string permissionx_post_notification
 string permissionx_request_install_packages
 string permissionx_system_alert_window
 string permissionx_write_settings
+string project_id
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
@@ -5520,3 +5551,4 @@ styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration
 styleable include constraintSet
 xml backup_rules
 xml data_extraction_rules
+xml image_share_filepaths

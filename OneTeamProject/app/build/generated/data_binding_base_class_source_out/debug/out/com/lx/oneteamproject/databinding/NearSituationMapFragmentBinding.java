@@ -27,31 +27,31 @@ public final class NearSituationMapFragmentBinding implements ViewBinding {
   public final FragmentContainerView NearSiuationFragmentMap;
 
   @NonNull
-  public final ImageView imgWeather;
+  public final LinearLayout linearLayout5;
 
   @NonNull
-  public final LinearLayout linearLayout;
+  public final TextView mainLocation;
+
+  @NonNull
+  public final TextView mainTemperature;
+
+  @NonNull
+  public final ImageView mainWeatherImg;
 
   @NonNull
   public final CardView mapCardView;
 
-  @NonNull
-  public final TextView mylocation;
-
-  @NonNull
-  public final TextView tvTemp;
-
   private NearSituationMapFragmentBinding(@NonNull ConstraintLayout rootView,
-      @NonNull FragmentContainerView NearSiuationFragmentMap, @NonNull ImageView imgWeather,
-      @NonNull LinearLayout linearLayout, @NonNull CardView mapCardView,
-      @NonNull TextView mylocation, @NonNull TextView tvTemp) {
+      @NonNull FragmentContainerView NearSiuationFragmentMap, @NonNull LinearLayout linearLayout5,
+      @NonNull TextView mainLocation, @NonNull TextView mainTemperature,
+      @NonNull ImageView mainWeatherImg, @NonNull CardView mapCardView) {
     this.rootView = rootView;
     this.NearSiuationFragmentMap = NearSiuationFragmentMap;
-    this.imgWeather = imgWeather;
-    this.linearLayout = linearLayout;
+    this.linearLayout5 = linearLayout5;
+    this.mainLocation = mainLocation;
+    this.mainTemperature = mainTemperature;
+    this.mainWeatherImg = mainWeatherImg;
     this.mapCardView = mapCardView;
-    this.mylocation = mylocation;
-    this.tvTemp = tvTemp;
   }
 
   @Override
@@ -87,15 +87,27 @@ public final class NearSituationMapFragmentBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imgWeather;
-      ImageView imgWeather = ViewBindings.findChildViewById(rootView, id);
-      if (imgWeather == null) {
+      id = R.id.linearLayout5;
+      LinearLayout linearLayout5 = ViewBindings.findChildViewById(rootView, id);
+      if (linearLayout5 == null) {
         break missingId;
       }
 
-      id = R.id.linearLayout;
-      LinearLayout linearLayout = ViewBindings.findChildViewById(rootView, id);
-      if (linearLayout == null) {
+      id = R.id.mainLocation;
+      TextView mainLocation = ViewBindings.findChildViewById(rootView, id);
+      if (mainLocation == null) {
+        break missingId;
+      }
+
+      id = R.id.mainTemperature;
+      TextView mainTemperature = ViewBindings.findChildViewById(rootView, id);
+      if (mainTemperature == null) {
+        break missingId;
+      }
+
+      id = R.id.mainWeatherImg;
+      ImageView mainWeatherImg = ViewBindings.findChildViewById(rootView, id);
+      if (mainWeatherImg == null) {
         break missingId;
       }
 
@@ -105,20 +117,9 @@ public final class NearSituationMapFragmentBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.mylocation;
-      TextView mylocation = ViewBindings.findChildViewById(rootView, id);
-      if (mylocation == null) {
-        break missingId;
-      }
-
-      id = R.id.tvTemp;
-      TextView tvTemp = ViewBindings.findChildViewById(rootView, id);
-      if (tvTemp == null) {
-        break missingId;
-      }
-
       return new NearSituationMapFragmentBinding((ConstraintLayout) rootView,
-          NearSiuationFragmentMap, imgWeather, linearLayout, mapCardView, mylocation, tvTemp);
+          NearSiuationFragmentMap, linearLayout5, mainLocation, mainTemperature, mainWeatherImg,
+          mapCardView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

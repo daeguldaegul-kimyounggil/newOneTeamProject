@@ -20,8 +20,10 @@ import com.lx.oneteamproject.databinding.FragmentMainDetailsBinding
 import com.lx.oneteamproject.fragment.FragmentType
 import com.lx.oneteamproject.fragment.OnFragmentListener
 import com.lx.oneteamproject.sub.SubActivity
+import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.cancel
 import kotlinx.coroutines.launch
 import java.util.Locale
 
@@ -33,6 +35,8 @@ class MainDetailsFragment : Fragment() {
     var listener: OnFragmentListener? = null
 
     var locationclient: FusedLocationProviderClient? = null
+
+    private val scope = CoroutineScope(Dispatchers.Main)
 
     override fun onAttach(activity: Activity) {
         super.onAttach(activity)
@@ -103,10 +107,17 @@ class MainDetailsFragment : Fragment() {
         }
 
 
-        requestLocation2()
-
         return binding.root
     }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        scope.launch {
+            requestLocation2()
+        }
+    }
+
 
     fun requestLocation2() {
         // 위치 클라이언트 만들기
@@ -125,10 +136,14 @@ class MainDetailsFragment : Fragment() {
 
                     GlobalScope.launch(Dispatchers.Main) {
                         for ((index, location) in result.locations.withIndex()) {
-                            val address = getAddress(location.latitude, location.longitude)
-                             binding.mainLocation.text = address ?: "주소를 찾을 수 없습니다."
+                            if (isAdded) { // Fragment가 Context에 연결되어 있는지 확인합니다.
+                                val address = getAddress(location.latitude, location.longitude)
+                                binding.mainLocation?.text = address ?: "주소를 찾을 수 없습니다."
+                            }
                         }
                     }
+
+
 
                 }
             }
@@ -155,6 +170,7 @@ class MainDetailsFragment : Fragment() {
 
     override fun onDestroyView() {
         super.onDestroyView()
+        scope.cancel() // CoroutineScope를 취소합니다.
         _binding = null
     }
 

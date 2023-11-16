@@ -149,10 +149,14 @@ class NearStatisticsMapFragment : Fragment() {
 
                     GlobalScope.launch(Dispatchers.Main) {
                         for ((index, location) in result.locations.withIndex()) {
-                            val address = getAddress(location.latitude, location.longitude)
-                            binding.mainLocation.text = address ?: "주소를 찾을 수 없습니다."
+                            if (isAdded) { // Fragment가 Context에 연결되어 있는지 확인합니다.
+                                val address = getAddress(location.latitude, location.longitude)
+                                binding.mainLocation?.text = address ?: "주소를 찾을 수 없습니다."
+                            }
                         }
                     }
+
+
 
                 }
             }
@@ -170,10 +174,15 @@ class NearStatisticsMapFragment : Fragment() {
 
 
     fun getAddress(latitude: Double, longitude: Double): String? {
-        val geocoder = Geocoder(requireContext(), Locale.KOREAN)
-        val addresses = geocoder.getFromLocation(latitude, longitude, 1)
-        val address = addresses?.getOrNull(0)?.getAddressLine(0)
-        return address?.replace("대한민국 ", "")?.replace("KR", "")?.replace("서울특별시", "")?.trim()
+        if(isAdded) {
+            val geocoder = Geocoder(requireContext(), Locale.KOREAN)
+            val addresses = geocoder.getFromLocation(latitude, longitude, 1)
+            val address = addresses?.getOrNull(0)?.getAddressLine(0)
+            return address?.replace("대한민국 ", "")?.replace("KR", "")?.replace("서울특별시", "")?.trim()
+        } else {
+            return null
+        }
     }
+
 
 }

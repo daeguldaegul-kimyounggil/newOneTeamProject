@@ -3,6 +3,8 @@ local
 color backgroundcolor
 color border
 color btncolor
+color green
+color green_dark
 color maincolor
 color pointcolor
 color white
@@ -14,7 +16,9 @@ drawable article2_1
 drawable article2_2
 drawable article2_3
 drawable bookmark
+drawable btn_background
 drawable chattingicon
+drawable edit_background
 drawable editicon
 drawable emergencyicon
 drawable ic_launcher_background
@@ -87,7 +91,11 @@ id imageView6
 id imageView7
 id imageView8
 id imageView9
-id imgWeather
+id inputEmail
+id inputMobile
+id inputName
+id inputPw
+id inputPwCh
 id linearLayout
 id linearLayout10
 id linearLayout11
@@ -123,7 +131,6 @@ id mainWeatherImg
 id mainbackbutton
 id mapCardView
 id myLetterBox
-id mylocation
 id myreportdetailsimage
 id myreportlist
 id myreportlistfragmentcontainer
@@ -166,6 +173,7 @@ id riskInformationFragment
 id safetyButton
 id safetyFacilityInformationFragment
 id signUpBackButton
+id signUpButton
 id signUpPageButton
 id situationButton
 id socialButton
@@ -201,8 +209,6 @@ id textView6
 id textView7
 id textView8
 id textView9
-id tvTemp
-id tvTime
 layout activity_emergency_place_number
 layout activity_login
 layout activity_main
@@ -235,6 +241,12 @@ layout report_details_fragment
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string firebase_database_url
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string hello
 string hello1
 string hello2
@@ -243,6 +255,7 @@ string hello4
 string hello5
 string hello6
 string hello_blank_fragment
+string project_id
 string terms_and_conditions
 style Base.Theme.OneTeamProject
 style Theme.OneTeamProject
