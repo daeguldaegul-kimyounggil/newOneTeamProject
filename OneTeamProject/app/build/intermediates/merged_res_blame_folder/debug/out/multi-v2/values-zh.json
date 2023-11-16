@@ -4,7 +4,7 @@
             "outputFile": "com.lx.oneteamproject.app-mergeDebugResources-37:/values-zh/values-zh.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\LX\\.gradle\\caches\\transforms-3\\3ada9d9c6e8841cc427fe3b575cd3600\\transformed\\permissionx-1.7.1\\res\\values-zh\\values-zh.xml",
+                    "source": "C:\\Users\\yt0309\\.gradle\\caches\\transforms-3\\c3afca07f46a161518fedd321095e952\\transformed\\permissionx-1.7.1\\res\\values-zh\\values-zh.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

@@ -1,5 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+anim start
 color backgroundcolor
 color border
 color btncolor
@@ -268,6 +269,7 @@ id textView6
 id textView7
 id textView8
 id textView9
+id viewGroup
 layout activity_emergency_place_number
 layout activity_login
 layout activity_main

@@ -22,9 +22,14 @@ public final class ActivityStartBinding implements ViewBinding {
   @NonNull
   public final TextView textView2;
 
-  private ActivityStartBinding(@NonNull ConstraintLayout rootView, @NonNull TextView textView2) {
+  @NonNull
+  public final ConstraintLayout viewGroup;
+
+  private ActivityStartBinding(@NonNull ConstraintLayout rootView, @NonNull TextView textView2,
+      @NonNull ConstraintLayout viewGroup) {
     this.rootView = rootView;
     this.textView2 = textView2;
+    this.viewGroup = viewGroup;
   }
 
   @Override
@@ -60,7 +65,13 @@ public final class ActivityStartBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityStartBinding((ConstraintLayout) rootView, textView2);
+      id = R.id.viewGroup;
+      ConstraintLayout viewGroup = ViewBindings.findChildViewById(rootView, id);
+      if (viewGroup == null) {
+        break missingId;
+      }
+
+      return new ActivityStartBinding((ConstraintLayout) rootView, textView2, viewGroup);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

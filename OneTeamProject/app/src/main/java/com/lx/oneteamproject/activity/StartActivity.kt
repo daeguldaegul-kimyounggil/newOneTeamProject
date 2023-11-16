@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import android.view.animation.AnimationUtils
 import com.lx.oneteamproject.R
 import com.lx.oneteamproject.databinding.ActivityStartBinding
 
@@ -18,12 +19,20 @@ class StartActivity : AppCompatActivity() {
         binding = ActivityStartBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // 화면이 전환되는 부분
+        val slideInAnimation = AnimationUtils.loadAnimation(this, R.anim.start)
+
+        binding.viewGroup.startAnimation(slideInAnimation)
+
+        // 다른 TextView에도 동일하게 애니메이션을 적용하려면 아래 코드를 추가합니다.
+        // binding.다른TextView.startAnimation(slideInAnimation)
+
         Handler().postDelayed({
             val intent = Intent(this@StartActivity, LoginActivity::class.java)
             startActivity(intent)
+            //overridePendingTransition(R.anim.start, 0)
             finish()
         }, DELAY_TIME_MS)
     }
+
 
 }

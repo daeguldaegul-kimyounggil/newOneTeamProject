@@ -43,6 +43,7 @@ anim m3_side_sheet_exit_to_right
 anim mtrl_bottom_sheet_slide_in
 anim mtrl_bottom_sheet_slide_out
 anim mtrl_card_lowers_interpolator
+anim start
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
@@ -3882,6 +3883,7 @@ id unlabeled
 id up
 id useLogo
 id vertical_only
+id viewGroup
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
