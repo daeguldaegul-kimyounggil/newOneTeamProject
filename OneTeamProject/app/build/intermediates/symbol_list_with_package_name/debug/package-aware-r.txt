@@ -3481,7 +3481,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageButton2
 id imageButton3
 id imageView
 id imageView1
@@ -3548,6 +3547,7 @@ id logoutButton
 id m3_side_sheet
 id mainActionArticlePager
 id mainArticleImage
+id mainBackPageButton
 id mainChattingButton
 id mainDetailsContainer
 id mainFragmentContainer
@@ -3827,6 +3827,7 @@ id statisticsSafety
 id statisticsSocial
 id stop
 id stretch
+id subSettingsButton
 id submenuarrow
 id submit_area
 id supportScrollUp
@@ -3875,7 +3876,6 @@ id textView27
 id textView3
 id textView34
 id textView4
-id textView5
 id textView6
 id textView7
 id textView8
