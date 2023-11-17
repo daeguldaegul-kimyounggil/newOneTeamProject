@@ -137,7 +137,6 @@ id editTextText4
 id emergencyButton
 id idText
 id idTextInputLayout
-id imageButton2
 id imageButton3
 id imageView
 id imageView1
@@ -182,6 +181,7 @@ id loginButton
 id logoutButton
 id mainActionArticlePager
 id mainArticleImage
+id mainBackPageButton
 id mainChattingButton
 id mainDetailsContainer
 id mainFragmentContainer
@@ -269,6 +269,7 @@ id statisticsNatural
 id statisticsRisk
 id statisticsSafety
 id statisticsSocial
+id subSettingsButton
 id textView
 id textView10
 id textView11
@@ -292,7 +293,6 @@ id textView27
 id textView3
 id textView34
 id textView4
-id textView5
 id textView6
 id textView7
 id textView8

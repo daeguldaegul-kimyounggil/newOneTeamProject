@@ -10,6 +10,7 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.widget.Button
 import android.widget.CheckBox
+import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import androidx.core.view.GravityCompat
 import androidx.fragment.app.Fragment
@@ -82,6 +83,12 @@ class MainActivity : AppCompatActivity(), OnFragmentListener {
             finish()
         }
 
+
+        // 로고 눌렀을 때 메인으로
+        binding.mainBackPageButton.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
 
         // 설정 아이콘 눌렀을 때 햄버거
         binding.mainSettingsButton.setOnClickListener {

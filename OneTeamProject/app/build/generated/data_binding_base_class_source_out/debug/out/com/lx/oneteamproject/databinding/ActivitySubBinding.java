@@ -10,10 +10,11 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.FragmentContainerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+import com.google.android.material.navigation.NavigationView;
 import com.lx.oneteamproject.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -21,13 +22,13 @@ import java.lang.String;
 
 public final class ActivitySubBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final DrawerLayout rootView;
 
   @NonNull
   public final ImageButton backButton;
 
   @NonNull
-  public final ImageButton imageButton2;
+  public final DrawerLayout drawerLayout;
 
   @NonNull
   public final ImageView imageView7;
@@ -44,24 +45,33 @@ public final class ActivitySubBinding implements ViewBinding {
   @NonNull
   public final FragmentContainerView myreportlistfragmentcontainer;
 
-  private ActivitySubBinding(@NonNull ConstraintLayout rootView, @NonNull ImageButton backButton,
-      @NonNull ImageButton imageButton2, @NonNull ImageView imageView7,
+  @NonNull
+  public final NavigationView navigationView;
+
+  @NonNull
+  public final ImageButton subSettingsButton;
+
+  private ActivitySubBinding(@NonNull DrawerLayout rootView, @NonNull ImageButton backButton,
+      @NonNull DrawerLayout drawerLayout, @NonNull ImageView imageView7,
       @NonNull ImageView imageView8, @NonNull LinearLayout linearLayout11,
       @NonNull TextView mainbackbutton,
-      @NonNull FragmentContainerView myreportlistfragmentcontainer) {
+      @NonNull FragmentContainerView myreportlistfragmentcontainer,
+      @NonNull NavigationView navigationView, @NonNull ImageButton subSettingsButton) {
     this.rootView = rootView;
     this.backButton = backButton;
-    this.imageButton2 = imageButton2;
+    this.drawerLayout = drawerLayout;
     this.imageView7 = imageView7;
     this.imageView8 = imageView8;
     this.linearLayout11 = linearLayout11;
     this.mainbackbutton = mainbackbutton;
     this.myreportlistfragmentcontainer = myreportlistfragmentcontainer;
+    this.navigationView = navigationView;
+    this.subSettingsButton = subSettingsButton;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public DrawerLayout getRoot() {
     return rootView;
   }
 
@@ -92,11 +102,7 @@ public final class ActivitySubBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageButton2;
-      ImageButton imageButton2 = ViewBindings.findChildViewById(rootView, id);
-      if (imageButton2 == null) {
-        break missingId;
-      }
+      DrawerLayout drawerLayout = (DrawerLayout) rootView;
 
       id = R.id.imageView7;
       ImageView imageView7 = ViewBindings.findChildViewById(rootView, id);
@@ -128,8 +134,21 @@ public final class ActivitySubBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivitySubBinding((ConstraintLayout) rootView, backButton, imageButton2,
-          imageView7, imageView8, linearLayout11, mainbackbutton, myreportlistfragmentcontainer);
+      id = R.id.navigationView;
+      NavigationView navigationView = ViewBindings.findChildViewById(rootView, id);
+      if (navigationView == null) {
+        break missingId;
+      }
+
+      id = R.id.subSettingsButton;
+      ImageButton subSettingsButton = ViewBindings.findChildViewById(rootView, id);
+      if (subSettingsButton == null) {
+        break missingId;
+      }
+
+      return new ActivitySubBinding((DrawerLayout) rootView, backButton, drawerLayout, imageView7,
+          imageView8, linearLayout11, mainbackbutton, myreportlistfragmentcontainer, navigationView,
+          subSettingsButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

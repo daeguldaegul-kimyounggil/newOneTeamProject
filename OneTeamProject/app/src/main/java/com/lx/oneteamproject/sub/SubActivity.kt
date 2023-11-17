@@ -4,6 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
+import androidx.core.view.GravityCompat
+import androidx.drawerlayout.widget.DrawerLayout
 import com.lx.oneteamproject.databinding.ActivitySubBinding
 import com.lx.oneteamproject.fragment.FragmentType
 import com.lx.oneteamproject.fragment.OnFragmentListener
@@ -39,14 +41,20 @@ class SubActivity : AppCompatActivity(), OnFragmentListener {
             }
         }
 
+        // 설정 아이콘 눌렀을 때 햄버거
+        val drawerLayout = findViewById<DrawerLayout>(R.id.drawer_layout)
 
+        binding.subSettingsButton.setOnClickListener {
+            if (drawerLayout.isDrawerOpen(GravityCompat.END)) {
+                drawerLayout.closeDrawer(GravityCompat.END)
+            } else {
+                drawerLayout.openDrawer(GravityCompat.END)
+            }
+            true
+        }
 
-
-
-        val mainBackButton = findViewById<TextView>(R.id.mainbackbutton)
-
-        mainBackButton.setOnClickListener {
-            // 클릭 이벤트 처리
+        // 로고 눌렀을 때 메인으로 전환
+        binding.mainbackbutton.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }

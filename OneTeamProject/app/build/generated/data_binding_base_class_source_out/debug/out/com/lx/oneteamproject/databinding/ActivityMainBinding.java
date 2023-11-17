@@ -30,6 +30,9 @@ public final class ActivityMainBinding implements ViewBinding {
   public final LinearLayout linearLayout;
 
   @NonNull
+  public final TextView mainBackPageButton;
+
+  @NonNull
   public final ImageButton mainChattingButton;
 
   @NonNull
@@ -41,21 +44,18 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final NavigationView navigationView;
 
-  @NonNull
-  public final TextView textView5;
-
   private ActivityMainBinding(@NonNull DrawerLayout rootView, @NonNull DrawerLayout drawerLayout,
-      @NonNull LinearLayout linearLayout, @NonNull ImageButton mainChattingButton,
-      @NonNull FrameLayout mainFragmentContainer, @NonNull ImageButton mainSettingsButton,
-      @NonNull NavigationView navigationView, @NonNull TextView textView5) {
+      @NonNull LinearLayout linearLayout, @NonNull TextView mainBackPageButton,
+      @NonNull ImageButton mainChattingButton, @NonNull FrameLayout mainFragmentContainer,
+      @NonNull ImageButton mainSettingsButton, @NonNull NavigationView navigationView) {
     this.rootView = rootView;
     this.drawerLayout = drawerLayout;
     this.linearLayout = linearLayout;
+    this.mainBackPageButton = mainBackPageButton;
     this.mainChattingButton = mainChattingButton;
     this.mainFragmentContainer = mainFragmentContainer;
     this.mainSettingsButton = mainSettingsButton;
     this.navigationView = navigationView;
-    this.textView5 = textView5;
   }
 
   @Override
@@ -93,6 +93,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.mainBackPageButton;
+      TextView mainBackPageButton = ViewBindings.findChildViewById(rootView, id);
+      if (mainBackPageButton == null) {
+        break missingId;
+      }
+
       id = R.id.mainChattingButton;
       ImageButton mainChattingButton = ViewBindings.findChildViewById(rootView, id);
       if (mainChattingButton == null) {
@@ -117,14 +123,9 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView5;
-      TextView textView5 = ViewBindings.findChildViewById(rootView, id);
-      if (textView5 == null) {
-        break missingId;
-      }
-
       return new ActivityMainBinding((DrawerLayout) rootView, drawerLayout, linearLayout,
-          mainChattingButton, mainFragmentContainer, mainSettingsButton, navigationView, textView5);
+          mainBackPageButton, mainChattingButton, mainFragmentContainer, mainSettingsButton,
+          navigationView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
