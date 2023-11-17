@@ -8,12 +8,12 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/backgroundcolor"
         android:orientation="vertical"
-        android:background="@color/maincolor"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="30dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -36,7 +36,7 @@
                     android:id="@+id/reportFreeButton"
                     android:layout_width="70dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/report_unselect_button"
+                    android:background="@drawable/report_select_button"
                     android:backgroundTint="@color/white" />
 
                 <View
@@ -67,27 +67,30 @@
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.1"/>
+                android:layout_weight="0.1" />
 
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.8"
+                android:background="@drawable/report_form_space_background"
                 android:orientation="vertical"
-                android:topLeftRadius="0dp"
-                android:background="@drawable/report_form_space_background">
+                android:topLeftRadius="0dp">
 
 
                 <androidx.viewpager2.widget.ViewPager2
                     android:id="@+id/reportFormImagePager"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_margin="15dp" />
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="15dp"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
                     android:background="@drawable/report_border"
                     android:orientation="vertical">
 
@@ -103,8 +106,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="8dp"
-                            android:text="*"
                             android:fontFamily="@font/gmarketsansbold"
+                            android:text="*"
                             android:textColor="#FF0000" />
 
                         <TextView
@@ -112,9 +115,9 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
+                            android:fontFamily="@font/gmarketsansbold"
                             android:gravity="center"
-                            android:text="언 제"
-                            android:fontFamily="@font/gmarketsansbold" />
+                            android:text="언 제" />
 
                         <EditText
                             android:id="@+id/reportFormDateOutput"
@@ -123,9 +126,9 @@
                             android:layout_marginLeft="18dp"
                             android:layout_marginTop="10dp"
                             android:background="@drawable/report_border"
+                            android:fontFamily="@font/gmarketsansmedium"
                             android:gravity="center"
                             android:hint="일시"
-                            android:fontFamily="@font/gmarketsanslight"
                             android:inputType="textMultiLine"
                             android:padding="5dp"
                             android:textSize="15sp" />
@@ -141,8 +144,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="8dp"
-                            android:text="*"
                             android:fontFamily="@font/gmarketsansbold"
+                            android:text="*"
                             android:textColor="#FF0000" />
 
                         <TextView
@@ -150,8 +153,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:gravity="center"
                             android:fontFamily="@font/gmarketsansbold"
+                            android:gravity="center"
                             android:text="어디서" />
 
                         <EditText
@@ -160,8 +163,8 @@
                             android:layout_height="wrap_content"
                             android:layout_margin="10dp"
                             android:background="@drawable/report_border"
+                            android:fontFamily="@font/gmarketsansmedium"
                             android:gravity="center"
-                            android:fontFamily="@font/gmarketsanslight"
                             android:hint="현 위치"
                             android:inputType="textMultiLine"
                             android:padding="5dp"
@@ -184,8 +187,8 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="8dp"
-                                android:text="*"
                                 android:fontFamily="@font/gmarketsansbold"
+                                android:text="*"
                                 android:textColor="#FF0000" />
                         </LinearLayout>
 
@@ -194,10 +197,10 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:gravity="center"
-                            android:textStyle="bold"
                             android:fontFamily="@font/gmarketsansbold"
-                            android:text="어떻게" />
+                            android:gravity="center"
+                            android:text="어떻게"
+                            android:textStyle="bold" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -210,12 +213,12 @@
                                 android:layout_width="225dp"
                                 android:layout_height="140dp"
                                 android:layout_marginLeft="10dp"
-                                android:paddingLeft="10dp"
-                                android:fontFamily="@font/gmarketsanslight"
                                 android:background="@drawable/report_border"
+                                android:fontFamily="@font/gmarketsansmedium"
                                 android:hint="신고 내용을 작성해주세요."
                                 android:inputType="textMultiLine"
-                                android:textSize="15sp" />
+                                android:paddingLeft="10dp"
+                                android:textSize="12sp" />
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -235,7 +238,7 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_weight="1"
-                                        android:fontFamily="@font/gmarketsansbold"
+                                        android:fontFamily="@font/gmarketsansmedium"
                                         android:text="글자수" />
 
                                     <TextView
@@ -244,7 +247,7 @@
                                         android:layout_height="wrap_content"
                                         android:layout_marginLeft="5dp"
                                         android:layout_weight="1"
-                                        android:fontFamily="@font/gmarketsanslight"
+                                        android:fontFamily="@font/gmarketsansmedium"
                                         android:hint="0" />
 
                                     <TextView
@@ -253,7 +256,7 @@
                                         android:layout_height="wrap_content"
                                         android:layout_marginRight="5dp"
                                         android:layout_weight="1"
-                                        android:fontFamily="@font/gmarketsanslight"
+                                        android:fontFamily="@font/gmarketsansmedium"
                                         android:text="/500" />
 
                                 </LinearLayout>
@@ -273,9 +276,9 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:layout_marginLeft="15dp"
+                            android:fontFamily="@font/gmarketsansbold"
                             android:gravity="center"
-                            android:text="누가"
-                            android:fontFamily="@font/gmarketsansbold"/>
+                            android:text="누가" />
 
                         <EditText
                             android:id="@+id/editTextText4"
@@ -283,8 +286,8 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="22dp"
                             android:layout_marginBottom="10dp"
-                            android:fontFamily="@font/gmarketsansbold"
                             android:background="@drawable/report_border"
+                            android:fontFamily="@font/gmarketsansbold"
                             android:hint=""
                             android:inputType="textMultiLine"
                             android:padding="5dp"
@@ -303,8 +306,8 @@
                             android:layout_marginLeft="10dp"
                             android:layout_marginBottom="7dp"
                             android:layout_weight="1"
-                            android:text="* 필수 항목입니다."
                             android:fontFamily="@font/gmarketsansbold"
+                            android:text="* 필수 항목입니다."
                             android:textColor="#FF0000" />
                     </LinearLayout>
                 </LinearLayout>
@@ -313,7 +316,7 @@
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.1"/>
+                android:layout_weight="0.1" />
         </LinearLayout>
     </LinearLayout>
 

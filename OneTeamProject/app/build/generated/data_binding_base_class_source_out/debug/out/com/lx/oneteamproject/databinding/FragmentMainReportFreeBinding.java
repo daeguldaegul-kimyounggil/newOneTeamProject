@@ -41,6 +41,12 @@ public final class FragmentMainReportFreeBinding implements ViewBinding {
   public final EditText reportFreeTextInput;
 
   @NonNull
+  public final TextView reportFreeTimeOutput;
+
+  @NonNull
+  public final TextView textView10;
+
+  @NonNull
   public final TextView textView18;
 
   @NonNull
@@ -53,6 +59,7 @@ public final class FragmentMainReportFreeBinding implements ViewBinding {
       @NonNull Button reportFormButton, @NonNull Button reportFreeButton,
       @NonNull ViewPager2 reportFreeImagePager, @NonNull TextView reportFreeLocationOutput,
       @NonNull TextView reportFreeTextCount, @NonNull EditText reportFreeTextInput,
+      @NonNull TextView reportFreeTimeOutput, @NonNull TextView textView10,
       @NonNull TextView textView18, @NonNull TextView textView22, @NonNull TextView textView8) {
     this.rootView = rootView;
     this.reportFormButton = reportFormButton;
@@ -61,6 +68,8 @@ public final class FragmentMainReportFreeBinding implements ViewBinding {
     this.reportFreeLocationOutput = reportFreeLocationOutput;
     this.reportFreeTextCount = reportFreeTextCount;
     this.reportFreeTextInput = reportFreeTextInput;
+    this.reportFreeTimeOutput = reportFreeTimeOutput;
+    this.textView10 = textView10;
     this.textView18 = textView18;
     this.textView22 = textView22;
     this.textView8 = textView8;
@@ -129,6 +138,18 @@ public final class FragmentMainReportFreeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.reportFreeTimeOutput;
+      TextView reportFreeTimeOutput = ViewBindings.findChildViewById(rootView, id);
+      if (reportFreeTimeOutput == null) {
+        break missingId;
+      }
+
+      id = R.id.textView10;
+      TextView textView10 = ViewBindings.findChildViewById(rootView, id);
+      if (textView10 == null) {
+        break missingId;
+      }
+
       id = R.id.textView18;
       TextView textView18 = ViewBindings.findChildViewById(rootView, id);
       if (textView18 == null) {
@@ -149,7 +170,7 @@ public final class FragmentMainReportFreeBinding implements ViewBinding {
 
       return new FragmentMainReportFreeBinding((ConstraintLayout) rootView, reportFormButton,
           reportFreeButton, reportFreeImagePager, reportFreeLocationOutput, reportFreeTextCount,
-          reportFreeTextInput, textView18, textView22, textView8);
+          reportFreeTextInput, reportFreeTimeOutput, textView10, textView18, textView22, textView8);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

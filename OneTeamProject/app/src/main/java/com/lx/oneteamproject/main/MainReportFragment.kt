@@ -9,6 +9,7 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import com.lx.oneteamproject.R
@@ -91,6 +92,7 @@ class MainReportFragment : Fragment() {
                 listener?.onFragmentChanged(FragmentType.REPORTEX)
 
                 val reportCheckPopupFragment = ReportCheckPopupFragment()
+                reportCheckPopupFragment.setStyle(DialogFragment.STYLE_NORMAL, R.style.MyDialogStyle)
                 reportCheckPopupFragment.show(parentFragmentManager, "ReportCheckPopupFragment")
             }
 

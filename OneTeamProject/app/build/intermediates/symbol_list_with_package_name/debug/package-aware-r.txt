@@ -3347,6 +3347,7 @@ id browser_actions_menu_items
 id browser_actions_menu_view
 id button
 id button2
+id buttonContainer
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3717,6 +3718,7 @@ id reportFreeImagePager
 id reportFreeLocationOutput
 id reportFreeTextCount
 id reportFreeTextInput
+id reportFreeTimeOutput
 id reportImageOutput
 id reportPlace
 id reportTextOutput
@@ -4659,6 +4661,7 @@ style Base_Widget_MaterialComponents_TextView
 style CardView
 style CardView_Dark
 style CardView_Light
+style DialogAnimation
 style FullScreenDialogAnimation
 style FullScreenDialogStyle
 style MaterialAlertDialog_Material3
@@ -4681,6 +4684,7 @@ style MaterialAlertDialog_MaterialComponents_Title_Panel
 style MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked
 style MaterialAlertDialog_MaterialComponents_Title_Text
 style MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked
+style MyDialogStyle
 style PermissionXDefaultDialog
 style Platform_AppCompat
 style Platform_AppCompat_Light
