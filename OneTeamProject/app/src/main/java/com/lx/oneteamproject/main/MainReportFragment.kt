@@ -1,5 +1,6 @@
 package com.lx.oneteamproject.main
 
+import ReportCheckPopupFragment
 import android.app.Activity
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -43,7 +44,12 @@ class MainReportFragment : Fragment() {
 
         // 신고하기 버튼 눌렀을 때
         binding.reportButton.setOnClickListener{
-            listener?.onFragmentChanged(FragmentType.REPORTCHECK)
+            val reportCheckPopupFragment = ReportCheckPopupFragment()
+            reportCheckPopupFragment.show(parentFragmentManager, "ReportCheckPopupFragment")
+        }
+
+        binding.reportBackButton.setOnClickListener {
+            listener?.onFragmentChanged(FragmentType.MAIN)
         }
 
         return binding.root

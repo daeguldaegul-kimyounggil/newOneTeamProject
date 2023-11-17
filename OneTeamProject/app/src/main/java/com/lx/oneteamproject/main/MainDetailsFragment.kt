@@ -97,6 +97,7 @@ class MainDetailsFragment : Fragment() {
         }
     }
 
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -273,45 +274,44 @@ class MainDetailsFragment : Fragment() {
         call.enqueue(object : Callback<WEATHER> {
             // 응답 성공 시
             override fun onResponse(call: Call<WEATHER>, response: Response<WEATHER>) {
-                if (response.isSuccessful) {
-                    val responseBody = response.body() // 응답 바디 변수로 저장
+                if (response.isSuccessful && response.body() != null) {
+                    val responseBody = response.body()!!
 
-                    // null 체크
-                    if (responseBody != null && responseBody.response != null && responseBody.response.body != null) {
-                        val it: List<ITEM> = responseBody.response.body.items.item
+                    if (_binding != null) { // binding이 null인지 확인
+                        if (responseBody != null && responseBody.response != null && responseBody.response.body != null) {
+                            val it: List<ITEM> = responseBody.response.body.items.item
 
-                        val weatherArr = arrayOf(ModelWeather())
+                            val weatherArr = arrayOf(ModelWeather())
 
-                        for (i in it.indices) {
-                            when (it[i].category) {
-                                "PTY" -> weatherArr[0].rainType = it[i].fcstValue // 강수 형태
-                                "REH" -> weatherArr[0].humidity = it[i].fcstValue // 습도
-                                "SKY" -> weatherArr[0].sky = it[i].fcstValue // 하늘 상태
-                                "T1H" -> weatherArr[0].temp = it[i].fcstValue // 기온
+                            for (i in it.indices) {
+                                when (it[i].category) {
+                                    "PTY" -> weatherArr[0].rainType = it[i].fcstValue // 강수 형태
+                                    "REH" -> weatherArr[0].humidity = it[i].fcstValue // 습도
+                                    "SKY" -> weatherArr[0].sky = it[i].fcstValue // 하늘 상태
+                                    "T1H" -> weatherArr[0].temp = it[i].fcstValue // 기온
+                                }
                             }
-                        }
 
-                        weatherArr[0].fcstTime = "지금"
-                        binding.tvTemp.text = "${weatherArr[0].temp}°C"
+                            weatherArr[0].fcstTime = "지금"
+                            binding.tvTemp.text = "${weatherArr[0].temp}°C"
 
-                        val currentHour = Calendar.getInstance().get(Calendar.HOUR_OF_DAY)
-                        binding.imgWeather.setImageResource(
-                            getRainImage(
-                                weatherArr[0].rainType,
-                                weatherArr[0].sky,
-                                currentHour
+                            val currentHour = Calendar.getInstance().get(Calendar.HOUR_OF_DAY)
+                            binding.imgWeather.setImageResource(
+                                getRainImage(
+                                    weatherArr[0].rainType,
+                                    weatherArr[0].sky,
+                                    currentHour
+                                )
                             )
-                        )
-                    } else {
-                        // 서버 응답은 null이 아닌데 원하는 데이터를 찾을 수 없는 경우에 대한 처리
-                        // 예: 서버 응답이 형식적으로 정상이나 데이터가 비어있을 때
-                        Log.e("Weather", "서버 응답에 원하는 데이터가 없음")
+                        } else {
+                            Log.e("Weather", "서버 응답에 원하는 데이터가 없음")
+                        }
                     }
                 } else {
-                    // 서버 응답이 실패한 경우에 대한 처리
                     Log.e("Weather", "서버 응답 실패")
                 }
             }
+
 
             override fun onFailure(call: Call<WEATHER>, t: Throwable) {
                 // 실패 시 처리 로직을 여기에 추가
