@@ -44,6 +44,10 @@
         "source": "com.lx.oneteamproject.app-main-41:/xml/backup_rules.xml"
     },
     {
+        "merged": "com.lx.oneteamproject.app-merged_res-39:/drawable_weather_night_shower.png.flat",
+        "source": "com.lx.oneteamproject.app-main-41:/drawable/weather_night_shower.png"
+    },
+    {
         "merged": "com.lx.oneteamproject.app-merged_res-39:/drawable_policeman.png.flat",
         "source": "com.lx.oneteamproject.app-main-41:/drawable/policeman.png"
     },
@@ -72,6 +76,10 @@
         "source": "com.lx.oneteamproject.app-main-41:/layout/activity_my_page.xml"
     },
     {
+        "merged": "com.lx.oneteamproject.app-merged_res-39:/drawable_weather_night_snow.png.flat",
+        "source": "com.lx.oneteamproject.app-main-41:/drawable/weather_night_snow.png"
+    },
+    {
         "merged": "com.lx.oneteamproject.app-merged_res-39:/drawable_sun.png.flat",
         "source": "com.lx.oneteamproject.app-main-41:/drawable/sun.png"
     },
@@ -90,6 +98,10 @@
     {
         "merged": "com.lx.oneteamproject.app-merged_res-39:/layout_my_report_list_item.xml.flat",
         "source": "com.lx.oneteamproject.app-main-41:/layout/my_report_list_item.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-39:/drawable_weather_cloudy.png.flat",
+        "source": "com.lx.oneteamproject.app-main-41:/drawable/weather_cloudy.png"
     },
     {
         "merged": "com.lx.oneteamproject.app-merged_res-39:/drawable_phone12.png.flat",
@@ -188,6 +200,10 @@
         "source": "com.lx.oneteamproject.app-main-41:/drawable/fire.png"
     },
     {
+        "merged": "com.lx.oneteamproject.app-merged_res-39:/drawable_weather_sun_snow.png.flat",
+        "source": "com.lx.oneteamproject.app-main-41:/drawable/weather_sun_snow.png"
+    },
+    {
         "merged": "com.lx.oneteamproject.app-merged_res-39:/drawable_righticon.png.flat",
         "source": "com.lx.oneteamproject.app-main-41:/drawable/righticon.png"
     },
@@ -202,6 +218,10 @@
     {
         "merged": "com.lx.oneteamproject.app-merged_res-39:/anim_fadein.xml.flat",
         "source": "com.lx.oneteamproject.app-main-41:/anim/fadein.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-39:/drawable_weather_sun_rain.png.flat",
+        "source": "com.lx.oneteamproject.app-main-41:/drawable/weather_sun_rain.png"
     },
     {
         "merged": "com.lx.oneteamproject.app-merged_res-39:/anim_ball.xml.flat",
@@ -252,12 +272,24 @@
         "source": "com.lx.oneteamproject.app-main-41:/layout/activity_main.xml"
     },
     {
+        "merged": "com.lx.oneteamproject.app-merged_res-39:/drawable_weather_sun_shower.png.flat",
+        "source": "com.lx.oneteamproject.app-main-41:/drawable/weather_sun_shower.png"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-39:/drawable_weather_sun.png.flat",
+        "source": "com.lx.oneteamproject.app-main-41:/drawable/weather_sun.png"
+    },
+    {
         "merged": "com.lx.oneteamproject.app-merged_res-39:/drawable_chat.png.flat",
         "source": "com.lx.oneteamproject.app-main-41:/drawable/chat.png"
     },
     {
         "merged": "com.lx.oneteamproject.app-merged_res-39:/drawable_near_statitics_map_fragment_background.xml.flat",
         "source": "com.lx.oneteamproject.app-main-41:/drawable/near_statitics_map_fragment_background.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-39:/drawable_weather_sun_cloudy.png.flat",
+        "source": "com.lx.oneteamproject.app-main-41:/drawable/weather_sun_cloudy.png"
     },
     {
         "merged": "com.lx.oneteamproject.app-merged_res-39:/drawable_noticefiedbell.png.flat",
@@ -326,6 +358,10 @@
     {
         "merged": "com.lx.oneteamproject.app-merged_res-39:/drawable_drawerhome.png.flat",
         "source": "com.lx.oneteamproject.app-main-41:/drawable/drawerhome.png"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-39:/drawable_weather_sun_hail.png.flat",
+        "source": "com.lx.oneteamproject.app-main-41:/drawable/weather_sun_hail.png"
     },
     {
         "merged": "com.lx.oneteamproject.app-merged_res-39:/drawable_safety_rounded.xml.flat",
@@ -400,8 +436,16 @@
         "source": "com.lx.oneteamproject.app-main-41:/font/gmarketsansmedium.ttf"
     },
     {
+        "merged": "com.lx.oneteamproject.app-merged_res-39:/drawable_weather_question.png.flat",
+        "source": "com.lx.oneteamproject.app-main-41:/drawable/weather_question.png"
+    },
+    {
         "merged": "com.lx.oneteamproject.app-merged_res-39:/drawable_manual.png.flat",
         "source": "com.lx.oneteamproject.app-main-41:/drawable/manual.png"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-39:/drawable_weather_night_hail.png.flat",
+        "source": "com.lx.oneteamproject.app-main-41:/drawable/weather_night_hail.png"
     },
     {
         "merged": "com.lx.oneteamproject.app-merged_res-39:/layout_fragment_report_free_image_pager_item.xml.flat",
@@ -448,6 +492,10 @@
         "source": "com.lx.oneteamproject.app-main-41:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "com.lx.oneteamproject.app-merged_res-39:/drawable_weather_moon.png.flat",
+        "source": "com.lx.oneteamproject.app-main-41:/drawable/weather_moon.png"
+    },
+    {
         "merged": "com.lx.oneteamproject.app-merged_res-39:/layout_fragment_main_report_free.xml.flat",
         "source": "com.lx.oneteamproject.app-main-41:/layout/fragment_main_report_free.xml"
     },
@@ -466,6 +514,10 @@
     {
         "merged": "com.lx.oneteamproject.app-merged_res-39:/drawable_mainuser.png.flat",
         "source": "com.lx.oneteamproject.app-main-41:/drawable/mainuser.png"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-39:/drawable_weather_moon_cloudy.png.flat",
+        "source": "com.lx.oneteamproject.app-main-41:/drawable/weather_moon_cloudy.png"
     },
     {
         "merged": "com.lx.oneteamproject.app-merged_res-39:/drawable_article1_3.jpg.flat",
@@ -516,6 +568,10 @@
         "source": "com.lx.oneteamproject.app-main-41:/layout/activity_login.xml"
     },
     {
+        "merged": "com.lx.oneteamproject.app-merged_res-39:/drawable_weather_blur1.png.flat",
+        "source": "com.lx.oneteamproject.app-main-41:/drawable/weather_blur1.png"
+    },
+    {
         "merged": "com.lx.oneteamproject.app-merged_res-39:/mipmap-hdpi_ic_launcher.webp.flat",
         "source": "com.lx.oneteamproject.app-main-41:/mipmap-hdpi/ic_launcher.webp"
     },
@@ -562,6 +618,10 @@
     {
         "merged": "com.lx.oneteamproject.app-merged_res-39:/drawable_btn_background.xml.flat",
         "source": "com.lx.oneteamproject.app-main-41:/drawable/btn_background.xml"
+    },
+    {
+        "merged": "com.lx.oneteamproject.app-merged_res-39:/drawable_weather_night_rain.png.flat",
+        "source": "com.lx.oneteamproject.app-main-41:/drawable/weather_night_rain.png"
     },
     {
         "merged": "com.lx.oneteamproject.app-merged_res-39:/layout_fragment_report_check_image_pager_item.xml.flat",

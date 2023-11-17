@@ -30,16 +30,13 @@ public final class NearStatiticsMapFragmentBinding implements ViewBinding {
   public final LinearLayout bookmarkLayout;
 
   @NonNull
+  public final ImageView imgWeather;
+
+  @NonNull
   public final LinearLayout linearLayout5;
 
   @NonNull
   public final TextView mainLocation;
-
-  @NonNull
-  public final TextView mainTemperature;
-
-  @NonNull
-  public final ImageView mainWeatherImg;
 
   @NonNull
   public final CardView mapCardView;
@@ -56,25 +53,28 @@ public final class NearStatiticsMapFragmentBinding implements ViewBinding {
   @NonNull
   public final ImageView statisticsSocial;
 
+  @NonNull
+  public final TextView tvTemp;
+
   private NearStatiticsMapFragmentBinding(@NonNull ConstraintLayout rootView,
       @NonNull FragmentContainerView NearStatiticsFragmentMap, @NonNull LinearLayout bookmarkLayout,
-      @NonNull LinearLayout linearLayout5, @NonNull TextView mainLocation,
-      @NonNull TextView mainTemperature, @NonNull ImageView mainWeatherImg,
-      @NonNull CardView mapCardView, @NonNull ImageView statisticsNatural,
-      @NonNull ImageView statisticsRisk, @NonNull ImageView statisticsSafety,
-      @NonNull ImageView statisticsSocial) {
+      @NonNull ImageView imgWeather, @NonNull LinearLayout linearLayout5,
+      @NonNull TextView mainLocation, @NonNull CardView mapCardView,
+      @NonNull ImageView statisticsNatural, @NonNull ImageView statisticsRisk,
+      @NonNull ImageView statisticsSafety, @NonNull ImageView statisticsSocial,
+      @NonNull TextView tvTemp) {
     this.rootView = rootView;
     this.NearStatiticsFragmentMap = NearStatiticsFragmentMap;
     this.bookmarkLayout = bookmarkLayout;
+    this.imgWeather = imgWeather;
     this.linearLayout5 = linearLayout5;
     this.mainLocation = mainLocation;
-    this.mainTemperature = mainTemperature;
-    this.mainWeatherImg = mainWeatherImg;
     this.mapCardView = mapCardView;
     this.statisticsNatural = statisticsNatural;
     this.statisticsRisk = statisticsRisk;
     this.statisticsSafety = statisticsSafety;
     this.statisticsSocial = statisticsSocial;
+    this.tvTemp = tvTemp;
   }
 
   @Override
@@ -116,6 +116,12 @@ public final class NearStatiticsMapFragmentBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imgWeather;
+      ImageView imgWeather = ViewBindings.findChildViewById(rootView, id);
+      if (imgWeather == null) {
+        break missingId;
+      }
+
       id = R.id.linearLayout5;
       LinearLayout linearLayout5 = ViewBindings.findChildViewById(rootView, id);
       if (linearLayout5 == null) {
@@ -125,18 +131,6 @@ public final class NearStatiticsMapFragmentBinding implements ViewBinding {
       id = R.id.mainLocation;
       TextView mainLocation = ViewBindings.findChildViewById(rootView, id);
       if (mainLocation == null) {
-        break missingId;
-      }
-
-      id = R.id.mainTemperature;
-      TextView mainTemperature = ViewBindings.findChildViewById(rootView, id);
-      if (mainTemperature == null) {
-        break missingId;
-      }
-
-      id = R.id.mainWeatherImg;
-      ImageView mainWeatherImg = ViewBindings.findChildViewById(rootView, id);
-      if (mainWeatherImg == null) {
         break missingId;
       }
 
@@ -170,10 +164,16 @@ public final class NearStatiticsMapFragmentBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tvTemp;
+      TextView tvTemp = ViewBindings.findChildViewById(rootView, id);
+      if (tvTemp == null) {
+        break missingId;
+      }
+
       return new NearStatiticsMapFragmentBinding((ConstraintLayout) rootView,
-          NearStatiticsFragmentMap, bookmarkLayout, linearLayout5, mainLocation, mainTemperature,
-          mainWeatherImg, mapCardView, statisticsNatural, statisticsRisk, statisticsSafety,
-          statisticsSocial);
+          NearStatiticsFragmentMap, bookmarkLayout, imgWeather, linearLayout5, mainLocation,
+          mapCardView, statisticsNatural, statisticsRisk, statisticsSafety, statisticsSocial,
+          tvTemp);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

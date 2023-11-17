@@ -3217,7 +3217,22 @@ drawable transportation
 drawable user
 drawable user1
 drawable user2
+drawable weather_blur1
+drawable weather_cloudy
+drawable weather_moon
+drawable weather_moon_cloudy
+drawable weather_night_hail
+drawable weather_night_rain
+drawable weather_night_shower
+drawable weather_night_snow
+drawable weather_question
 drawable weather_raining_sun_icon
+drawable weather_sun
+drawable weather_sun_cloudy
+drawable weather_sun_hail
+drawable weather_sun_rain
+drawable weather_sun_shower
+drawable weather_sun_snow
 font gmarketsansbold
 font gmarketsanslight
 font gmarketsansmedium
@@ -3485,6 +3500,7 @@ id imageView6
 id imageView7
 id imageView8
 id imageView9
+id imgWeather
 id immediateStop
 id included
 id indeterminate
@@ -3528,6 +3544,7 @@ id listMode
 id list_item
 id location
 id loginButton
+id logoutButton
 id m3_side_sheet
 id mainActionArticlePager
 id mainArticleImage
@@ -3544,8 +3561,6 @@ id mainStatisticsNaturalOutput
 id mainStatisticsRiskInformOutput
 id mainStatisticsSafetyOutput
 id mainStatisticsSocialOutput
-id mainTemperature
-id mainWeatherImg
 id mainbackbutton
 id mapCardView
 id marquee
@@ -3890,6 +3905,8 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvTemp
+id tvTime
 id unchecked
 id uniform
 id unlabeled

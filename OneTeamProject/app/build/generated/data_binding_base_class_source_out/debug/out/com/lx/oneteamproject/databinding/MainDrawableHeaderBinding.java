@@ -4,20 +4,27 @@ package com.lx.oneteamproject.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.lx.oneteamproject.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class MainDrawableHeaderBinding implements ViewBinding {
   @NonNull
   private final LinearLayout rootView;
 
-  private MainDrawableHeaderBinding(@NonNull LinearLayout rootView) {
+  @NonNull
+  public final Button logoutButton;
+
+  private MainDrawableHeaderBinding(@NonNull LinearLayout rootView, @NonNull Button logoutButton) {
     this.rootView = rootView;
+    this.logoutButton = logoutButton;
   }
 
   @Override
@@ -43,10 +50,19 @@ public final class MainDrawableHeaderBinding implements ViewBinding {
 
   @NonNull
   public static MainDrawableHeaderBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.logoutButton;
+      Button logoutButton = ViewBindings.findChildViewById(rootView, id);
+      if (logoutButton == null) {
+        break missingId;
+      }
 
-    return new MainDrawableHeaderBinding((LinearLayout) rootView);
+      return new MainDrawableHeaderBinding((LinearLayout) rootView, logoutButton);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

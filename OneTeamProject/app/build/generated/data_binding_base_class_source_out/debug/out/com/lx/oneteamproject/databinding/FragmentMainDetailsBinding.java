@@ -38,6 +38,9 @@ public final class FragmentMainDetailsBinding implements ViewBinding {
   public final ImageView imageView6;
 
   @NonNull
+  public final ImageView imgWeather;
+
+  @NonNull
   public final LinearLayout linearLayout10;
 
   @NonNull
@@ -78,12 +81,6 @@ public final class FragmentMainDetailsBinding implements ViewBinding {
 
   @NonNull
   public final TextView mainStatisticsSocialOutput;
-
-  @NonNull
-  public final TextView mainTemperature;
-
-  @NonNull
-  public final ImageView mainWeatherImg;
 
   @NonNull
   public final LinearLayout myLetterBox;
@@ -136,9 +133,12 @@ public final class FragmentMainDetailsBinding implements ViewBinding {
   @NonNull
   public final TextView textView9;
 
+  @NonNull
+  public final TextView tvTemp;
+
   private FragmentMainDetailsBinding(@NonNull ConstraintLayout rootView,
       @NonNull ImageView imageView2, @NonNull ImageView imageView3, @NonNull ImageView imageView4,
-      @NonNull ImageView imageView5, @NonNull ImageView imageView6,
+      @NonNull ImageView imageView5, @NonNull ImageView imageView6, @NonNull ImageView imgWeather,
       @NonNull LinearLayout linearLayout10, @NonNull LinearLayout linearLayout3,
       @NonNull LinearLayout linearLayout4, @NonNull LinearLayout linearLayout5,
       @NonNull LinearLayout linearLayout7, @NonNull LinearLayout linearLayout8,
@@ -147,20 +147,20 @@ public final class FragmentMainDetailsBinding implements ViewBinding {
       @NonNull TextView mainStatisticsNaturalOutput,
       @NonNull TextView mainStatisticsRiskInformOutput,
       @NonNull TextView mainStatisticsSafetyOutput, @NonNull TextView mainStatisticsSocialOutput,
-      @NonNull TextView mainTemperature, @NonNull ImageView mainWeatherImg,
       @NonNull LinearLayout myLetterBox, @NonNull LinearLayout naturalButton,
       @NonNull LinearLayout riskButton, @NonNull LinearLayout safetyButton,
       @NonNull LinearLayout situationButton, @NonNull LinearLayout socialButton,
       @NonNull TextView textView10, @NonNull TextView textView11, @NonNull TextView textView12,
       @NonNull TextView textView13, @NonNull TextView textView14, @NonNull TextView textView2,
       @NonNull TextView textView3, @NonNull TextView textView4, @NonNull TextView textView6,
-      @NonNull TextView textView7, @NonNull TextView textView9) {
+      @NonNull TextView textView7, @NonNull TextView textView9, @NonNull TextView tvTemp) {
     this.rootView = rootView;
     this.imageView2 = imageView2;
     this.imageView3 = imageView3;
     this.imageView4 = imageView4;
     this.imageView5 = imageView5;
     this.imageView6 = imageView6;
+    this.imgWeather = imgWeather;
     this.linearLayout10 = linearLayout10;
     this.linearLayout3 = linearLayout3;
     this.linearLayout4 = linearLayout4;
@@ -175,8 +175,6 @@ public final class FragmentMainDetailsBinding implements ViewBinding {
     this.mainStatisticsRiskInformOutput = mainStatisticsRiskInformOutput;
     this.mainStatisticsSafetyOutput = mainStatisticsSafetyOutput;
     this.mainStatisticsSocialOutput = mainStatisticsSocialOutput;
-    this.mainTemperature = mainTemperature;
-    this.mainWeatherImg = mainWeatherImg;
     this.myLetterBox = myLetterBox;
     this.naturalButton = naturalButton;
     this.riskButton = riskButton;
@@ -194,6 +192,7 @@ public final class FragmentMainDetailsBinding implements ViewBinding {
     this.textView6 = textView6;
     this.textView7 = textView7;
     this.textView9 = textView9;
+    this.tvTemp = tvTemp;
   }
 
   @Override
@@ -250,6 +249,12 @@ public final class FragmentMainDetailsBinding implements ViewBinding {
       id = R.id.imageView6;
       ImageView imageView6 = ViewBindings.findChildViewById(rootView, id);
       if (imageView6 == null) {
+        break missingId;
+      }
+
+      id = R.id.imgWeather;
+      ImageView imgWeather = ViewBindings.findChildViewById(rootView, id);
+      if (imgWeather == null) {
         break missingId;
       }
 
@@ -334,18 +339,6 @@ public final class FragmentMainDetailsBinding implements ViewBinding {
       id = R.id.mainStatisticsSocialOutput;
       TextView mainStatisticsSocialOutput = ViewBindings.findChildViewById(rootView, id);
       if (mainStatisticsSocialOutput == null) {
-        break missingId;
-      }
-
-      id = R.id.mainTemperature;
-      TextView mainTemperature = ViewBindings.findChildViewById(rootView, id);
-      if (mainTemperature == null) {
-        break missingId;
-      }
-
-      id = R.id.mainWeatherImg;
-      ImageView mainWeatherImg = ViewBindings.findChildViewById(rootView, id);
-      if (mainWeatherImg == null) {
         break missingId;
       }
 
@@ -451,14 +444,20 @@ public final class FragmentMainDetailsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tvTemp;
+      TextView tvTemp = ViewBindings.findChildViewById(rootView, id);
+      if (tvTemp == null) {
+        break missingId;
+      }
+
       return new FragmentMainDetailsBinding((ConstraintLayout) rootView, imageView2, imageView3,
-          imageView4, imageView5, imageView6, linearLayout10, linearLayout3, linearLayout4,
-          linearLayout5, linearLayout7, linearLayout8, linearLayout9, mainActionArticlePager,
-          mainLocation, mainReportButton, mainStatisticsNaturalOutput,
+          imageView4, imageView5, imageView6, imgWeather, linearLayout10, linearLayout3,
+          linearLayout4, linearLayout5, linearLayout7, linearLayout8, linearLayout9,
+          mainActionArticlePager, mainLocation, mainReportButton, mainStatisticsNaturalOutput,
           mainStatisticsRiskInformOutput, mainStatisticsSafetyOutput, mainStatisticsSocialOutput,
-          mainTemperature, mainWeatherImg, myLetterBox, naturalButton, riskButton, safetyButton,
-          situationButton, socialButton, textView10, textView11, textView12, textView13, textView14,
-          textView2, textView3, textView4, textView6, textView7, textView9);
+          myLetterBox, naturalButton, riskButton, safetyButton, situationButton, socialButton,
+          textView10, textView11, textView12, textView13, textView14, textView2, textView3,
+          textView4, textView6, textView7, textView9, tvTemp);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
