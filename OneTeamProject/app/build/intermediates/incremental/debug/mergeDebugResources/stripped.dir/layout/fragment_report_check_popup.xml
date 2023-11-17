@@ -41,10 +41,10 @@
                 android:layout_gravity="center"
                 android:layout_weight="0.6"
                 android:background="@drawable/report_check_popup_space_background"
-                android:gravity="center"
-                android:hint="사용자가 작성한 제목"
                 android:fontFamily="@font/gmarketsansmedium"
+                android:gravity="center"
                 android:padding="5dp"
+                android:text="제목제목"
                 android:textSize="15sp" />
 
             <ImageButton
@@ -81,9 +81,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_weight="1"
-                android:gravity="center"
                 android:fontFamily="@font/gmarketsansmedium"
-                android:hint="내용" />
+                android:gravity="center"
+                android:text="제목제목" />
         </LinearLayout>
 
         <LinearLayout
