@@ -38,7 +38,17 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\LX\\AAAA\\newOneTeamProject\\OneTeamProject\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "C:\\Users\\LX\\.gradle\\caches\\transforms-3\\3ada9d9c6e8841cc427fe3b575cd3600\\transformed\\permissionx-1.7.1\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,119,176,230",
+                        "endColumns": "63,56,53,56",
+                        "endOffsets": "114,171,225,282"
+                    }
+                },
+                {
+                    "source": "C:\\lx-engineer\\newOneTeamProject\\OneTeamProject\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2,16,8",
                         "startColumns": "4,4,4",
@@ -54,16 +64,6 @@
                         "endLines": "9,13,20",
                         "endColumns": "12,12,12",
                         "endOffsets": "404,620,1052"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\LX\\.gradle\\caches\\transforms-3\\3ada9d9c6e8841cc427fe3b575cd3600\\transformed\\permissionx-1.7.1\\res\\values-night-v8\\values-night-v8.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,119,176,230",
-                        "endColumns": "63,56,53,56",
-                        "endOffsets": "114,171,225,282"
                     }
                 }
             ]

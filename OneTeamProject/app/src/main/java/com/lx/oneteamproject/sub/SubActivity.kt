@@ -30,11 +30,14 @@ class SubActivity : AppCompatActivity(), OnFragmentListener {
         }
 
         binding.backButton.setOnClickListener {
-            supportFragmentManager.popBackStack()
-
-            val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
+            if (supportFragmentManager.backStackEntryCount > 1) {
+                supportFragmentManager.popBackStack()
+            } else {
+                val intent = Intent(this, MainActivity::class.java)
+                startActivity(intent)
+            }
         }
+
 
 
 

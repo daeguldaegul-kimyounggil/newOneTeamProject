@@ -43,8 +43,9 @@ class MainActivity : AppCompatActivity(), OnFragmentListener {
         val lastPopupTime = sharedPreferences.getLong(LAST_POPUP_TIME_KEY, 0)
 
         // mainPopupCheckBox의 상태에 따라 팝업 표시 여부 결정
-        val shouldShowPopup = !sharedPreferences.getBoolean(MAIN_POPUP_STATE_KEY, false) &&
-                System.currentTimeMillis() - lastPopupTime >= 24 * 60 * 60 * 1000
+        val shouldShowPopup = !sharedPreferences.getBoolean(MAIN_POPUP_STATE_KEY, false) ||
+                (sharedPreferences.getBoolean(MAIN_POPUP_STATE_KEY, false) &&
+                        System.currentTimeMillis() - lastPopupTime >= 24 * 60 * 60 * 1000)
 
         val dateFormat = SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.getDefault())
         val formattedDate = dateFormat.format(lastPopupTime)
@@ -94,6 +95,7 @@ class MainActivity : AppCompatActivity(), OnFragmentListener {
 
 
     private fun savePopupState(isChecked: Boolean) {
+        Log.d("PopupTest", "savePopupState - isChecked: $isChecked")
         val editor = sharedPreferences.edit()
         editor.putBoolean(MAIN_POPUP_STATE_KEY, isChecked)
         editor.apply()
