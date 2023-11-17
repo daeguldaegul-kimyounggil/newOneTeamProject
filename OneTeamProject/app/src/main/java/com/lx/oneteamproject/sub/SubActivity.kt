@@ -35,8 +35,10 @@ class SubActivity : AppCompatActivity(), OnFragmentListener {
             } else {
                 val intent = Intent(this, MainActivity::class.java)
                 startActivity(intent)
+                overridePendingTransition(0, 0) // 애니메이션 제거
             }
         }
+
 
 
 
