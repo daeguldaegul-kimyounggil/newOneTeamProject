@@ -6,7 +6,7 @@
     android:orientation="vertical">
 
     <LinearLayout
-
+        android:background="@color/maincolor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -46,10 +46,11 @@
                 android:layout_marginRight="10dp"
                 android:maxLines="1"
                 android:layout_marginTop="10dp"
-
+                android:textColor="@color/white"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="로그아웃"
+                android:fontFamily="@font/gmarketsansbold"
                 android:textSize="16dp"
                 android:textStyle="bold"
                 ></TextView>
@@ -58,15 +59,18 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:paddingTop="10dp"
         android:layout_gravity="center"
+        android:background="@color/maincolor"
         >
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:orientation="horizontal">
 
             <TextView
@@ -75,17 +79,20 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="박정우"
+                android:textColor="@color/white"
+                android:fontFamily="@font/gmarketsansbold"
                 android:textSize="21dp"
                 android:textStyle="bold"
                 ></TextView>
 
             <TextView
-
+                android:textColor="@color/white"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="님"
                 android:textSize="21dp"
                 android:textStyle="bold"
+                android:fontFamily="@font/gmarketsansbold"
                 ></TextView>
 
         </LinearLayout>
@@ -97,7 +104,11 @@
             android:gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:text="반갑습니다."
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:fontFamily="@font/gmarketsansbold"
             android:textSize="21dp"
             android:textStyle="bold"
             ></TextView>
@@ -142,6 +153,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="채팅알림"
+                android:fontFamily="@font/gmarketsansmedium"
                 android:textSize="20dp"
                 />
 
@@ -176,6 +188,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="긴급알림"
+                android:fontFamily="@font/gmarketsansmedium"
                 android:textSize="20dp"
                 />
 
@@ -213,6 +226,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="마이페이지"
+            android:fontFamily="@font/gmarketsansmedium"
             android:textSize="20dp"
 
             android:textColor="#000000"
@@ -240,7 +254,7 @@
             android:text="안전기관 연락처 알아보기"
             android:textSize="20dp"
             android:textColor="#000000"
-
+            android:fontFamily="@font/gmarketsansmedium"
             />
 
 
@@ -268,6 +282,7 @@
             android:text="이용안내"
             android:textSize="20dp"
             android:textColor="#000000"
+            android:fontFamily="@font/gmarketsansmedium"
             />
 
     </LinearLayout>
@@ -293,6 +308,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="자주 묻는 질문"
+            android:fontFamily="@font/gmarketsansmedium"
             android:textSize="20dp"/>
 
 

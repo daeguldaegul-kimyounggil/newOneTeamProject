@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/backgroundcolor">
+    android:background="@color/maincolor">
 
     <LinearLayout
         android:id="@+id/linearLayout9"
@@ -48,6 +48,7 @@
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:text="0ºC"
+                android:fontFamily="@font/gmarketsansbold"
                 android:textSize="30sp" />
 
             <TextView
@@ -58,6 +59,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:hint="현 위치"
+                android:fontFamily="@font/gmarketsansmedium"
                 android:textSize="20sp" />
         </LinearLayout>
 
@@ -109,6 +111,7 @@
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:text="신고하기"
+                android:fontFamily="@font/gmarketsansbold"
                 android:textSize="15sp" />
 
         </LinearLayout>
@@ -142,6 +145,7 @@
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:text="내 신고함"
+                android:fontFamily="@font/gmarketsansbold"
                 android:textSize="15sp" />
         </LinearLayout>
 
@@ -191,6 +195,7 @@
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:text="내 주변 상황보기"
+                android:fontFamily="@font/gmarketsansbold"
                 android:textSize="15sp" />
         </LinearLayout>
 
@@ -255,6 +260,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:text="내주변 사회재난"
+                            android:fontFamily="@font/gmarketsansbold"
                             android:textColor="@color/white"
                             android:textSize="15sp" />
 
@@ -269,6 +275,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:hint="0"
+                                android:fontFamily="@font/gmarketsansbold"
                                 android:textColor="@color/white"
                                 android:textSize="15sp" />
 
@@ -277,6 +284,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="건"
+                                android:fontFamily="@font/gmarketsansbold"
                                 android:textColor="@color/white"
                                 android:textSize="15sp" />
                         </LinearLayout>
@@ -308,6 +316,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:text="내주변 위험정보"
+                                android:fontFamily="@font/gmarketsansbold"
                                 android:textColor="@color/white"
                                 android:textSize="15sp" />
 
@@ -322,6 +331,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:hint="0"
+                                    android:fontFamily="@font/gmarketsansbold"
                                     android:textColor="@color/white"
                                     android:textSize="15sp" />
 
@@ -330,6 +340,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="건"
+                                    android:fontFamily="@font/gmarketsansbold"
                                     android:textColor="@color/white"
                                     android:textSize="15sp" />
                             </LinearLayout>
@@ -366,6 +377,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:text="내주변 자연재난"
+                                android:fontFamily="@font/gmarketsansbold"
                                 android:textColor="@color/white"
                                 android:textSize="15sp" />
 
@@ -380,6 +392,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:hint="0"
+                                    android:fontFamily="@font/gmarketsansbold"
                                     android:textColor="@color/white"
                                     android:textSize="15sp" />
 
@@ -388,6 +401,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="건"
+                                    android:fontFamily="@font/gmarketsansbold"
                                     android:textColor="@color/white"
                                     android:textSize="15sp" />
                             </LinearLayout>
@@ -419,6 +433,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
                                     android:text="내주변 안전시설"
+                                    android:fontFamily="@font/gmarketsansbold"
                                     android:textColor="@color/white"
                                     android:textSize="15sp" />
 
@@ -433,6 +448,7 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:hint="0"
+                                        android:fontFamily="@font/gmarketsansbold"
                                         android:textColor="@color/white"
                                         android:textSize="15sp" />
 
@@ -441,6 +457,7 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:text="건"
+                                        android:fontFamily="@font/gmarketsansbold"
                                         android:textColor="@color/white"
                                         android:textSize="15sp" />
                                 </LinearLayout>
@@ -489,11 +506,12 @@
             android:paddingBottom="20dp">
 
             <TextView
-                android:id="@+id/ciSound"
+                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:text="국민행동요령"
+                android:fontFamily="@font/gmarketsansbold"
                 android:textSize="15sp" />
 
             <LinearLayout
@@ -542,6 +560,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -551,26 +570,30 @@
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/gmarketsansmedium"
             android:text="저희 시민의 소리는 사용자들의 편리성을 적극 고려한 앱입니다. "
-            android:textColor="#80000000" />
+            android:textColor="#80E3E2E2" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/gmarketsansmedium"
             android:text="본 앱을 사용하시면서 불편한 사항은 즉시 문의해주시고,"
-            android:textColor="#80000000" />
+            android:textColor="#80E3E2E2" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/gmarketsansmedium"
             android:text="허위 신고 시 형법 제137조(위계에 의한 공무집행방해) 및 "
-            android:textColor="#80000000" />
+            android:textColor="#80E3E2E2" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/gmarketsansmedium"
             android:text="경범죄 처벌법 제3조 3항 2호(거짓신고)에 따라 처벌 받을 수 있습니다."
-            android:textColor="#80000000" />
+            android:textColor="#80E3E2E2" />
 
     </LinearLayout>
 

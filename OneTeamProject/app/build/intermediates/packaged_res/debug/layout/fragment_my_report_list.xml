@@ -28,6 +28,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="내 신고함"
+            android:fontFamily="@font/gmarketsansbold"
             android:textSize="30sp" />
 
     </LinearLayout>

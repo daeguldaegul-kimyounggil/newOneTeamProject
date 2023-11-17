@@ -37,6 +37,7 @@
             android:layout_gravity="center"
             android:gravity="center"
             android:text="0ºC"
+            android:fontFamily="@font/gmarketsansbold"
             android:textSize="30sp" />
 
         <TextView
@@ -47,6 +48,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:hint="현 위치"
+            android:fontFamily="@font/gmarketsanslight"
             android:textSize="20sp" />
     </LinearLayout>
 

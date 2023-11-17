@@ -38,6 +38,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="시민의 소리"
+            android:fontFamily="@font/gmarketsansbold"
             android:textSize="24sp" />
 
         <ImageView

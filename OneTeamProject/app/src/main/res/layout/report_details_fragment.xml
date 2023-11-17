@@ -24,6 +24,7 @@
             android:layout_gravity="bottom"
             android:layout_marginBottom="3dp"
             android:text="제목"
+            android:fontFamily="@font/gmarketsansbold"
             android:textSize="20sp" />
     </LinearLayout>
 
@@ -66,6 +67,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
+                    android:fontFamily="@font/gmarketsansbold"
                     android:text="신고일시" />
 
                 <TextView
@@ -74,6 +76,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
+                    android:fontFamily="@font/gmarketsansbold"
                     android:text="위치 주소" />
             </LinearLayout>
 
@@ -95,6 +98,7 @@
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/gmarketsansbold"
                 android:text="뭐가부ㅕ지고 어쩌고 터지고 어쩌고 막 무너지고 땅이 솟아나고 줄어들고 움직이고 어쩌고 난리가 났는데 아직도 안고치고 뭐하는거세요 좀 와서 고쳐주고 도와주고 처리좀 해주고 어쩌고 " />
 
         </LinearLayout>

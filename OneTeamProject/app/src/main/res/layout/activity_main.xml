@@ -48,6 +48,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="시민의 소리"
+                android:fontFamily="@font/gmarketsansbold"
                 android:textSize="20sp"
                 android:textStyle="bold" />
         </LinearLayout>

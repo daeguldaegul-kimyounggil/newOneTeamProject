@@ -1388,6 +1388,7 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color backgroundcolor
+color black
 color border
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
@@ -3211,14 +3212,15 @@ drawable telephone
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable top_logo_border
 drawable transportation
 drawable user
 drawable user1
 drawable user2
 drawable weather_raining_sun_icon
-font gothica1_bold
-font gothica1_light
-font gothica1_medium
+font gmarketsansbold
+font gmarketsanslight
+font gmarketsansmedium
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -3470,6 +3472,7 @@ id imageView
 id imageView1
 id imageView10
 id imageView11
+id imageView12
 id imageView13
 id imageView14
 id imageView15
@@ -3510,6 +3513,7 @@ id linearLayout
 id linearLayout10
 id linearLayout11
 id linearLayout12
+id linearLayout13
 id linearLayout2
 id linearLayout21
 id linearLayout3
@@ -3784,6 +3788,8 @@ id socialDisterFragment
 id south
 id spacer
 id special_effects_controller_view_tag
+id spinner
+id spinner2
 id spline
 id split_action_bar
 id spread
@@ -3842,12 +3848,15 @@ id textView16
 id textView17
 id textView18
 id textView19
+id textView2
 id textView20
 id textView21
 id textView22
 id textView23
 id textView24
 id textView25
+id textView26
+id textView27
 id textView3
 id textView34
 id textView4
@@ -3887,6 +3896,7 @@ id unlabeled
 id up
 id useLogo
 id vertical_only
+id viewGroup
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner

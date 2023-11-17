@@ -46,9 +46,6 @@ class MainActivity : AppCompatActivity(), OnFragmentListener {
         val shouldShowPopup = !sharedPreferences.getBoolean(MAIN_POPUP_STATE_KEY, false) &&
                 System.currentTimeMillis() - lastPopupTime >= 24 * 60 * 60 * 1000
 
-
-        // 로그 추가
-        Log.d("PopupTest", "onCreate - shouldShowPopup: $shouldShowPopup")
         val dateFormat = SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.getDefault())
         val formattedDate = dateFormat.format(lastPopupTime)
 
@@ -56,22 +53,7 @@ class MainActivity : AppCompatActivity(), OnFragmentListener {
 
 
         if (!isFinishing && shouldShowPopup) {
-            val popUpView = LayoutInflater.from(this).inflate(R.layout.manual_main, null)
-            val popUpBuilder = AlertDialog.Builder(this,  R.style.FullScreenDialogStyle)
-                .setView(popUpView)
-
-            val popUpDialog = popUpBuilder.show()
-
-            val closeButton = popUpView.findViewById<Button>(R.id.closeButton)
-            val checkBox = popUpView.findViewById<CheckBox>(R.id.mainPopupCheckBox)
-
-            closeButton.setOnClickListener {
-                // 팝업이 닫힐 때 상태 저장
-                savePopupState(checkBox.isChecked)
-                savePopupTime()
-
-                popUpDialog.dismiss()
-            }
+            showPopup()
         }
 
         // 화면 첫 시작 되는 fragment 호출
@@ -91,6 +73,25 @@ class MainActivity : AppCompatActivity(), OnFragmentListener {
 
     }
 
+    private fun showPopup() {
+        val popUpView = LayoutInflater.from(this).inflate(R.layout.manual_main, null)
+        val popUpBuilder = AlertDialog.Builder(this, R.style.FullScreenDialogStyle)
+            .setView(popUpView)
+
+        val popUpDialog = popUpBuilder.show()
+
+        val closeButton = popUpView.findViewById<Button>(R.id.closeButton)
+        val checkBox = popUpView.findViewById<CheckBox>(R.id.mainPopupCheckBox)
+
+        closeButton.setOnClickListener {
+            // 팝업이 닫힐 때 상태 저장
+            savePopupState(checkBox.isChecked)
+            savePopupTime()
+
+            popUpDialog.dismiss()
+        }
+    }
+
 
     private fun savePopupState(isChecked: Boolean) {
         val editor = sharedPreferences.edit()
@@ -108,7 +109,7 @@ class MainActivity : AppCompatActivity(), OnFragmentListener {
     // 각 fragment 설정
     @SuppressLint("SuspiciousIndentation")
     override fun onFragmentChanged(type: FragmentType) {val fragment: Fragment
-    val bundle = Bundle()
+        val bundle = Bundle()
 
         when (type) {
             FragmentType.MAIN -> {
@@ -139,4 +140,3 @@ class MainActivity : AppCompatActivity(), OnFragmentListener {
     }
 
 }
-

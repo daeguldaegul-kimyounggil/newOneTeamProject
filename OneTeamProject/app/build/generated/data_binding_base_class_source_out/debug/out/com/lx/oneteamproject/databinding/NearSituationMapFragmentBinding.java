@@ -6,10 +6,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.Spinner;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.fragment.app.FragmentContainerView;
 import androidx.viewbinding.ViewBinding;
@@ -27,6 +27,12 @@ public final class NearSituationMapFragmentBinding implements ViewBinding {
   public final FragmentContainerView NearSiuationFragmentMap;
 
   @NonNull
+  public final ImageView imageView12;
+
+  @NonNull
+  public final LinearLayout linearLayout13;
+
+  @NonNull
   public final LinearLayout linearLayout5;
 
   @NonNull
@@ -39,19 +45,26 @@ public final class NearSituationMapFragmentBinding implements ViewBinding {
   public final ImageView mainWeatherImg;
 
   @NonNull
-  public final CardView mapCardView;
+  public final Spinner spinner;
+
+  @NonNull
+  public final Spinner spinner2;
 
   private NearSituationMapFragmentBinding(@NonNull ConstraintLayout rootView,
-      @NonNull FragmentContainerView NearSiuationFragmentMap, @NonNull LinearLayout linearLayout5,
+      @NonNull FragmentContainerView NearSiuationFragmentMap, @NonNull ImageView imageView12,
+      @NonNull LinearLayout linearLayout13, @NonNull LinearLayout linearLayout5,
       @NonNull TextView mainLocation, @NonNull TextView mainTemperature,
-      @NonNull ImageView mainWeatherImg, @NonNull CardView mapCardView) {
+      @NonNull ImageView mainWeatherImg, @NonNull Spinner spinner, @NonNull Spinner spinner2) {
     this.rootView = rootView;
     this.NearSiuationFragmentMap = NearSiuationFragmentMap;
+    this.imageView12 = imageView12;
+    this.linearLayout13 = linearLayout13;
     this.linearLayout5 = linearLayout5;
     this.mainLocation = mainLocation;
     this.mainTemperature = mainTemperature;
     this.mainWeatherImg = mainWeatherImg;
-    this.mapCardView = mapCardView;
+    this.spinner = spinner;
+    this.spinner2 = spinner2;
   }
 
   @Override
@@ -87,6 +100,18 @@ public final class NearSituationMapFragmentBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageView12;
+      ImageView imageView12 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView12 == null) {
+        break missingId;
+      }
+
+      id = R.id.linearLayout13;
+      LinearLayout linearLayout13 = ViewBindings.findChildViewById(rootView, id);
+      if (linearLayout13 == null) {
+        break missingId;
+      }
+
       id = R.id.linearLayout5;
       LinearLayout linearLayout5 = ViewBindings.findChildViewById(rootView, id);
       if (linearLayout5 == null) {
@@ -111,15 +136,21 @@ public final class NearSituationMapFragmentBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.mapCardView;
-      CardView mapCardView = ViewBindings.findChildViewById(rootView, id);
-      if (mapCardView == null) {
+      id = R.id.spinner;
+      Spinner spinner = ViewBindings.findChildViewById(rootView, id);
+      if (spinner == null) {
+        break missingId;
+      }
+
+      id = R.id.spinner2;
+      Spinner spinner2 = ViewBindings.findChildViewById(rootView, id);
+      if (spinner2 == null) {
         break missingId;
       }
 
       return new NearSituationMapFragmentBinding((ConstraintLayout) rootView,
-          NearSiuationFragmentMap, linearLayout5, mainLocation, mainTemperature, mainWeatherImg,
-          mapCardView);
+          NearSiuationFragmentMap, imageView12, linearLayout13, linearLayout5, mainLocation,
+          mainTemperature, mainWeatherImg, spinner, spinner2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -29,6 +29,8 @@
                 android:layout_weight="0.05"
                 android:gravity="center"
                 android:text="제목"
+                android:textColor="@color/white"
+                android:fontFamily="@font/gmarketsansbold"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -41,6 +43,7 @@
                 android:background="@drawable/report_check_popup_space_background"
                 android:gravity="center"
                 android:hint="사용자가 작성한 제목"
+                android:fontFamily="@font/gmarketsansmedium"
                 android:padding="5dp"
                 android:textSize="15sp" />
 
@@ -79,6 +82,7 @@ f
                 android:layout_height="150dp"
                 android:layout_weight="1"
                 android:gravity="center"
+                android:fontFamily="@font/gmarketsansmedium"
                 android:hint="내용" />
         </LinearLayout>
 
@@ -95,6 +99,7 @@ f
                 android:layout_height="wrap_content"
                 android:background="@drawable/main_statistics_button_rounded_background"
                 android:textColor="@color/white"
+                android:fontFamily="@font/gmarketsansbold"
                 android:text="신고하기" />
 
             <View
@@ -107,6 +112,7 @@ f
                 android:layout_height="wrap_content"
                 android:background="@drawable/main_statistics_button_rounded_background"
                 android:textColor="@color/white"
+                android:fontFamily="@font/gmarketsansbold"
                 android:text="뒤로가기" />
         </LinearLayout>
     </LinearLayout>

@@ -5,9 +5,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/backgroundcolor"
+    android:background="@color/maincolor"
     android:orientation="vertical"
     >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/top_logo_border">
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:text="시민의 소리"
+            android:layout_gravity="center"
+            android:textColor="@color/maincolor"
+            android:fontFamily="@font/gmarketsansbold"
+            android:textSize="25sp" />
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -26,16 +47,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/gmarketsansbold"
             android:gravity="center"
             android:shadowColor="#33000000"
             android:shadowDx="5.0"
             android:shadowDy="5.0"
             android:shadowRadius="1.0"
             android:text="회원가입"
-            android:textSize="45dp"
-            android:textStyle="bold"
-
+            android:textSize="30dp"
+            android:textColor="@color/white"
             />
     </LinearLayout>
 
@@ -79,7 +100,9 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="회원정보"
+                            android:fontFamily="@font/gmarketsansbold"
                             android:textSize="25dp"
+                            android:textColor="@color/white"
                             android:textStyle="bold" />
                     </LinearLayout>
 
@@ -95,6 +118,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="4dp"
                             android:maxLines="1"
+                            android:fontFamily="@font/gmarketsansbold"
                             android:text="*필수 입력 칸입니다."
                             android:textColor="#FF0000"
                             android:textSize="11dp" />
@@ -142,6 +166,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="이름"
+                            android:fontFamily="@font/gmarketsansbold"
                             android:textSize="18dp"></TextView>
 
                     </LinearLayout>
@@ -171,7 +196,7 @@
 
 
                     <EditText
-
+                        android:fontFamily="@font/gmarketsansbold"
                         android:id="@+id/inputName"
                         android:layout_width="240dp"
                         android:layout_height="35dp"
@@ -200,7 +225,7 @@
                             android:layout_height="wrap_content" />
 
                         <TextView
-
+                            android:fontFamily="@font/gmarketsansbold"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="아이디"
@@ -220,7 +245,7 @@
 
                     <EditText
                         android:id="@+id/inputEmail"
-
+                        android:fontFamily="@font/gmarketsansbold"
                         android:layout_width="240dp"
                         android:layout_height="35dp"
 
@@ -253,7 +278,7 @@
                             android:layout_height="wrap_content"
                             android:text="비밀번호"
                             android:textSize="18dp"
-
+                            android:fontFamily="@font/gmarketsansbold"
                             ></TextView>
 
 
@@ -270,7 +295,7 @@
 
                     <EditText
                         android:id="@+id/inputPw"
-
+                        android:fontFamily="@font/gmarketsansbold"
                         android:layout_width="240dp"
                         android:layout_height="35dp"
                         android:background="@drawable/signup_border"
@@ -286,7 +311,8 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:layout_marginTop="7dp">
+                        android:layout_marginTop="13dp"
+                        >
 
                         <View
                             android:layout_width="30dp"
@@ -296,6 +322,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="비밀번호확인"
+                            android:fontFamily="@font/gmarketsansbold"
                             android:textSize="18dp"></TextView>
 
 
@@ -314,7 +341,7 @@
 
                     <EditText
                         android:id="@+id/inputPwCh"
-
+                        android:fontFamily="@font/gmarketsansbold"
                         android:layout_width="240dp"
                         android:layout_height="35dp"
                         android:background="@drawable/signup_border"
@@ -330,7 +357,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:layout_marginTop="12dp">
+                        android:layout_marginTop="16dp">
 
                         <View
                             android:layout_width="30dp"
@@ -340,6 +367,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="전화번호"
+                            android:fontFamily="@font/gmarketsansbold"
                             android:textSize="18dp"></TextView>
 
 
@@ -363,7 +391,7 @@
                     <EditText
                         android:id="@+id/inputMobile"
                         android:layout_width="180dp"
-
+                        android:fontFamily="@font/gmarketsansbold"
                         android:layout_height="35dp"
                         android:layout_marginRight="3dp"
 
@@ -381,12 +409,12 @@
                         android:orientation="horizontal">
 
                         <androidx.appcompat.widget.AppCompatButton
-
+                            android:fontFamily="@font/gmarketsansbold"
                             android:layout_width="wrap_content"
                             android:layout_height="30dp"
                             android:layout_marginBottom="2dp"
                             android:background="@drawable/login_rounded_background"
-                            android:backgroundTint="@color/maincolor"
+                            android:backgroundTint="@color/btncolor"
                             android:gravity="center"
                             android:maxLines="1"
                             android:text="인증"
@@ -432,6 +460,8 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="비상연락망"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/gmarketsansbold"
                             android:textSize="25dp"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -447,6 +477,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:maxLines="1"
+                            android:fontFamily="@font/gmarketsansbold"
                             android:text="*선택적 입력 칸입니다."
                             android:textColor="#FF0000"
                             android:textSize="11dp" />
@@ -492,16 +523,17 @@
                         >
 
                         <LinearLayout
-                            android:layout_width="30dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="40dp"
                             android:layout_gravity="center">
 
                             <TextView
-                                android:layout_width="30dp"
+                                android:layout_width="40dp"
                                 android:layout_height="40dp"
                                 android:gravity="center"
                                 android:maxLines="1"
                                 android:text="이름"
+                                android:fontFamily="@font/gmarketsansbold"
                                 android:textSize="16dp">
 
                             </TextView>
@@ -513,7 +545,7 @@
                             android:layout_gravity="center"
                             android:layout_marginLeft="3dp"
                             android:background="@drawable/signup_border"
-
+                            android:fontFamily="@font/gmarketsansbold"
                             android:paddingLeft="12dp">
 
 
@@ -533,16 +565,17 @@
 
                         <LinearLayout
 
-                            android:layout_width="30dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="40dp"
                             android:layout_gravity="center">
 
                             <TextView
-                                android:layout_width="30dp"
+                                android:layout_width="40dp"
                                 android:layout_height="40dp"
                                 android:gravity="center"
                                 android:maxLines="1"
                                 android:text="관계"
+                                android:fontFamily="@font/gmarketsansbold"
                                 android:textSize="16dp">
 
                             </TextView>
@@ -554,7 +587,7 @@
                             android:layout_gravity="center"
                             android:layout_marginLeft="3dp"
                             android:background="@drawable/signup_border"
-
+                            android:fontFamily="@font/gmarketsansbold"
                             android:paddingLeft="12dp">
 
 
@@ -586,8 +619,8 @@
 
 
                             <TextView
-
-                                android:layout_width="60dp"
+                                android:fontFamily="@font/gmarketsansbold"
+                                android:layout_width="70dp"
                                 android:layout_height="40dp"
                                 android:gravity="center"
                                 android:maxLines="1"
@@ -603,7 +636,7 @@
                             android:layout_gravity="center"
                             android:layout_marginLeft="3dp"
                             android:background="@drawable/signup_border"
-
+                            android:fontFamily="@font/gmarketsansbold"
                             android:paddingLeft="12dp">
 
 
@@ -642,6 +675,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="개인 이용 약관"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/gmarketsansbold"
                         android:textSize="25dp"
                         android:textStyle="bold" />
                     >
@@ -685,8 +720,8 @@
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:maxLines="1"
-                                android:text="제 1조(목적)"
-                                android:textStyle="bold">
+                                android:fontFamily="@font/gmarketsansbold"
+                                android:text="제 1조(목적)">
 
                             </TextView>
                         </LinearLayout>
@@ -721,8 +756,8 @@
                                 android:layout_marginTop="5dp"
                                 android:gravity="center"
                                 android:maxLines="1"
-                                android:text="제 2조(약관의 효력 및 변경)"
-                                android:textStyle="bold">
+                                android:fontFamily="@font/gmarketsansbold"
+                                android:text="제 2조(약관의 효력 및 변경)">
 
                             </TextView>
                         </LinearLayout>
@@ -761,7 +796,7 @@
                                 android:gravity="center"
                                 android:maxLines="1"
                                 android:text="제 3조(약간 외 준칙)"
-                                android:textStyle="bold">
+                                android:fontFamily="@font/gmarketsansbold">
 
                             </TextView>
                         </LinearLayout>
@@ -795,7 +830,7 @@
                                 android:gravity="center"
                                 android:maxLines="1"
                                 android:text="제 4조(용어의 정리)"
-                                android:textStyle="bold">
+                                android:fontFamily="@font/gmarketsansbold">
 
                             </TextView>
                         </LinearLayout>
@@ -832,6 +867,8 @@
                     android:layout_height="wrap_content"
                     android:maxLines="1"
                     android:text="동의"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/gmarketsansbold"
                     android:textSize="17dp">
 
                 </CheckBox>
@@ -861,6 +898,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="신고 이용 약관"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/gmarketsansbold"
                         android:textSize="25dp"
                         android:textStyle="bold" />
                     >
@@ -905,7 +944,7 @@
                                 android:gravity="center"
                                 android:maxLines="1"
                                 android:text="제 12조(서비스 이용제한)"
-                                android:textStyle="bold">
+                                android:fontFamily="@font/gmarketsansbold">
 
                             </TextView>
                         </LinearLayout>
@@ -941,7 +980,7 @@
                                 android:gravity="center"
                                 android:maxLines="1"
                                 android:text="제 13조(게시물의 관리 및 삭제)"
-                                android:textStyle="bold">
+                                android:fontFamily="@font/gmarketsansbold">
 
                             </TextView>
                         </LinearLayout>
@@ -981,7 +1020,7 @@
                                 android:gravity="center"
                                 android:maxLines="1"
                                 android:text="제 14조(손해배상)"
-                                android:textStyle="bold">
+                                android:fontFamily="@font/gmarketsansbold">
 
                             </TextView>
                         </LinearLayout>
@@ -1015,7 +1054,7 @@
                                 android:gravity="center"
                                 android:maxLines="1"
                                 android:text="제 15조(정보 제공 및 홍보물 게재)"
-                                android:textStyle="bold">
+                                android:fontFamily="@font/gmarketsansbold">
 
                             </TextView>
                         </LinearLayout>
@@ -1051,6 +1090,8 @@
                     android:layout_height="wrap_content"
                     android:maxLines="1"
                     android:text="동의"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/gmarketsansbold"
                     android:textSize="17dp">
 
                 </CheckBox>
@@ -1072,11 +1113,12 @@
                     android:layout_height="35dp"
                     android:layout_marginBottom="2dp"
                     android:background="@drawable/login_rounded_background"
-                    android:backgroundTint="@color/maincolor"
+                    android:backgroundTint="@color/btncolor"
                     android:gravity="center"
                     android:maxLines="1"
                     android:padding="0dp"
                     android:text="회원가입"
+                    android:fontFamily="@font/gmarketsansbold"
                     android:textColor="#ffffff"
                     android:textSize="11dp">
 
@@ -1092,11 +1134,12 @@
                     android:layout_height="35dp"
                     android:layout_marginBottom="2dp"
                     android:background="@drawable/login_rounded_background"
-                    android:backgroundTint="@color/maincolor"
+                    android:backgroundTint="@color/btncolor"
                     android:gravity="center"
                     android:maxLines="1"
                     android:padding="0dp"
                     android:text="뒤로가기"
+                    android:fontFamily="@font/gmarketsansbold"
                     android:textColor="#ffffff"
                     android:textSize="11dp">
 

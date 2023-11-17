@@ -52,6 +52,9 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final AppCompatButton signUpPageButton;
 
   @NonNull
+  public final TextView textView26;
+
+  @NonNull
   public final TextView textView34;
 
   private ActivityLoginBinding(@NonNull ConstraintLayout rootView,
@@ -59,7 +62,8 @@ public final class ActivityLoginBinding implements ViewBinding {
       @NonNull LinearLayout linearLayout, @NonNull LinearLayout linearLayout21,
       @NonNull AppCompatButton loginButton, @NonNull TextInputEditText pwText,
       @NonNull TextInputLayout pwTextInputLayout, @NonNull CheckBox rememLoginCheck,
-      @NonNull AppCompatButton signUpPageButton, @NonNull TextView textView34) {
+      @NonNull AppCompatButton signUpPageButton, @NonNull TextView textView26,
+      @NonNull TextView textView34) {
     this.rootView = rootView;
     this.idText = idText;
     this.idTextInputLayout = idTextInputLayout;
@@ -70,6 +74,7 @@ public final class ActivityLoginBinding implements ViewBinding {
     this.pwTextInputLayout = pwTextInputLayout;
     this.rememLoginCheck = rememLoginCheck;
     this.signUpPageButton = signUpPageButton;
+    this.textView26 = textView26;
     this.textView34 = textView34;
   }
 
@@ -154,6 +159,12 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView26;
+      TextView textView26 = ViewBindings.findChildViewById(rootView, id);
+      if (textView26 == null) {
+        break missingId;
+      }
+
       id = R.id.textView34;
       TextView textView34 = ViewBindings.findChildViewById(rootView, id);
       if (textView34 == null) {
@@ -162,7 +173,7 @@ public final class ActivityLoginBinding implements ViewBinding {
 
       return new ActivityLoginBinding((ConstraintLayout) rootView, idText, idTextInputLayout,
           linearLayout, linearLayout21, loginButton, pwText, pwTextInputLayout, rememLoginCheck,
-          signUpPageButton, textView34);
+          signUpPageButton, textView26, textView34);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

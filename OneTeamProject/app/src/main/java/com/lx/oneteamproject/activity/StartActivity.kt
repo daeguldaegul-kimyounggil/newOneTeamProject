@@ -23,21 +23,17 @@ class StartActivity : AppCompatActivity() {
         val ballInAnimation = AnimationUtils.loadAnimation(this, R.anim.ball)
         val fadeInAnimation = AnimationUtils.loadAnimation(this, R.anim.fadein)
 
-        //binding.viewGroup.startAnimation(stratInAnimation)
-        binding.seesaw.startAnimation(ballInAnimation)
-        binding.ciSound.startAnimation(fadeInAnimation)
-        binding.seeLine.startAnimation(fadeInAnimation)
+        binding.viewGroup.startAnimation(stratInAnimation)
+        //binding.seesaw.startAnimation(ballInAnimation)
+        //binding.ciSound.startAnimation(fadeInAnimation)
+        //binding.seeLine.startAnimation(fadeInAnimation)
 
-        // 다른 TextView에도 동일하게 애니메이션을 적용하려면 아래 코드를 추가합니다.
-        // binding.다른TextView.startAnimation(slideInAnimation)
-
+        // 화면이 전환되는 부분
         Handler().postDelayed({
             val intent = Intent(this@StartActivity, LoginActivity::class.java)
             startActivity(intent)
-            //overridePendingTransition(R.anim.start, 0)
             finish()
         }, DELAY_TIME_MS)
     }
-
 
 }

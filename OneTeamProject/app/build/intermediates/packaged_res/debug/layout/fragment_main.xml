@@ -43,6 +43,7 @@
                     android:ellipsize="marquee"
                     android:marqueeRepeatLimit="marquee_forever"
                     android:singleLine="true"
+                    android:fontFamily="@font/gmarketsansmedium"
                     android:text="허위 신고 시 형법 제137조(위계에 의한 공무집행방해) 및 경범죄 처벌법 제3조 3항 2호(거짓신고)에 따라 처벌받을 수 있습니다."
                     android:textColor="@color/white" />
             </LinearLayout>

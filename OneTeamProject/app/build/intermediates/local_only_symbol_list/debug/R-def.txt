@@ -4,6 +4,7 @@ anim ball
 anim fadein
 anim start
 color backgroundcolor
+color black
 color border
 color btncolor
 color green
@@ -96,14 +97,15 @@ drawable student
 drawable sun
 drawable syringe
 drawable telephone
+drawable top_logo_border
 drawable transportation
 drawable user
 drawable user1
 drawable user2
 drawable weather_raining_sun_icon
-font gothica1_bold
-font gothica1_light
-font gothica1_medium
+font gmarketsansbold
+font gmarketsanslight
+font gmarketsansmedium
 id NearSiuationFragmentMap
 id NearStatiticsFragmentMap
 id backButton
@@ -126,6 +128,7 @@ id imageView
 id imageView1
 id imageView10
 id imageView11
+id imageView12
 id imageView13
 id imageView14
 id imageView15
@@ -147,6 +150,7 @@ id linearLayout
 id linearLayout10
 id linearLayout11
 id linearLayout12
+id linearLayout13
 id linearLayout2
 id linearLayout21
 id linearLayout3
@@ -244,6 +248,8 @@ id situationButton
 id socialButton
 id socialDetailButton
 id socialDisterFragment
+id spinner
+id spinner2
 id statisticsNatural
 id statisticsRisk
 id statisticsSafety
@@ -259,12 +265,15 @@ id textView16
 id textView17
 id textView18
 id textView19
+id textView2
 id textView20
 id textView21
 id textView22
 id textView23
 id textView24
 id textView25
+id textView26
+id textView27
 id textView3
 id textView34
 id textView4
@@ -273,6 +282,7 @@ id textView6
 id textView7
 id textView8
 id textView9
+id viewGroup
 layout activity_emergency_place_number
 layout activity_login
 layout activity_main

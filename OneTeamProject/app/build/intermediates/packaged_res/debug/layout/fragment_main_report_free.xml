@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="@color/backgroundcolor"
+        android:background="@color/maincolor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -91,8 +91,8 @@
                         android:layout_marginLeft="5dp"
                         android:gravity="center"
                         android:padding="5dp"
-                        android:text="신고 위치"
-                        android:textStyle="bold" />
+                        android:fontFamily="@font/gmarketsansbold"
+                        android:text="신고 위치"/>
 
                     <TextView
                         android:id="@+id/reportFreeLocationOutput"
@@ -102,6 +102,7 @@
                         android:layout_weight="1"
                         android:background="@drawable/report_border"
                         android:gravity="center"
+                        android:fontFamily="@font/gmarketsanslight"
                         android:hint="현 위치"
                         android:padding="5dp" />
                 </LinearLayout>
@@ -141,6 +142,7 @@
                             android:layout_weight="1"
                             android:paddingLeft="10dp"
                             android:textSize="12sp"
+                            android:fontFamily="@font/gmarketsanslight"
                             android:background="@drawable/report_border"
                             android:hint="신고 내용을 작성해주세요." />
 
@@ -161,6 +163,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
+                                    android:fontFamily="@font/gmarketsanslight"
                                     android:text="글자수" />
 
                                 <TextView
@@ -169,6 +172,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:layout_marginLeft="5dp"
+                                    android:fontFamily="@font/gmarketsanslight"
                                     android:hint="0" />
 
                                 <TextView
@@ -177,6 +181,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:layout_marginRight="5dp"
+                                    android:fontFamily="@font/gmarketsanslight"
                                     android:text="/500" />
                             </LinearLayout>
                         </LinearLayout>
