@@ -4,6 +4,25 @@
             "outputFile": "com.lx.oneteamproject.app-mergeDebugResources-37:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
+                    "source": "C:\\lx-engineer\\mylocal\\newOneTeamProject\\OneTeamProject\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "from": {
+                        "startLines": "2,16,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "102,800,359",
+                        "endLines": "5,19,14",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "326,1014,792"
+                    },
+                    "to": {
+                        "startLines": "6,10,14",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "287,409,625",
+                        "endLines": "9,13,20",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "404,620,1052"
+                    }
+                },
+                {
                     "source": "C:\\Users\\LX\\.gradle\\caches\\transforms-3\\6669889ba1826351eb9ce94a0cf47018\\transformed\\appcompat-1.6.1\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
@@ -45,25 +64,6 @@
                         "startOffsets": "55,119,176,230",
                         "endColumns": "63,56,53,56",
                         "endOffsets": "114,171,225,282"
-                    }
-                },
-                {
-                    "source": "C:\\lx-engineer\\newOneTeamProject\\OneTeamProject\\app\\src\\main\\res\\values-night\\themes.xml",
-                    "from": {
-                        "startLines": "2,16,8",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "102,800,359",
-                        "endLines": "5,19,14",
-                        "endColumns": "12,12,12",
-                        "endOffsets": "326,1014,792"
-                    },
-                    "to": {
-                        "startLines": "6,10,14",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "287,409,625",
-                        "endLines": "9,13,20",
-                        "endColumns": "12,12,12",
-                        "endOffsets": "404,620,1052"
                     }
                 }
             ]

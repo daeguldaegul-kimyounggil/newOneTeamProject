@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:2:1-58:12
-INJECTED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:2:1-58:12
-INJECTED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:2:1-58:12
-INJECTED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:2:1-58:12
+ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:2:1-58:12
 MERGED from [com.guolindev.permissionx:permissionx:1.7.1] C:\Users\LX\.gradle\caches\transforms-3\3ada9d9c6e8841cc427fe3b575cd3600\transformed\permissionx-1.7.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.databinding:viewbinding:8.1.1] C:\Users\LX\.gradle\caches\transforms-3\d15eb797476b8807157c8bde468dc31c\transformed\viewbinding-8.1.1\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\LX\.gradle\caches\transforms-3\3a253b6bab7b2b112b56497a56f0215d\transformed\material-1.10.0\AndroidManifest.xml:17:1-24:12
@@ -90,17 +90,17 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\LX\.gradle\caches\transforms-3
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\LX\.gradle\caches\transforms-3\7d350e6436c45815641c3f3b98746d24\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\LX\.gradle\caches\transforms-3\d9c53a2a8b6187c562f1259a16fefde5\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
 	package
-		INJECTED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:5:5-67
 MERGED from [com.google.firebase:firebase-firestore:24.8.1] C:\Users\LX\.gradle\caches\transforms-3\a3ea96d93f6f86d4efd38ac0041bf4fa\transformed\firebase-firestore-24.8.1\AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-firestore:24.8.1] C:\Users\LX\.gradle\caches\transforms-3\a3ea96d93f6f86d4efd38ac0041bf4fa\transformed\firebase-firestore-24.8.1\AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-auth:22.1.2] C:\Users\LX\.gradle\caches\transforms-3\dd2a2a5798975cd178a37e2e7f051843\transformed\firebase-auth-22.1.2\AndroidManifest.xml:25:5-67
@@ -124,22 +124,22 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:21.3.0] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.3.0] C:\Users\LX\.gradle\caches\transforms-3\bda398507541c95c6ef29bd67f908fcf\transformed\play-services-measurement-sdk-api-21.3.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.3.0] C:\Users\LX\.gradle\caches\transforms-3\bda398507541c95c6ef29bd67f908fcf\transformed\play-services-measurement-sdk-api-21.3.0\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:6:5-79
+ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:6:5-79
 	android:name
-		ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:6:22-76
+		ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:6:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:7:5-81
+ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:7:5-81
 	android:name
-		ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:7:22-78
+		ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:7:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:8:5-80
+ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:8:5-80
 	android:name
-		ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:8:22-77
+		ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:8:22-77
 application
-ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:11:5-56:19
-INJECTED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:11:5-56:19
+ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:11:5-56:19
+INJECTED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:11:5-56:19
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\LX\.gradle\caches\transforms-3\3a253b6bab7b2b112b56497a56f0215d\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\LX\.gradle\caches\transforms-3\3a253b6bab7b2b112b56497a56f0215d\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.firebase:firebase-firestore-ktx:24.8.1] C:\Users\LX\.gradle\caches\transforms-3\1d0b219d1fd7e75297a5296e049bced5\transformed\firebase-firestore-ktx-24.8.1\AndroidManifest.xml:8:5-16:19
@@ -215,89 +215,89 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\LX\.gradle\caches\
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\LX\.gradle\caches\transforms-3\07c7d673b65a35a0884537a2791cb90c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\LX\.gradle\caches\transforms-3\07c7d673b65a35a0884537a2791cb90c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 	android:extractNativeLibs
-		INJECTED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\LX\.gradle\caches\transforms-3\e5455fcd40acfbfbcd0283d19e763ccf\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:18:9-35
+		ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:18:9-35
 	android:label
-		ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:16:9-41
+		ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:16:9-41
 	android:fullBackupContent
-		ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:14:9-54
+		ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:14:9-54
 	android:roundIcon
-		ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:17:9-54
+		ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:17:9-54
 	tools:targetApi
-		ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:20:9-29
+		ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:20:9-29
 	android:icon
-		ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:15:9-43
+		ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:15:9-43
 	android:allowBackup
-		ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:19:9-52
+		ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:19:9-52
 	android:dataExtractionRules
-		ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:13:9-65
+		ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:13:9-65
 activity#com.lx.oneteamproject.activity.EmergencyPlaceNumberActivity
-ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:21:9-23:40
+ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:21:9-23:40
 	android:exported
-		ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:23:13-37
+		ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:23:13-37
 	android:name
-		ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:22:13-66
+		ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:22:13-66
 activity#com.lx.oneteamproject.activity.StartActivity
-ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:24:9-32:20
+ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:24:9-32:20
 	android:exported
-		ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:26:13-36
+		ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:26:13-36
 	android:name
-		ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:25:13-51
+		ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:25:13-51
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:27:13-31:29
+ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:27:13-31:29
 action#android.intent.action.MAIN
-ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:28:17-69
+ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:28:17-69
 	android:name
-		ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:28:25-66
+		ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:28:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:30:17-77
+ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:30:17-77
 	android:name
-		ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:30:27-74
+		ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:30:27-74
 activity#com.lx.oneteamproject.activity.SignUpActivity
-ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:33:9-35:40
+ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:33:9-35:40
 	android:exported
-		ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:35:13-37
+		ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:35:13-37
 	android:name
-		ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:34:13-52
+		ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:34:13-52
 activity#com.lx.oneteamproject.activity.LoginActivity
-ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:36:9-38:40
+ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:36:9-38:40
 	android:exported
-		ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:38:13-37
+		ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:38:13-37
 	android:name
-		ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:37:13-51
+		ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:37:13-51
 activity#com.lx.oneteamproject.activity.MyPageActivity
-ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:41:9-43:40
+ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:41:9-43:40
 	android:exported
-		ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:43:13-37
+		ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:43:13-37
 	android:name
-		ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:42:13-52
+		ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:42:13-52
 activity#com.lx.oneteamproject.sub.SubActivity
-ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:44:9-46:40
+ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:44:9-46:40
 	android:exported
-		ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:46:13-37
+		ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:46:13-37
 	android:name
-		ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:45:13-44
+		ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:45:13-44
 activity#com.lx.oneteamproject.main.MainActivity
-ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:47:9-51:20
+ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:47:9-51:20
 	android:exported
-		ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:49:13-36
+		ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:49:13-36
 	android:name
-		ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:48:13-46
+		ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:48:13-46
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:53:9-55:71
+ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:53:9-55:71
 	android:value
-		ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:55:13-68
+		ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:55:13-68
 	android:name
-		ADDED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:54:13-58
+		ADDED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:54:13-58
 uses-sdk
-INJECTED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml
-INJECTED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml
+INJECTED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml
+INJECTED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml
 MERGED from [com.guolindev.permissionx:permissionx:1.7.1] C:\Users\LX\.gradle\caches\transforms-3\3ada9d9c6e8841cc427fe3b575cd3600\transformed\permissionx-1.7.1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.guolindev.permissionx:permissionx:1.7.1] C:\Users\LX\.gradle\caches\transforms-3\3ada9d9c6e8841cc427fe3b575cd3600\transformed\permissionx-1.7.1\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.databinding:viewbinding:8.1.1] C:\Users\LX\.gradle\caches\transforms-3\d15eb797476b8807157c8bde468dc31c\transformed\viewbinding-8.1.1\AndroidManifest.xml:5:5-44
@@ -471,9 +471,9 @@ MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\LX\
 	tools:overrideLibrary
 		ADDED from [com.google.firebase:firebase-auth:22.1.2] C:\Users\LX\.gradle\caches\transforms-3\dd2a2a5798975cd178a37e2e7f051843\transformed\firebase-auth-22.1.2\AndroidManifest.xml:23:9-61
 	android:targetSdkVersion
-		INJECTED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\lx-engineer\mylocal\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-firestore-ktx:24.8.1] C:\Users\LX\.gradle\caches\transforms-3\1d0b219d1fd7e75297a5296e049bced5\transformed\firebase-firestore-ktx-24.8.1\AndroidManifest.xml:9:9-15:19
 MERGED from [com.google.firebase:firebase-firestore:24.8.1] C:\Users\LX\.gradle\caches\transforms-3\a3ea96d93f6f86d4efd38ac0041bf4fa\transformed\firebase-firestore-24.8.1\AndroidManifest.xml:14:9-20:19

@@ -2,6 +2,7 @@ package com.lx.oneteamproject.main
 
 import android.annotation.SuppressLint
 import android.content.Context
+import android.content.Intent
 import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -17,6 +18,9 @@ import com.lx.oneteamproject.databinding.ActivityMainBinding
 import com.lx.oneteamproject.fragment.FragmentType
 import com.lx.oneteamproject.fragment.OnFragmentListener
 import androidx.drawerlayout.widget.DrawerLayout
+import com.google.android.material.navigation.NavigationView
+import com.google.firebase.auth.FirebaseAuth
+import com.lx.oneteamproject.activity.LoginActivity
 import java.text.SimpleDateFormat
 import java.util.Locale
 
@@ -25,6 +29,7 @@ class MainActivity : AppCompatActivity(), OnFragmentListener {
 
     lateinit var binding: ActivityMainBinding
     lateinit var sharedPreferences: SharedPreferences
+    private lateinit var mAuth: FirebaseAuth
 
     companion object {
         private const val MAIN_POPUP_STATE_KEY = "main_popup_state"
@@ -35,6 +40,8 @@ class MainActivity : AppCompatActivity(), OnFragmentListener {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        mAuth = FirebaseAuth.getInstance()
 
         // SharedPreferences 초기화
         sharedPreferences = getPreferences(Context.MODE_PRIVATE)
@@ -61,6 +68,20 @@ class MainActivity : AppCompatActivity(), OnFragmentListener {
         onFragmentChanged(FragmentType.MAIN)
 
         val drawerLayout = findViewById<DrawerLayout>(R.id.drawer_layout)
+
+        // 네비게이션 뷰의 로그아웃 버튼 클릭 리스너 설정
+        val navigationView = findViewById<NavigationView>(R.id.navigationView)
+        val logoutButton = navigationView.getHeaderView(0).findViewById<Button>(R.id.logoutButton)
+
+        logoutButton.setOnClickListener {
+            // 사용자 로그아웃
+            mAuth.signOut()
+            saveUserInfoToSharedPreferences(null, null) // 로그아웃 시 저장된 정보를 지움
+            val loginIntent = Intent(this, LoginActivity::class.java)
+            startActivity(loginIntent)
+            finish()
+        }
+
 
         // 설정 아이콘 눌렀을 때 햄버거
         binding.mainSettingsButton.setOnClickListener {
@@ -139,6 +160,22 @@ class MainActivity : AppCompatActivity(), OnFragmentListener {
             }
         }
 
+    }
+
+    private fun saveUserInfoToSharedPreferences(email: String?, password: String?) {
+        val sharedPreferences = getSharedPreferences("user_prefs", Context.MODE_PRIVATE)
+        val editor = sharedPreferences.edit()
+        if (email != null) {
+            editor.putString("email", email)
+        } else {
+            editor.remove("email") // email 값을 제거하려면 null 대신 remove 메서드를 호출합니다.
+        }
+        if (password != null) {
+            editor.putString("password", password)
+        } else {
+            editor.remove("password") // password 값을 제거하려면 null 대신 remove 메서드를 호출합니다.
+        }
+        editor.apply()
     }
 
 }
