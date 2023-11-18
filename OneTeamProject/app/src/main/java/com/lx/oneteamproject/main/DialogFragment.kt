@@ -1,9 +1,6 @@
 import android.content.Intent
-import android.graphics.Color
-import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.util.Log
-import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -121,25 +118,6 @@ class ReportCheckPopupFragment : DialogFragment() {
         return resultCategory
     }
 
-
-
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setStyle(STYLE_NORMAL, R.style.MyDialogStyle)
-    }
-
-
-    override fun onStart() {
-        super.onStart()
-        val window = dialog?.window
-        window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
-        window?.setLayout(
-            ViewGroup.LayoutParams.MATCH_PARENT,
-            ViewGroup.LayoutParams.MATCH_PARENT
-        )
-        window?.setGravity(Gravity.CENTER)
-    }
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null

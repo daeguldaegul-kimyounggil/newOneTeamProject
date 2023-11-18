@@ -7,13 +7,9 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/report_check_popup_background"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginTop="60dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginBottom="60dp"
+        android:background="@drawable/report_check_popup_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,7 +17,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_margin="15dp"
             android:orientation="horizontal">
 
@@ -31,10 +27,10 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="0.05"
-                android:fontFamily="@font/gmarketsansbold"
                 android:gravity="center"
                 android:text="제목"
                 android:textColor="@color/white"
+                android:fontFamily="@font/gmarketsansbold"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -47,8 +43,8 @@
                 android:background="@drawable/report_check_popup_space_background"
                 android:fontFamily="@font/gmarketsansmedium"
                 android:gravity="center"
-                android:hint="사용자가 작성한 제목"
                 android:padding="5dp"
+                android:text="제목제목"
                 android:textSize="15sp" />
 
             <ImageButton
@@ -63,8 +59,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
 
 
             <androidx.viewpager2.widget.ViewPager2
@@ -75,25 +71,26 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/report_check_popup_space_background"
-            android:orientation="horizontal">
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:background="@drawable/report_check_popup_space_background">
 
             <TextView
                 android:id="@+id/reportTextOutput"
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
+                android:layout_height="150dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/gmarketsansmedium"
                 android:gravity="center"
-                android:hint="내용" />
+                android:text="제목제목" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            android:layout_height="match_parent"
             android:gravity="center"
+            android:layout_margin="10dp"
             android:orientation="horizontal">
 
             <Button
@@ -101,9 +98,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/main_statistics_button_rounded_background"
+                android:textColor="@color/white"
                 android:fontFamily="@font/gmarketsansbold"
-                android:text="신고하기"
-                android:textColor="@color/white" />
+                android:text="신고하기" />
 
             <View
                 android:layout_width="25dp"
@@ -114,9 +111,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/main_statistics_button_rounded_background"
+                android:textColor="@color/white"
                 android:fontFamily="@font/gmarketsansbold"
-                android:text="뒤로가기"
-                android:textColor="@color/white" />
+                android:text="뒤로가기" />
         </LinearLayout>
     </LinearLayout>
 

@@ -127,7 +127,6 @@ id backButton
 id bookmarkLayout
 id button
 id button2
-id buttonContainer
 id checkbok1
 id checkbok2
 id ciSound
@@ -227,7 +226,6 @@ id reportFreeImagePager
 id reportFreeLocationOutput
 id reportFreeTextCount
 id reportFreeTextInput
-id reportFreeTimeOutput
 id reportImageOutput
 id reportPlace
 id reportTextOutput
@@ -353,10 +351,8 @@ string hello_blank_fragment
 string project_id
 string terms_and_conditions
 style Base.Theme.OneTeamProject
-style DialogAnimation
 style FullScreenDialogAnimation
 style FullScreenDialogStyle
-style MyDialogStyle
 style Theme.OneTeamProject
 xml backup_rules
 xml data_extraction_rules
