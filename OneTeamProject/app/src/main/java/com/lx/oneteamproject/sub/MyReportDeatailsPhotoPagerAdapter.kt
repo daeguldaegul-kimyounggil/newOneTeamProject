@@ -9,7 +9,7 @@ import com.lx.oneteamproject.R
 
 class MyReportDeatailsPhotoPagerAdapter(fragmentManager: FragmentManager, lifecycle: Lifecycle) : FragmentStateAdapter(fragmentManager, lifecycle) {
 
-    val images = arrayListOf<Int>(R.drawable.sample_report, R.drawable.sample_report2, R.drawable.sample_report3)
+    val images = arrayListOf<Int>(R.drawable.report_sample, R.drawable.sample_report2, R.drawable.sample_report3)
 
     override fun getItemCount(): Int = 3
 

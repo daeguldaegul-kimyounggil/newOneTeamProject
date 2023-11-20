@@ -56,7 +56,7 @@ class MyReportListFragment : Fragment() {
 
         }
 
-        myreportlistadapter.myreportlistitems.add(MyReportListItem("보도블럽 고쳐주세요", "강남구 논현동", "23-11-16", "처리중", R.drawable.sample_report))
+        myreportlistadapter.myreportlistitems.add(MyReportListItem("학동역 10번출구 앞 가로등 고장으로 공사 요청", "강남구 논현동", "23-11-17", "처리중", R.drawable.report_sample))
 
         return binding.root
     }

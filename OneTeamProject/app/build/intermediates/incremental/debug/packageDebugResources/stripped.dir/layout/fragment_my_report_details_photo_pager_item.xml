@@ -18,7 +18,7 @@
             android:id="@+id/myreportdetailsimage"
             android:layout_width="wrap_content"
             android:layout_height="307dp"
-            app:srcCompat="@drawable/sample_report" />
+            app:srcCompat="@drawable/report_sample" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

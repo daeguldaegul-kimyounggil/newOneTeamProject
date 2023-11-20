@@ -109,6 +109,10 @@ class MainDetailsFragment : Fragment() {
         binding.mainActionArticlePager.adapter =
             MainActionArticlePagerAdapter(requireActivity().supportFragmentManager, lifecycle)
 
+        // 공익광고포스터 pager adapter 연결하는 부분
+        binding.mainPublicAdPager.adapter =
+            MainPublicAdPagerAdapter(requireActivity().supportFragmentManager, lifecycle)
+
         // 신고하기 눌렀을 때
         binding.mainReportButton.setOnClickListener {
             listener?.onFragmentChanged(FragmentType.REPORT)

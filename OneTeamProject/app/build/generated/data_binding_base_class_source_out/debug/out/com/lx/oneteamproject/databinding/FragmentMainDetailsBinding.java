@@ -23,6 +23,12 @@ public final class FragmentMainDetailsBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final ImageView imageView17;
+
+  @NonNull
+  public final ImageView imageView18;
+
+  @NonNull
   public final ImageView imageView2;
 
   @NonNull
@@ -42,6 +48,9 @@ public final class FragmentMainDetailsBinding implements ViewBinding {
 
   @NonNull
   public final LinearLayout linearLayout10;
+
+  @NonNull
+  public final LinearLayout linearLayout20;
 
   @NonNull
   public final LinearLayout linearLayout3;
@@ -66,6 +75,9 @@ public final class FragmentMainDetailsBinding implements ViewBinding {
 
   @NonNull
   public final TextView mainLocation;
+
+  @NonNull
+  public final ViewPager2 mainPublicAdPager;
 
   @NonNull
   public final LinearLayout mainReportButton;
@@ -137,13 +149,15 @@ public final class FragmentMainDetailsBinding implements ViewBinding {
   public final TextView tvTemp;
 
   private FragmentMainDetailsBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageView imageView2, @NonNull ImageView imageView3, @NonNull ImageView imageView4,
-      @NonNull ImageView imageView5, @NonNull ImageView imageView6, @NonNull ImageView imgWeather,
-      @NonNull LinearLayout linearLayout10, @NonNull LinearLayout linearLayout3,
-      @NonNull LinearLayout linearLayout4, @NonNull LinearLayout linearLayout5,
-      @NonNull LinearLayout linearLayout7, @NonNull LinearLayout linearLayout8,
-      @NonNull LinearLayout linearLayout9, @NonNull ViewPager2 mainActionArticlePager,
-      @NonNull TextView mainLocation, @NonNull LinearLayout mainReportButton,
+      @NonNull ImageView imageView17, @NonNull ImageView imageView18, @NonNull ImageView imageView2,
+      @NonNull ImageView imageView3, @NonNull ImageView imageView4, @NonNull ImageView imageView5,
+      @NonNull ImageView imageView6, @NonNull ImageView imgWeather,
+      @NonNull LinearLayout linearLayout10, @NonNull LinearLayout linearLayout20,
+      @NonNull LinearLayout linearLayout3, @NonNull LinearLayout linearLayout4,
+      @NonNull LinearLayout linearLayout5, @NonNull LinearLayout linearLayout7,
+      @NonNull LinearLayout linearLayout8, @NonNull LinearLayout linearLayout9,
+      @NonNull ViewPager2 mainActionArticlePager, @NonNull TextView mainLocation,
+      @NonNull ViewPager2 mainPublicAdPager, @NonNull LinearLayout mainReportButton,
       @NonNull TextView mainStatisticsNaturalOutput,
       @NonNull TextView mainStatisticsRiskInformOutput,
       @NonNull TextView mainStatisticsSafetyOutput, @NonNull TextView mainStatisticsSocialOutput,
@@ -155,6 +169,8 @@ public final class FragmentMainDetailsBinding implements ViewBinding {
       @NonNull TextView textView3, @NonNull TextView textView4, @NonNull TextView textView6,
       @NonNull TextView textView7, @NonNull TextView textView9, @NonNull TextView tvTemp) {
     this.rootView = rootView;
+    this.imageView17 = imageView17;
+    this.imageView18 = imageView18;
     this.imageView2 = imageView2;
     this.imageView3 = imageView3;
     this.imageView4 = imageView4;
@@ -162,6 +178,7 @@ public final class FragmentMainDetailsBinding implements ViewBinding {
     this.imageView6 = imageView6;
     this.imgWeather = imgWeather;
     this.linearLayout10 = linearLayout10;
+    this.linearLayout20 = linearLayout20;
     this.linearLayout3 = linearLayout3;
     this.linearLayout4 = linearLayout4;
     this.linearLayout5 = linearLayout5;
@@ -170,6 +187,7 @@ public final class FragmentMainDetailsBinding implements ViewBinding {
     this.linearLayout9 = linearLayout9;
     this.mainActionArticlePager = mainActionArticlePager;
     this.mainLocation = mainLocation;
+    this.mainPublicAdPager = mainPublicAdPager;
     this.mainReportButton = mainReportButton;
     this.mainStatisticsNaturalOutput = mainStatisticsNaturalOutput;
     this.mainStatisticsRiskInformOutput = mainStatisticsRiskInformOutput;
@@ -222,6 +240,18 @@ public final class FragmentMainDetailsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.imageView17;
+      ImageView imageView17 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView17 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView18;
+      ImageView imageView18 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView18 == null) {
+        break missingId;
+      }
+
       id = R.id.imageView2;
       ImageView imageView2 = ViewBindings.findChildViewById(rootView, id);
       if (imageView2 == null) {
@@ -261,6 +291,12 @@ public final class FragmentMainDetailsBinding implements ViewBinding {
       id = R.id.linearLayout10;
       LinearLayout linearLayout10 = ViewBindings.findChildViewById(rootView, id);
       if (linearLayout10 == null) {
+        break missingId;
+      }
+
+      id = R.id.linearLayout20;
+      LinearLayout linearLayout20 = ViewBindings.findChildViewById(rootView, id);
+      if (linearLayout20 == null) {
         break missingId;
       }
 
@@ -309,6 +345,12 @@ public final class FragmentMainDetailsBinding implements ViewBinding {
       id = R.id.mainLocation;
       TextView mainLocation = ViewBindings.findChildViewById(rootView, id);
       if (mainLocation == null) {
+        break missingId;
+      }
+
+      id = R.id.mainPublicAdPager;
+      ViewPager2 mainPublicAdPager = ViewBindings.findChildViewById(rootView, id);
+      if (mainPublicAdPager == null) {
         break missingId;
       }
 
@@ -450,14 +492,14 @@ public final class FragmentMainDetailsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentMainDetailsBinding((ConstraintLayout) rootView, imageView2, imageView3,
-          imageView4, imageView5, imageView6, imgWeather, linearLayout10, linearLayout3,
-          linearLayout4, linearLayout5, linearLayout7, linearLayout8, linearLayout9,
-          mainActionArticlePager, mainLocation, mainReportButton, mainStatisticsNaturalOutput,
-          mainStatisticsRiskInformOutput, mainStatisticsSafetyOutput, mainStatisticsSocialOutput,
-          myLetterBox, naturalButton, riskButton, safetyButton, situationButton, socialButton,
-          textView10, textView11, textView12, textView13, textView14, textView2, textView3,
-          textView4, textView6, textView7, textView9, tvTemp);
+      return new FragmentMainDetailsBinding((ConstraintLayout) rootView, imageView17, imageView18,
+          imageView2, imageView3, imageView4, imageView5, imageView6, imgWeather, linearLayout10,
+          linearLayout20, linearLayout3, linearLayout4, linearLayout5, linearLayout7, linearLayout8,
+          linearLayout9, mainActionArticlePager, mainLocation, mainPublicAdPager, mainReportButton,
+          mainStatisticsNaturalOutput, mainStatisticsRiskInformOutput, mainStatisticsSafetyOutput,
+          mainStatisticsSocialOutput, myLetterBox, naturalButton, riskButton, safetyButton,
+          situationButton, socialButton, textView10, textView11, textView12, textView13, textView14,
+          textView2, textView3, textView4, textView6, textView7, textView9, tvTemp);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

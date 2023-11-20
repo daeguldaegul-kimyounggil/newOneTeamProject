@@ -9,20 +9,20 @@
 9        android:targetSdkVersion="33" />
 10    <!-- 일반 권한 -->
 11    <uses-permission android:name="android.permission.INTERNET" /> <!-- 위험 권한 gps로 내 위치를 확인하고 싶을때의 권한/ 이 권한을 쓰고 싶으면 사용자한테 요청하는 것 (위험권한) -->
-11-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:5:22-64
+11-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-12-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:6:5-79
-12-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:6:22-76
+12-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:6:22-76
 13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-13-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:7:5-81
-13-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:7:22-78
+13-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:7:5-81
+13-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:7:22-78
 14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-14-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:8:5-80
-14-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:8:22-77
+14-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:8:5-80
+14-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:8:22-77
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-15-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:10:5-78
-15-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:10:22-76
+15-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:10:5-78
+15-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:10:22-76
 16
 17    <uses-feature
 17-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\LX\.gradle\caches\transforms-3\fecc0774494976cd2ba42fcc7a49ed2c\transformed\play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
@@ -62,91 +62,91 @@
 35-->[androidx.core:core:1.9.0] C:\Users\LX\.gradle\caches\transforms-3\e5455fcd40acfbfbcd0283d19e763ccf\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 36
 37    <application
-37-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:12:5-58:19
+37-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:12:5-58:19
 38        android:allowBackup="true"
-38-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:14:9-35
+38-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:14:9-35
 39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 39-->[androidx.core:core:1.9.0] C:\Users\LX\.gradle\caches\transforms-3\e5455fcd40acfbfbcd0283d19e763ccf\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 40        android:dataExtractionRules="@xml/data_extraction_rules"
-40-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:15:9-65
+40-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:15:9-65
 41        android:debuggable="true"
 42        android:extractNativeLibs="false"
 43        android:fullBackupContent="@xml/backup_rules"
-43-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:16:9-54
+43-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:16:9-54
 44        android:icon="@mipmap/ic_launcher"
-44-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:17:9-43
+44-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:17:9-43
 45        android:label="@string/app_name"
-45-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:18:9-41
+45-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:18:9-41
 46        android:roundIcon="@mipmap/ic_launcher_round"
-46-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:19:9-54
+46-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:19:9-54
 47        android:supportsRtl="true"
-47-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:20:9-35
+47-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:20:9-35
 48        android:testOnly="true"
 49        android:theme="@style/Theme.OneTeamProject"
-49-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:21:9-52
+49-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:21:9-52
 50        android:usesCleartextTraffic="true" >
-50-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:13:9-44
+50-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:13:9-44
 51        <activity
-51-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:23:9-25:40
+51-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:23:9-25:40
 52            android:name="com.lx.oneteamproject.activity.EmergencyPlaceNumberActivity"
-52-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:24:13-66
+52-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:24:13-66
 53            android:exported="false" />
-53-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:25:13-37
+53-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:25:13-37
 54        <activity
-54-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:26:9-34:20
+54-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:26:9-34:20
 55            android:name="com.lx.oneteamproject.activity.StartActivity"
-55-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:27:13-51
+55-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:27:13-51
 56            android:exported="true" >
-56-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:28:13-36
+56-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:28:13-36
 57            <intent-filter>
-57-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:29:13-33:29
+57-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:29:13-33:29
 58                <action android:name="android.intent.action.MAIN" />
-58-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:30:17-69
-58-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:30:25-66
+58-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:30:17-69
+58-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:30:25-66
 59
 60                <category android:name="android.intent.category.LAUNCHER" />
-60-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:32:17-77
-60-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:32:27-74
+60-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:32:17-77
+60-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:32:27-74
 61            </intent-filter>
 62        </activity>
 63        <activity
-63-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:35:9-37:40
+63-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:35:9-37:40
 64            android:name="com.lx.oneteamproject.activity.SignUpActivity"
-64-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:36:13-52
+64-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:36:13-52
 65            android:exported="false" />
-65-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:37:13-37
+65-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:37:13-37
 66        <activity
-66-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:38:9-40:40
+66-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:38:9-40:40
 67            android:name="com.lx.oneteamproject.activity.LoginActivity"
-67-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:39:13-51
+67-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:39:13-51
 68            android:exported="false" />
-68-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:40:13-37
+68-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:40:13-37
 69        <activity
-69-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:43:9-45:40
+69-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:43:9-45:40
 70            android:name="com.lx.oneteamproject.activity.MyPageActivity"
-70-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:44:13-52
+70-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:44:13-52
 71            android:exported="false" />
-71-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:45:13-37
+71-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:45:13-37
 72        <activity
-72-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:46:9-48:40
+72-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:46:9-48:40
 73            android:name="com.lx.oneteamproject.sub.SubActivity"
-73-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:47:13-44
+73-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:47:13-44
 74            android:exported="false" />
-74-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:48:13-37
+74-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:48:13-37
 75        <activity
-75-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:49:9-53:20
+75-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:49:9-53:20
 76            android:name="com.lx.oneteamproject.main.MainActivity"
-76-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:50:13-46
+76-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:50:13-46
 77            android:exported="true" >
-77-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:51:13-36
+77-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:51:13-36
 78        </activity>
 79
 80        <meta-data
-80-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:55:9-57:71
+80-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:55:9-57:71
 81            android:name="com.google.android.geo.API_KEY"
-81-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:56:13-58
+81-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:56:13-58
 82            android:value="AIzaSyBNxEfcUhFjkStLymuLC48mN5vbyYV6508" />
-82-->C:\lx-engineer\newOneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:57:13-68
+82-->C:\lx-engineer\OneTeamProject\OneTeamProject\app\src\main\AndroidManifest.xml:57:13-68
 83
 84        <service
 84-->[com.google.firebase:firebase-firestore-ktx:24.8.1] C:\Users\LX\.gradle\caches\transforms-3\1d0b219d1fd7e75297a5296e049bced5\transformed\firebase-firestore-ktx-24.8.1\AndroidManifest.xml:9:9-15:19

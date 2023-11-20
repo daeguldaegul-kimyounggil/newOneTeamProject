@@ -12,20 +12,17 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.1"/>
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp">
 
         <LinearLayout
             android:id="@+id/linearLayout6"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:background="@drawable/report_border"
             android:orientation="horizontal"
-            android:layout_weight="0.8"
             android:padding="60dp">
 
 
@@ -37,11 +34,6 @@
                 app:srcCompat="@drawable/imagepulsicon" />
 
         </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.1"/>
 
     </LinearLayout>
 

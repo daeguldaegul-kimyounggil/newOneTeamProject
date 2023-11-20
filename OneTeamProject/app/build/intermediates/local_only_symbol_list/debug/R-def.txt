@@ -13,12 +13,8 @@ color maincolor
 color pointcolor
 color white
 drawable all
-drawable article1_1
-drawable article1_2
-drawable article1_3
-drawable article2_1
-drawable article2_2
-drawable article2_3
+drawable article1
+drawable article2
 drawable bookmark
 drawable btn_background
 drawable chat
@@ -45,6 +41,7 @@ drawable lefticon
 drawable letterboxicon
 drawable login_rounded_background
 drawable login_shadow
+drawable logout_button_background
 drawable main_button_rounded_background
 drawable main_rounded_background
 drawable main_statistics_button_rounded_background
@@ -70,12 +67,17 @@ drawable phone
 drawable phone12
 drawable phonecall
 drawable policeman
+drawable publicad1
+drawable publicad2
+drawable publicad3
+drawable publicad4
 drawable relative
 drawable report_border
 drawable report_check_popup_background
 drawable report_check_popup_space_background
 drawable report_form_space_background
 drawable report_free_space_background
+drawable report_sample
 drawable report_select_button
 drawable report_unselect_button
 drawable rescue
@@ -85,7 +87,6 @@ drawable round_background_main
 drawable rounded_background_my_report_list2
 drawable safety
 drawable safety_rounded
-drawable sample_report
 drawable sample_report2
 drawable sample_report3
 drawable settingsicon
@@ -127,6 +128,7 @@ id backButton
 id bookmarkLayout
 id button
 id button2
+id buttonContainer
 id checkbok1
 id checkbok2
 id ciSound
@@ -147,6 +149,8 @@ id imageView13
 id imageView14
 id imageView15
 id imageView16
+id imageView17
+id imageView18
 id imageView2
 id imageView3
 id imageView4
@@ -167,6 +171,7 @@ id linearLayout11
 id linearLayout12
 id linearLayout13
 id linearLayout2
+id linearLayout20
 id linearLayout21
 id linearLayout3
 id linearLayout4
@@ -188,6 +193,8 @@ id mainFragmentContainer
 id mainLocation
 id mainNoticeText
 id mainPopupCheckBox
+id mainPublicAdImage
+id mainPublicAdPager
 id mainReportButton
 id mainReportContainer
 id mainSettingsButton
@@ -226,6 +233,7 @@ id reportFreeImagePager
 id reportFreeLocationOutput
 id reportFreeTextCount
 id reportFreeTextInput
+id reportFreeTimeOutput
 id reportImageOutput
 id reportPlace
 id reportTextOutput
@@ -290,8 +298,17 @@ id textView24
 id textView25
 id textView26
 id textView27
+id textView28
+id textView29
 id textView3
+id textView30
+id textView31
+id textView32
+id textView33
 id textView34
+id textView35
+id textView36
+id textView37
 id textView4
 id textView6
 id textView7
@@ -310,6 +327,7 @@ layout activity_sub
 layout fragment_main
 layout fragment_main_action_article_pager_item
 layout fragment_main_details
+layout fragment_main_publicad_pager_item
 layout fragment_main_report
 layout fragment_main_report_form
 layout fragment_main_report_free
@@ -351,8 +369,10 @@ string hello_blank_fragment
 string project_id
 string terms_and_conditions
 style Base.Theme.OneTeamProject
+style DialogAnimation
 style FullScreenDialogAnimation
 style FullScreenDialogStyle
+style MyDialogStyle
 style Theme.OneTeamProject
 xml backup_rules
 xml data_extraction_rules

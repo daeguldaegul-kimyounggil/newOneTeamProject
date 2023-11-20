@@ -9,9 +9,9 @@ import com.lx.oneteamproject.R
 
 class MainActionArticlePagerAdapter(fragmentManager: FragmentManager, lifecycle: Lifecycle) : FragmentStateAdapter(fragmentManager, lifecycle) {
 
-    val images = arrayListOf<Int>(R.drawable.article1_2, R.drawable.article1_2, R.drawable.article1_3, R.drawable.article2_1, R.drawable.article2_2, R.drawable.article2_3)
+    val images = arrayListOf<Int>(R.drawable.article1, R.drawable.article2)
 
-    override fun getItemCount(): Int = 6
+    override fun getItemCount(): Int = 2
 
     override fun createFragment(position: Int): Fragment {
         var fragment = MainActionArticlePagerItemFragment()

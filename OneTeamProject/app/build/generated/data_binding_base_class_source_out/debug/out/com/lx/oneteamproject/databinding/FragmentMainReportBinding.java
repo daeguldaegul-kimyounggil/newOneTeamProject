@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -21,6 +22,9 @@ public final class FragmentMainReportBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final LinearLayout buttonContainer;
+
+  @NonNull
   public final FragmentContainerView mainReportContainer;
 
   @NonNull
@@ -30,9 +34,10 @@ public final class FragmentMainReportBinding implements ViewBinding {
   public final Button reportButton;
 
   private FragmentMainReportBinding(@NonNull ConstraintLayout rootView,
-      @NonNull FragmentContainerView mainReportContainer, @NonNull Button reportBackButton,
-      @NonNull Button reportButton) {
+      @NonNull LinearLayout buttonContainer, @NonNull FragmentContainerView mainReportContainer,
+      @NonNull Button reportBackButton, @NonNull Button reportButton) {
     this.rootView = rootView;
+    this.buttonContainer = buttonContainer;
     this.mainReportContainer = mainReportContainer;
     this.reportBackButton = reportBackButton;
     this.reportButton = reportButton;
@@ -65,6 +70,12 @@ public final class FragmentMainReportBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.buttonContainer;
+      LinearLayout buttonContainer = ViewBindings.findChildViewById(rootView, id);
+      if (buttonContainer == null) {
+        break missingId;
+      }
+
       id = R.id.mainReportContainer;
       FragmentContainerView mainReportContainer = ViewBindings.findChildViewById(rootView, id);
       if (mainReportContainer == null) {
@@ -83,8 +94,8 @@ public final class FragmentMainReportBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentMainReportBinding((ConstraintLayout) rootView, mainReportContainer,
-          reportBackButton, reportButton);
+      return new FragmentMainReportBinding((ConstraintLayout) rootView, buttonContainer,
+          mainReportContainer, reportBackButton, reportButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
