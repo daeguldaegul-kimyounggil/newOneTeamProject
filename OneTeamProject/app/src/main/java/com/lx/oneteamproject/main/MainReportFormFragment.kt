@@ -1,6 +1,6 @@
 package com.lx.oneteamproject.main
 
-import android.app.Activity
+import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -11,30 +11,35 @@ import com.lx.oneteamproject.fragment.FragmentType
 import com.lx.oneteamproject.fragment.OnFragmentListener
 
 class MainReportFormFragment : Fragment() {
+    private var _binding: FragmentMainReportFormBinding? = null
+    private val binding get() = _binding!!
+    private var listener: OnFragmentListener? = null
 
-    var _binding: FragmentMainReportFormBinding? = null
-    val binding get() = _binding!!
-
-    var listener: OnFragmentListener? = null
-
-    override fun onAttach(activity: Activity) {
-        super.onAttach(activity)
-
-        if (activity is OnFragmentListener) {
-            listener = activity as OnFragmentListener
+    override fun onAttach(context: Context) {
+        super.onAttach(context)
+        if (context is OnFragmentListener) {
+            listener = context
         }
     }
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        _binding =  FragmentMainReportFormBinding.inflate(inflater, container, false)
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        _binding = FragmentMainReportFormBinding.inflate(inflater, container, false)
+        return binding.root
+    }
 
-        binding.reportFormImagePager.adapter = ReportFreeImagePagerAdapter(requireActivity().supportFragmentManager, lifecycle)
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        binding.reportFormImagePager.adapter =
+            ReportFreeImagePagerAdapter(childFragmentManager, lifecycle)
 
         binding.reportFreeButton.setOnClickListener {
             listener?.onFragmentChanged(FragmentType.REPORTFREE)
         }
-
-        return binding.root
     }
 
     override fun onDestroyView() {
@@ -44,7 +49,6 @@ class MainReportFormFragment : Fragment() {
 
     override fun onDetach() {
         super.onDetach()
-
         listener = null
     }
 }
