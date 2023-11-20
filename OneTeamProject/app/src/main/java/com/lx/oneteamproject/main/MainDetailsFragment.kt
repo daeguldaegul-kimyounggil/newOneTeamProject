@@ -123,6 +123,7 @@ class MainDetailsFragment : Fragment() {
                 putExtra("fragmentType", FragmentType.MYREPORTLIST.name)
             }
             startActivity(intent)
+            activity?.overridePendingTransition(0, 0) // 애니메이션 제거
         }
 
         binding.situationButton.setOnClickListener {
@@ -130,6 +131,7 @@ class MainDetailsFragment : Fragment() {
                 putExtra("fragmentType", FragmentType.NEARSITUATIONMAP.name)
             }
             startActivity(intent)
+            activity?.overridePendingTransition(0, 0) // 애니메이션 제거
         }
 
 
@@ -139,6 +141,7 @@ class MainDetailsFragment : Fragment() {
                 putExtra("fragmentType", FragmentType.NEARSTATISTICSMAP_SOCIAL.name)
             }
             startActivity(intent)
+            activity?.overridePendingTransition(0, 0) // 애니메이션 제거
         }
 
         binding.riskButton.setOnClickListener {
@@ -146,6 +149,7 @@ class MainDetailsFragment : Fragment() {
                 putExtra("fragmentType", FragmentType.NEARSTATISTICSMAP_RISK.name)
             }
             startActivity(intent)
+            activity?.overridePendingTransition(0, 0) // 애니메이션 제거
         }
 
         binding.naturalButton.setOnClickListener {
@@ -153,6 +157,7 @@ class MainDetailsFragment : Fragment() {
                 putExtra("fragmentType", FragmentType.NEARSTATISTICSMAP_NATURAL.name)
             }
             startActivity(intent)
+            activity?.overridePendingTransition(0, 0) // 애니메이션 제거
         }
 
         binding.safetyButton.setOnClickListener {
@@ -160,6 +165,7 @@ class MainDetailsFragment : Fragment() {
                 putExtra("fragmentType", FragmentType.NEARSTATISTICSMAP_SAFETY.name)
             }
             startActivity(intent)
+            activity?.overridePendingTransition(0, 0) // 애니메이션 제거
         }
 
 

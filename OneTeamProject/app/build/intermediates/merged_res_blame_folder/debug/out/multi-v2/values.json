@@ -59,7 +59,7 @@
                     }
                 },
                 {
-                    "source": "C:\\lx-engineer\\OneTeamProject\\OneTeamProject\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\lx-engineer\\newOneTeamProject\\OneTeamProject\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "171,12,38,49,75,113,139,158,175,1",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -313,26 +313,7 @@
                     }
                 },
                 {
-                    "source": "C:\\lx-engineer\\OneTeamProject\\OneTeamProject\\app\\src\\main\\res\\values\\themes.xml",
-                    "from": {
-                        "startLines": "2,37,22,14,28,10",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "102,1703,970,529,1217,422",
-                        "endLines": "8,40,25,20,35,10",
-                        "endColumns": "12,12,12,12,12,76",
-                        "endOffsets": "414,1907,1184,962,1695,494"
-                    },
-                    "to": {
-                        "startLines": "2759,5745,5749,5753,5854,6766",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "187958,397387,397593,397809,404665,468431",
-                        "endLines": "2765,5748,5752,5759,5861,6766",
-                        "endColumns": "12,12,12,12,12,75",
-                        "endOffsets": "188158,397588,397804,398236,405136,468502"
-                    }
-                },
-                {
-                    "source": "C:\\lx-engineer\\OneTeamProject\\OneTeamProject\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "C:\\lx-engineer\\newOneTeamProject\\OneTeamProject\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
                         "startLines": "3,10,6,4,8,9,2,7,5",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
@@ -363,23 +344,6 @@
                         "startOffsets": "124794",
                         "endColumns": "42",
                         "endOffsets": "124832"
-                    }
-                },
-                {
-                    "source": "C:\\lx-engineer\\OneTeamProject\\OneTeamProject\\app\\build\\generated\\res\\processDebugGoogleServices\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,173,256,360,470,590,684",
-                        "endColumns": "117,82,103,109,119,93,70",
-                        "endOffsets": "168,251,355,465,585,679,750"
-                    },
-                    "to": {
-                        "startLines": "2035,2036,2037,2038,2039,2040,2314",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "136836,136954,137037,137141,137251,137371,158518",
-                        "endColumns": "117,82,103,109,119,93,70",
-                        "endOffsets": "136949,137032,137136,137246,137366,137460,158584"
                     }
                 },
                 {
@@ -416,6 +380,42 @@
                         "endLines": "9523,9529,9539,13170,13174",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "650394,650572,650856,783383,783510"
+                    }
+                },
+                {
+                    "source": "C:\\lx-engineer\\newOneTeamProject\\OneTeamProject\\app\\build\\generated\\res\\processDebugGoogleServices\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,173,256,360,470,590,684",
+                        "endColumns": "117,82,103,109,119,93,70",
+                        "endOffsets": "168,251,355,465,585,679,750"
+                    },
+                    "to": {
+                        "startLines": "2035,2036,2037,2038,2039,2040,2314",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "136836,136954,137037,137141,137251,137371,158518",
+                        "endColumns": "117,82,103,109,119,93,70",
+                        "endOffsets": "136949,137032,137136,137246,137366,137460,158584"
+                    }
+                },
+                {
+                    "source": "C:\\lx-engineer\\newOneTeamProject\\OneTeamProject\\app\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "2,37,22,14,28,10",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "102,1703,970,529,1217,422",
+                        "endLines": "8,40,25,20,35,10",
+                        "endColumns": "12,12,12,12,12,76",
+                        "endOffsets": "414,1907,1184,962,1695,494"
+                    },
+                    "to": {
+                        "startLines": "2759,5745,5749,5753,5854,6766",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "187958,397387,397593,397809,404665,468431",
+                        "endLines": "2765,5748,5752,5759,5861,6766",
+                        "endColumns": "12,12,12,12,12,75",
+                        "endOffsets": "188158,397588,397804,398236,405136,468502"
                     }
                 },
                 {
