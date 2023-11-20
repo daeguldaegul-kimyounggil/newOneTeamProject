@@ -30,9 +30,11 @@ class ReportCheckPopupFragment : DialogFragment() {
 
         val userInput = readUserInputFromFile()
 
+        binding.reportTitle.text = "adsasdasd"
+        /*
         binding.reportTitle.text = readResultTitleFromFile()
         binding.reportTextOutput.text =  readResultCategoryFromFile() + "\n" + userInput
-
+        */
 
         // "신고하기" 버튼 클릭 시
         binding.button.setOnClickListener {

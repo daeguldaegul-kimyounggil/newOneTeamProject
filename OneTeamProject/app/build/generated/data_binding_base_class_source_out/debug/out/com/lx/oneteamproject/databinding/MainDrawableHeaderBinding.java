@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -20,11 +21,21 @@ public final class MainDrawableHeaderBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
+  public final TextView emergencyPlaceButton;
+
+  @NonNull
   public final Button logoutButton;
 
-  private MainDrawableHeaderBinding(@NonNull LinearLayout rootView, @NonNull Button logoutButton) {
+  @NonNull
+  public final TextView myPageButton;
+
+  private MainDrawableHeaderBinding(@NonNull LinearLayout rootView,
+      @NonNull TextView emergencyPlaceButton, @NonNull Button logoutButton,
+      @NonNull TextView myPageButton) {
     this.rootView = rootView;
+    this.emergencyPlaceButton = emergencyPlaceButton;
     this.logoutButton = logoutButton;
+    this.myPageButton = myPageButton;
   }
 
   @Override
@@ -54,13 +65,26 @@ public final class MainDrawableHeaderBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.emergencyPlaceButton;
+      TextView emergencyPlaceButton = ViewBindings.findChildViewById(rootView, id);
+      if (emergencyPlaceButton == null) {
+        break missingId;
+      }
+
       id = R.id.logoutButton;
       Button logoutButton = ViewBindings.findChildViewById(rootView, id);
       if (logoutButton == null) {
         break missingId;
       }
 
-      return new MainDrawableHeaderBinding((LinearLayout) rootView, logoutButton);
+      id = R.id.myPageButton;
+      TextView myPageButton = ViewBindings.findChildViewById(rootView, id);
+      if (myPageButton == null) {
+        break missingId;
+      }
+
+      return new MainDrawableHeaderBinding((LinearLayout) rootView, emergencyPlaceButton,
+          logoutButton, myPageButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

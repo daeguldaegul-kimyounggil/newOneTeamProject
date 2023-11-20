@@ -41,6 +41,9 @@ public final class FragmentMyReportDetailsBinding implements ViewBinding {
   public final TextView location;
 
   @NonNull
+  public final TextView location1;
+
+  @NonNull
   public final TextView myreportlisttitle;
 
   @NonNull
@@ -70,7 +73,7 @@ public final class FragmentMyReportDetailsBinding implements ViewBinding {
   private FragmentMyReportDetailsBinding(@NonNull ConstraintLayout rootView,
       @NonNull ImageView imageView10, @NonNull ImageView imageView13,
       @NonNull ImageView imageView14, @NonNull ImageView imageView15,
-      @NonNull ImageView imageView16, @NonNull TextView location,
+      @NonNull ImageView imageView16, @NonNull TextView location, @NonNull TextView location1,
       @NonNull TextView myreportlisttitle, @NonNull ViewPager2 myreportpager,
       @NonNull ProgressBar progressBar2, @NonNull TextView textView16, @NonNull TextView textView18,
       @NonNull TextView textView19, @NonNull TextView textView20, @NonNull TextView textView21,
@@ -82,6 +85,7 @@ public final class FragmentMyReportDetailsBinding implements ViewBinding {
     this.imageView15 = imageView15;
     this.imageView16 = imageView16;
     this.location = location;
+    this.location1 = location1;
     this.myreportlisttitle = myreportlisttitle;
     this.myreportpager = myreportpager;
     this.progressBar2 = progressBar2;
@@ -156,6 +160,12 @@ public final class FragmentMyReportDetailsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.location1;
+      TextView location1 = ViewBindings.findChildViewById(rootView, id);
+      if (location1 == null) {
+        break missingId;
+      }
+
       id = R.id.myreportlisttitle;
       TextView myreportlisttitle = ViewBindings.findChildViewById(rootView, id);
       if (myreportlisttitle == null) {
@@ -211,9 +221,9 @@ public final class FragmentMyReportDetailsBinding implements ViewBinding {
       }
 
       return new FragmentMyReportDetailsBinding((ConstraintLayout) rootView, imageView10,
-          imageView13, imageView14, imageView15, imageView16, location, myreportlisttitle,
-          myreportpager, progressBar2, textView16, textView18, textView19, textView20, textView21,
-          textView22);
+          imageView13, imageView14, imageView15, imageView16, location, location1,
+          myreportlisttitle, myreportpager, progressBar2, textView16, textView18, textView19,
+          textView20, textView21, textView22);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -13,6 +13,7 @@ import android.widget.CheckBox
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import androidx.core.view.GravityCompat
+import androidx.core.view.get
 import androidx.fragment.app.Fragment
 import com.lx.oneteamproject.R
 import com.lx.oneteamproject.databinding.ActivityMainBinding
@@ -21,7 +22,9 @@ import com.lx.oneteamproject.fragment.OnFragmentListener
 import androidx.drawerlayout.widget.DrawerLayout
 import com.google.android.material.navigation.NavigationView
 import com.google.firebase.auth.FirebaseAuth
+import com.lx.oneteamproject.activity.EmergencyPlaceNumberActivity
 import com.lx.oneteamproject.activity.LoginActivity
+import com.lx.oneteamproject.activity.MyPageActivity
 import java.text.SimpleDateFormat
 import java.util.Locale
 
@@ -70,6 +73,16 @@ class MainActivity : AppCompatActivity(), OnFragmentListener {
 
         val drawerLayout = findViewById<DrawerLayout>(R.id.drawer_layout)
 
+        // 설정 아이콘 눌렀을 때 햄버거
+        binding.mainSettingsButton.setOnClickListener {
+            if (drawerLayout.isDrawerOpen(GravityCompat.END)) {
+                drawerLayout.closeDrawer(GravityCompat.END)
+            } else {
+                drawerLayout.openDrawer(GravityCompat.END)
+            }
+
+        }
+
         // 네비게이션 뷰의 로그아웃 버튼 클릭 리스너 설정
         val navigationView = findViewById<NavigationView>(R.id.navigationView)
         val logoutButton = navigationView.getHeaderView(0).findViewById<Button>(R.id.logoutButton)
@@ -83,21 +96,26 @@ class MainActivity : AppCompatActivity(), OnFragmentListener {
             finish()
         }
 
+        // 네비게이션 뷰의 마이페이지 버튼 클릭 리스너 설정
+        val mypageButton = navigationView.getHeaderView(0).findViewById<TextView>(R.id.myPageButton)
+        mypageButton.setOnClickListener {
+            val myPageIntent = Intent(this, MyPageActivity::class.java)
+            startActivity(myPageIntent)
+            finish()
+        }
+
+        // 네비게이션 뷰의 안전기관 연락처 알아보기 버튼 클릭 리스너 설정
+        val emergencyplacenumber = navigationView.getHeaderView(0).findViewById<TextView>(R.id.emergencyPlaceButton)
+        emergencyplacenumber.setOnClickListener {
+            val emergencyPlaceNumberIntent = Intent(this, EmergencyPlaceNumberActivity::class.java)
+            startActivity(emergencyPlaceNumberIntent)
+            finish()
+        }
 
         // 로고 눌렀을 때 메인으로
         binding.mainBackPageButton.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
-        }
-
-        // 설정 아이콘 눌렀을 때 햄버거
-        binding.mainSettingsButton.setOnClickListener {
-            if (drawerLayout.isDrawerOpen(GravityCompat.END)) {
-                drawerLayout.closeDrawer(GravityCompat.END)
-            } else {
-                drawerLayout.openDrawer(GravityCompat.END)
-            }
-            true
         }
 
     }

@@ -22,6 +22,9 @@ public final class ActivityEmergencyPlaceNumberBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
+  public final ImageView emergencyPlaceBackButton;
+
+  @NonNull
   public final ImageView imageView;
 
   @NonNull
@@ -70,14 +73,16 @@ public final class ActivityEmergencyPlaceNumberBinding implements ViewBinding {
   public final TextView settingsNameEditButton98;
 
   private ActivityEmergencyPlaceNumberBinding(@NonNull LinearLayout rootView,
-      @NonNull ImageView imageView, @NonNull ImageView imageView1, @NonNull ImageView imageView10,
-      @NonNull ImageView imageView11, @NonNull ImageView imageView13,
-      @NonNull ImageView imageView14, @NonNull ImageView imageView8, @NonNull ImageView imageView9,
-      @NonNull RelativeLayout policeButton, @NonNull TextView settingsNameEditButton10,
-      @NonNull TextView settingsNameEditButton101, @NonNull TextView settingsNameEditButton145,
-      @NonNull TextView settingsNameEditButton57, @NonNull TextView settingsNameEditButton87,
-      @NonNull TextView settingsNameEditButton90, @NonNull TextView settingsNameEditButton98) {
+      @NonNull ImageView emergencyPlaceBackButton, @NonNull ImageView imageView,
+      @NonNull ImageView imageView1, @NonNull ImageView imageView10, @NonNull ImageView imageView11,
+      @NonNull ImageView imageView13, @NonNull ImageView imageView14, @NonNull ImageView imageView8,
+      @NonNull ImageView imageView9, @NonNull RelativeLayout policeButton,
+      @NonNull TextView settingsNameEditButton10, @NonNull TextView settingsNameEditButton101,
+      @NonNull TextView settingsNameEditButton145, @NonNull TextView settingsNameEditButton57,
+      @NonNull TextView settingsNameEditButton87, @NonNull TextView settingsNameEditButton90,
+      @NonNull TextView settingsNameEditButton98) {
     this.rootView = rootView;
+    this.emergencyPlaceBackButton = emergencyPlaceBackButton;
     this.imageView = imageView;
     this.imageView1 = imageView1;
     this.imageView10 = imageView10;
@@ -123,6 +128,12 @@ public final class ActivityEmergencyPlaceNumberBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.emergencyPlaceBackButton;
+      ImageView emergencyPlaceBackButton = ViewBindings.findChildViewById(rootView, id);
+      if (emergencyPlaceBackButton == null) {
+        break missingId;
+      }
+
       id = R.id.imageView;
       ImageView imageView = ViewBindings.findChildViewById(rootView, id);
       if (imageView == null) {
@@ -219,11 +230,11 @@ public final class ActivityEmergencyPlaceNumberBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityEmergencyPlaceNumberBinding((LinearLayout) rootView, imageView, imageView1,
-          imageView10, imageView11, imageView13, imageView14, imageView8, imageView9, policeButton,
-          settingsNameEditButton10, settingsNameEditButton101, settingsNameEditButton145,
-          settingsNameEditButton57, settingsNameEditButton87, settingsNameEditButton90,
-          settingsNameEditButton98);
+      return new ActivityEmergencyPlaceNumberBinding((LinearLayout) rootView,
+          emergencyPlaceBackButton, imageView, imageView1, imageView10, imageView11, imageView13,
+          imageView14, imageView8, imageView9, policeButton, settingsNameEditButton10,
+          settingsNameEditButton101, settingsNameEditButton145, settingsNameEditButton57,
+          settingsNameEditButton87, settingsNameEditButton90, settingsNameEditButton98);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

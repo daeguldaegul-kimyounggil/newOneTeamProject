@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -18,6 +19,9 @@ import java.lang.String;
 public final class ActivityMyPageBinding implements ViewBinding {
   @NonNull
   private final LinearLayout rootView;
+
+  @NonNull
+  public final ImageView myPageBackButton;
 
   @NonNull
   public final Button settingsNameEditButton;
@@ -40,12 +44,13 @@ public final class ActivityMyPageBinding implements ViewBinding {
   @NonNull
   public final Button settingsNameEditButton9;
 
-  private ActivityMyPageBinding(@NonNull LinearLayout rootView,
+  private ActivityMyPageBinding(@NonNull LinearLayout rootView, @NonNull ImageView myPageBackButton,
       @NonNull Button settingsNameEditButton, @NonNull Button settingsNameEditButton1,
       @NonNull Button settingsNameEditButton2, @NonNull Button settingsNameEditButton3,
       @NonNull Button settingsNameEditButton6, @NonNull Button settingsNameEditButton7,
       @NonNull Button settingsNameEditButton9) {
     this.rootView = rootView;
+    this.myPageBackButton = myPageBackButton;
     this.settingsNameEditButton = settingsNameEditButton;
     this.settingsNameEditButton1 = settingsNameEditButton1;
     this.settingsNameEditButton2 = settingsNameEditButton2;
@@ -82,6 +87,12 @@ public final class ActivityMyPageBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.myPageBackButton;
+      ImageView myPageBackButton = ViewBindings.findChildViewById(rootView, id);
+      if (myPageBackButton == null) {
+        break missingId;
+      }
+
       id = R.id.settingsNameEditButton;
       Button settingsNameEditButton = ViewBindings.findChildViewById(rootView, id);
       if (settingsNameEditButton == null) {
@@ -124,9 +135,10 @@ public final class ActivityMyPageBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMyPageBinding((LinearLayout) rootView, settingsNameEditButton,
-          settingsNameEditButton1, settingsNameEditButton2, settingsNameEditButton3,
-          settingsNameEditButton6, settingsNameEditButton7, settingsNameEditButton9);
+      return new ActivityMyPageBinding((LinearLayout) rootView, myPageBackButton,
+          settingsNameEditButton, settingsNameEditButton1, settingsNameEditButton2,
+          settingsNameEditButton3, settingsNameEditButton6, settingsNameEditButton7,
+          settingsNameEditButton9);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

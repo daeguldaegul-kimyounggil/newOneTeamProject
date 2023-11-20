@@ -284,6 +284,8 @@ class MainDetailsFragment : Fragment() {
         call.enqueue(object : Callback<WEATHER> {
             // 응답 성공 시
             override fun onResponse(call: Call<WEATHER>, response: Response<WEATHER>) {
+                // 프래그먼트가 현재 활성화되어 있지 않은 경우 함수 종료
+                if (!isAdded) return
                 if (response.isSuccessful && response.body() != null) {
                     val responseBody = response.body()!!
 

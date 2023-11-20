@@ -137,6 +137,8 @@ id customDialog
 id drawer_layout
 id editTextText4
 id emergencyButton
+id emergencyPlaceBackButton
+id emergencyPlaceButton
 id idText
 id idTextInputLayout
 id imageButton3
@@ -182,6 +184,7 @@ id linearLayout8
 id linearLayout9
 id linear_layout_id
 id location
+id location1
 id loginButton
 id logoutButton
 id mainActionArticlePager
@@ -205,6 +208,8 @@ id mainStatisticsSocialOutput
 id mainbackbutton
 id mapCardView
 id myLetterBox
+id myPageBackButton
+id myPageButton
 id myreportdetailsimage
 id myreportlist
 id myreportlistfragmentcontainer
